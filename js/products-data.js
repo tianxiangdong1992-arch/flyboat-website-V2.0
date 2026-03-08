@@ -414,7 +414,7 @@ window.PRODUCTS_DATA = {
   specs: [{ label: "Model", value: "SPD B10K385/21" }, { label: "Series", value: "34SP1" }],
   specTables: [],
   image: "../flyboat-website/images/products/surge-replacement-module.jpg",
-  images: ["../flyboat-website/images/products/surge-replacement-module.jpg"],
+  images: ["../flyboat-website/images/products/surge-replacement-module.jpg", "https://www.flyboatmov.com/uploads/202133062/surge-replacement-module19593444074.jpg", "https://www.flyboatmov.com/uploads/202133062/surge-replacement-module19598414637.jpg", "https://www.flyboatmov.com/uploads/202133062/surge-replacement-module20003804668.jpg", "https://www.flyboatmov.com/uploads/202133062/surge-replacement-module20001594157.jpg"],
   standards: ["UL", "TUV"]
 },
 
@@ -427,7 +427,7 @@ window.PRODUCTS_DATA = {
   specs: [{ label: "Voltage Ratings", value: "DC 600V, 800V, 1000V, 1500V" }, { label: "Design", value: "Modular Core" }, { label: "Compliance", value: "RoHS & REACH" }],
   specTables: [],
   image: "../flyboat-website/images/products/onboard-surge-protection-device.jpg",
-  images: ["../flyboat-website/images/products/onboard-surge-protection-device.jpg"],
+  images: ["../flyboat-website/images/products/onboard-surge-protection-device.jpg", "https://www.flyboatmov.com/uploads/202133062/onboard-surge-protection-device21295824922.jpg", "https://www.flyboatmov.com/uploads/202133062/onboard-surge-protection-device21299684407.jpg", "https://www.flyboatmov.com/uploads/202133062/onboard-surge-protection-device21305496436.jpg", "https://www.flyboatmov.com/uploads/202133062/onboard-surge-protection-device21303764405.jpg"],
   standards: ["RoHS", "REACH"]
 },
 
@@ -440,7 +440,7 @@ window.PRODUCTS_DATA = {
   specs: [{ label: "Voltage Options", value: "275V / 420V" }, { label: "Discharge Current", value: "20\u201340KA" }, { label: "Mount Type", value: "Din rail" }],
   specTables: [],
   image: "../flyboat-website/images/products/spd-modular.jpg",
-  images: ["../flyboat-website/images/products/spd-modular.jpg"],
+  images: ["../flyboat-website/images/products/spd-modular.jpg", "https://www.flyboatmov.com/uploads/202133062/spd-modular24238646837.jpg", "https://www.flyboatmov.com/uploads/202133062/spd-modular24242716866.jpg", "https://www.flyboatmov.com/uploads/202133062/spd-modular24248526981.jpg", "https://www.flyboatmov.com/uploads/202133062/spd-modular24246236872.jpg"],
   standards: []
 },
 
@@ -453,7 +453,7 @@ window.PRODUCTS_DATA = {
   specs: [{ label: "Code", value: "FSP-D40" }, { label: "Poles", value: "2P, 3P" }, { label: "In (8/20\u00b5s)", value: "20KA" }, { label: "Imax (8/20\u00b5s)", value: "40KA" }],
   specTables: [],
   image: "../flyboat-website/images/products/plug-in-surge-arrester.jpg",
-  images: ["../flyboat-website/images/products/plug-in-surge-arrester.jpg"],
+  images: ["../flyboat-website/images/products/plug-in-surge-arrester.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-surge-arrester25491949508.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-surge-arrester25496309468.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-surge-arrester25501729932.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-surge-arrester25499929644.jpg"],
   standards: ["IEC/EN61643"]
 },
 
@@ -470,7 +470,7 @@ window.PRODUCTS_DATA = {
   specs: [{ label: "Voltage", value: "385V AC / 275V AC" }, { label: "Discharge Currents", value: "40kA and 15kA (line); 65kA (neutral)" }],
   specTables: [],
   image: "../flyboat-website/images/products/surge-protective-components.jpg",
-  images: ["../flyboat-website/images/products/surge-protective-components.jpg", "../flyboat-website/images/products/surge-protective-components-2.jpg", "../flyboat-website/images/products/surge-protective-components-3.jpg", "../flyboat-website/images/products/surge-protective-components-4.jpg", "../flyboat-website/images/products/surge-protective-components-5.jpg"],
+  images: ["../flyboat-website/images/products/surge-protective-components.jpg", "../flyboat-website/images/products/surge-protective-components-2.jpg", "../flyboat-website/images/products/surge-protective-components-3.jpg", "../flyboat-website/images/products/surge-protective-components-4.jpg", "../flyboat-website/images/products/surge-protective-components-5.jpg", "https://www.flyboatmov.com/uploads/202133062/surge-protective-components29371804797.jpg"],
   standards: ["UL", "CE"],
   faq: [
     { question: "Are you a factory or trading company?", answer: "We are factory and professionally produce MOVs more than 20 years." },
@@ -481,7 +481,7 @@ window.PRODUCTS_DATA = {
 },
 
 "plug-in-spd-block": {
-  id: "plug-in-spd-block", name: "Plug-in SPD Block", category: "Accessories for SPDs", categorySlug: "protection-module",
+  id: "plug-in-spd-block", name: "Plug-in SPD Block", category: "Accessories for SPDs", categorySlug: "accessories-for-spds",
   shortDesc: "Replaceable AC SPD 1P 30KA~60KA 385VAC Low-voltage Arrester",
   description: `<p>SPD Replaceable replacement cartridge inserts 275V AC plug-in protection module. Core parts are metal oxide varistor components with high discharge capacity.</p>`,
   features: ["Low residual voltage and quick response", "Metal oxide varistor components", "Flame retardant outer shell", "Response time: <25ns", "Green/Red status indicator"],
@@ -489,7 +489,7 @@ window.PRODUCTS_DATA = {
   specs: [{ label: "Standard", value: "IEC/EN 61643-1" }, { label: "Max Continuous Voltage", value: "275V" }, { label: "Response Time", value: "<25ns" }],
   specTables: [],
   image: "../flyboat-website/images/products/plug-in-spd-block.jpg",
-  images: ["../flyboat-website/images/products/plug-in-spd-block.jpg", "../flyboat-website/images/products/plug-in-spd-block-2.jpg", "../flyboat-website/images/products/plug-in-spd-block-3.jpg", "../flyboat-website/images/products/plug-in-spd-block-4.jpg", "../flyboat-website/images/products/plug-in-spd-block-5.jpg"],
+  images: ["../flyboat-website/images/products/plug-in-spd-block.jpg", "../flyboat-website/images/products/plug-in-spd-block-2.jpg", "../flyboat-website/images/products/plug-in-spd-block-3.jpg", "../flyboat-website/images/products/plug-in-spd-block-4.jpg", "../flyboat-website/images/products/plug-in-spd-block-5.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-spd-block34492632451.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-spd-block34498012350.jpg"],
   standards: ["IEC/EN 61643-1"],
   faq: [
     { question: "Are you a factory or trading company?", answer: "We are factory and professionally produce MOVs more than 20 years." },
@@ -526,7 +526,7 @@ window.PRODUCTS_DATA = {
   specs: [{ label: "Brand Name", value: "Flyboat" }, { label: "Model", value: "DSC07798" }, { label: "Nominal Discharge Current", value: "10KA\u201320KA" }, { label: "Supply Capacity", value: "200,000 pieces/month" }],
   specTables: [],
   image: "../flyboat-website/images/products/parts-surge-arrestor.jpg",
-  images: ["../flyboat-website/images/products/parts-surge-arrestor.jpg", "../flyboat-website/images/products/parts-surge-arrestor-2.jpg", "../flyboat-website/images/products/parts-surge-arrestor-3.jpg", "../flyboat-website/images/products/parts-surge-arrestor-4.jpg", "../flyboat-website/images/products/parts-surge-arrestor-5.jpg"],
+  images: ["../flyboat-website/images/products/parts-surge-arrestor.jpg", "../flyboat-website/images/products/parts-surge-arrestor-2.jpg", "../flyboat-website/images/products/parts-surge-arrestor-3.jpg", "../flyboat-website/images/products/parts-surge-arrestor-4.jpg", "../flyboat-website/images/products/parts-surge-arrestor-5.jpg", "https://www.flyboatmov.com/uploads/202133062/parts-surge-arrestor09574002152.jpg"],
   standards: ["CE", "UL", "TUV", "ISO 9001:2018"]
 },
 
@@ -539,7 +539,7 @@ window.PRODUCTS_DATA = {
   specs: [{ label: "Brand Name", value: "Flyboat" }, { label: "Model", value: "DSC07798" }, { label: "Nominal Discharge Current", value: "10KA\u201320KA" }, { label: "Supply Capacity", value: "200,000 pieces/month" }],
   specTables: [],
   image: "../flyboat-website/images/products/green-plastic-spd.jpg",
-  images: ["../flyboat-website/images/products/green-plastic-spd.jpg", "../flyboat-website/images/products/green-plastic-spd-2.jpg", "../flyboat-website/images/products/green-plastic-spd-3.jpg", "../flyboat-website/images/products/green-plastic-spd-4.jpg", "../flyboat-website/images/products/green-plastic-spd-5.jpg"],
+  images: ["../flyboat-website/images/products/green-plastic-spd.jpg", "../flyboat-website/images/products/green-plastic-spd-2.jpg", "../flyboat-website/images/products/green-plastic-spd-3.jpg", "../flyboat-website/images/products/green-plastic-spd-4.jpg", "../flyboat-website/images/products/green-plastic-spd-5.jpg", "https://www.flyboatmov.com/uploads/202133062/green-plastic-spd19403417556.jpg", "https://www.flyboatmov.com/uploads/202133062/green-plastic-spd19405387785.jpg"],
   standards: ["CE", "UL", "TUV", "ISO 9001:2018"]
 }
 

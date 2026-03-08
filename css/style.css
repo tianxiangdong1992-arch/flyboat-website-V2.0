@@ -867,6 +867,26 @@ ul {
   justify-content: center;
   color: rgba(0, 119, 182, 0.15);
   font-size: 3rem;
+  overflow: hidden;
+  position: relative;
+}
+.news-card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.news-tag {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  background: var(--ocean);
+  color: var(--white);
+  padding: 4px 10px;
+  border-radius: 4px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
 
 .news-card-body {
