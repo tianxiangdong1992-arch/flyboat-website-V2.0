@@ -37,7 +37,7 @@ window.PRODUCTS_DATA = {
     { label: "Response Time", value: "<25ns" },
     { label: "Insulation Resistance", value: "\u2265500 MOhm" },
     { label: "Varistor Voltage Temp. Coefficient", value: "-0.5%/\u00b0C" },
-    { label: "Chip Diameter Options", value: "5, 7, 10, 14, 20, 25, 32, 40mm" },
+    { label: "Chip Diameter Options", value: "22s, 25, 27, 30, 32, 40, 44, 46, 54mm" },
     { label: "Varistor Voltage Tolerance", value: "K \u00b110%" }
   ],
   specTables: [

@@ -52,6 +52,37 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   });
 
+  // Hero Slideshow
+  const slides = document.querySelectorAll('.hero-slide');
+  const indicators = document.querySelectorAll('.hero-indicator');
+  if (slides.length > 1) {
+    let currentSlide = 0;
+    const slideCount = slides.length;
+    const intervalMs = 5000;
+
+    function goToSlide(index) {
+      slides[currentSlide].classList.remove('active');
+      indicators[currentSlide].classList.remove('active');
+      currentSlide = index;
+      slides[currentSlide].classList.add('active');
+      indicators[currentSlide].classList.add('active');
+    }
+
+    let autoplay = setInterval(() => {
+      goToSlide((currentSlide + 1) % slideCount);
+    }, intervalMs);
+
+    indicators.forEach(btn => {
+      btn.addEventListener('click', () => {
+        clearInterval(autoplay);
+        goToSlide(parseInt(btn.dataset.slide));
+        autoplay = setInterval(() => {
+          goToSlide((currentSlide + 1) % slideCount);
+        }, intervalMs);
+      });
+    });
+  }
+
   // Simple form handling
   const form = document.querySelector('.contact-form form');
   if (form) {

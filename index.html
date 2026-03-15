@@ -18,7 +18,6 @@
       </a>
       <nav class="nav">
         <a href="index.html" class="active">Home</a>
-        <a href="about.html">About Us</a>
         <div class="nav-dropdown">
           <a href="products.html">Products</a>
           <div class="nav-dropdown-menu">
@@ -34,6 +33,7 @@
             <a href="products.html#accessory-products">Accessories for SPDs</a>
           </div>
         </div>
+        <a href="about.html">About Us</a>
         <a href="news.html">News</a>
         <a href="blog.html">Blog</a>
         <a href="contact.html">Contact</a>
@@ -46,6 +46,13 @@
 
   <!-- Hero -->
   <section class="hero">
+    <!-- Slideshow Background -->
+    <div class="hero-slideshow">
+      <div class="hero-slide active" style="background-image: url('images/hero-slide-1.png')"></div>
+      <div class="hero-slide" style="background-image: url('images/hero-slide-2.png')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+
     <div class="container">
       <div class="hero-content">
         <div class="hero-badges">
@@ -59,26 +66,12 @@
           <a href="contact.html" class="btn btn-secondary">Get a Quote</a>
         </div>
       </div>
-      <div class="hero-visual">
-        <div class="hero-stats-grid">
-          <div class="hero-stat-card">
-            <div class="stat-number">25+</div>
-            <div class="stat-label">Years Experience</div>
-          </div>
-          <div class="hero-stat-card">
-            <div class="stat-number">80</div>
-            <div class="stat-label">Export Countries</div>
-          </div>
-          <div class="hero-stat-card">
-            <div class="stat-number">200+</div>
-            <div class="stat-label">Experienced Staff</div>
-          </div>
-          <div class="hero-stat-card">
-            <div class="stat-number">24h</div>
-            <div class="stat-label">Customer Service</div>
-          </div>
-        </div>
-      </div>
+    </div>
+
+    <!-- Slide Indicators -->
+    <div class="hero-indicators">
+      <button class="hero-indicator active" data-slide="0"></button>
+      <button class="hero-indicator" data-slide="1"></button>
     </div>
   </section>
 
@@ -175,7 +168,7 @@
           <span class="overline">About Flyboat</span>
           <h2>National High-Tech Enterprise with Strong R&amp;D Capability</h2>
           <p>Guiyang High-Tech YiGe Electronic Co., Ltd has been a designated "special manufacturer of MOVs for SPD and onboard SPD" for over two decades. We serve as a drafting committee member for China's national varistor standard.</p>
-          <p>Our facility spans 9,000+ m² with modern production lines capable of producing approximately 30 million standard MOV units and 3 million onboard SPDs annually.</p>
+          <p>Our facility spans 9,000+ m² with modern production lines capable of producing approximately 20 million standard MOV units and 5 million onboard SPDs annually.</p>
           <div class="about-features">
             <div class="about-feature">
               <div class="about-feature-icon">&#9881;</div>
@@ -209,10 +202,11 @@
         </div>
         <div class="about-preview-visual">
           <div class="about-image-grid">
-            <div class="about-img-full"><img src="../flyboat-website/images/about-1.webp" alt="Flyboat Company Roadmap"></div>
-            <div class="about-img-row">
-              <div class="about-img-placeholder"><img src="../flyboat-website/images/about-2.jpg" alt="Production Line"></div>
-              <div class="about-img-placeholder about-img-placeholder-text">New Image Placeholder</div>
+            <a href="images/roadmap.png" target="_blank" class="about-img-full"><img src="images/roadmap.png" alt="Flyboat Company Roadmap"></a>
+            <div class="about-img-row about-img-row-3">
+              <a href="images/about-1.png" target="_blank" class="about-img-placeholder"><img src="images/about-1.png" alt="Factory Aerial View"></a>
+              <a href="images/about-2.png" target="_blank" class="about-img-placeholder"><img src="images/about-2.png" alt="Production Line"></a>
+              <a href="images/about-3.png" target="_blank" class="about-img-placeholder"><img src="images/about-3.png" alt="Workshop"></a>
             </div>
           </div>
         </div>
@@ -231,27 +225,23 @@
       <div class="cert-row">
         <div class="cert-badge">
           <div class="cert-icon">&#9733;</div>
-          <span>ISO 9001:2000</span>
+          <span>ISO 14001:2015</span>
         </div>
         <div class="cert-badge">
           <div class="cert-icon">&#9733;</div>
-          <span>ISO 9001:2008</span>
+          <span>ISO 45001:2018</span>
         </div>
         <div class="cert-badge">
           <div class="cert-icon">&#9733;</div>
-          <span>ISO 14000</span>
+          <span>ISO 9001:2015</span>
         </div>
         <div class="cert-badge">
           <div class="cert-icon">&#9733;</div>
-          <span>UL Listed</span>
+          <span>UL Certified</span>
         </div>
         <div class="cert-badge">
           <div class="cert-icon">&#9733;</div>
           <span>TUV Certified</span>
-        </div>
-        <div class="cert-badge">
-          <div class="cert-icon">&#9733;</div>
-          <span>GJB9001-2001A</span>
         </div>
       </div>
     </div>

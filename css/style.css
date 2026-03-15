@@ -300,34 +300,78 @@ ul {
   min-height: 600px;
   display: flex;
   align-items: center;
-  background: linear-gradient(135deg, #E0F4FF 0%, #F0F9FF 40%, #FFFFFF 100%);
   margin-top: var(--header-height);
   overflow: hidden;
+  background: #E0F4FF;
 }
 
-.hero::before {
-  content: '';
+/* Slideshow */
+.hero-slideshow {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  z-index: 0;
+}
+
+.hero-slide {
   position: absolute;
   inset: 0;
-  background:
-    radial-gradient(circle at 80% 50%, rgba(0, 119, 182, 0.06) 0%, transparent 50%),
-    radial-gradient(circle at 20% 80%, rgba(245, 158, 11, 0.04) 0%, transparent 40%);
+  background-size: cover;
+  background-position: right center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
 }
 
-.hero::after {
-  content: '';
+.hero-slide.active {
+  opacity: 1;
+}
+
+.hero-overlay {
   position: absolute;
-  right: -100px;
-  top: -100px;
-  width: 500px;
-  height: 500px;
-  border: 1px solid rgba(0, 119, 182, 0.06);
-  border-radius: 50%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  background: linear-gradient(
+    to right,
+    #E0F4FF 0%,
+    rgba(224, 244, 255, 0) 100%
+  );
+  z-index: 1;
+}
+
+/* Slide Indicators */
+.hero-indicators {
+  position: absolute;
+  bottom: 28px;
+  right: 10%;
+  display: flex;
+  gap: 10px;
+  z-index: 3;
+}
+
+.hero-indicator {
+  width: 36px;
+  height: 4px;
+  border: none;
+  border-radius: 2px;
+  background: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  padding: 0;
+}
+
+.hero-indicator.active {
+  background: #fff;
+  width: 48px;
 }
 
 .hero .container {
   position: relative;
-  z-index: 1;
+  z-index: 2;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
@@ -368,7 +412,7 @@ ul {
   align-items: center;
   gap: 6px;
   background: rgba(0, 119, 182, 0.08);
-  border: 1px solid rgba(0, 119, 182, 0.12);
+  border: 1px solid rgba(0, 119, 182, 0.15);
   padding: 6px 14px;
   border-radius: 20px;
   font-size: 0.8rem;
@@ -386,6 +430,7 @@ ul {
   display: flex;
   gap: 16px;
 }
+
 
 .hero-visual {
   display: flex;
@@ -429,6 +474,16 @@ ul {
   color: var(--gray-500);
   text-transform: uppercase;
   letter-spacing: 1px;
+}
+
+.hero .btn-secondary {
+  color: var(--ocean);
+  border-color: var(--ocean);
+}
+
+.hero .btn-secondary:hover {
+  background: var(--ocean-subtle);
+  border-color: var(--ocean-dark);
 }
 
 /* --- Buttons --- */
@@ -775,6 +830,10 @@ ul {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;
+}
+
+.about-img-row-3 {
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .about-img-placeholder {
@@ -1166,6 +1225,60 @@ ul {
   font-size: 4rem;
   color: var(--gray-300);
   border: 1px solid var(--gray-200);
+}
+
+.about-intro-full {
+  display: block;
+}
+
+.about-intro-full .about-intro-content h3 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--gray-800);
+  margin-top: 24px;
+  margin-bottom: 10px;
+}
+
+.about-roadmap {
+  margin-top: 2.5rem;
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--gray-200);
+}
+
+.about-roadmap img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.about-gallery {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.about-gallery-item {
+  border-radius: 12px;
+  overflow: hidden;
+  border: 1px solid var(--gray-200);
+  height: 200px;
+  display: block;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.about-gallery-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
+.about-gallery-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .leadership-card {
@@ -2778,6 +2891,14 @@ ul {
     grid-template-columns: 1fr;
   }
 
+  .about-gallery {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .about-gallery-item {
+    height: 180px;
+  }
+
   .stats-grid {
     flex-wrap: wrap;
     justify-content: center;
@@ -2906,6 +3027,15 @@ ul {
     min-height: auto;
   }
 
+  .hero-slideshow,
+  .hero-overlay {
+    width: 100%;
+  }
+
+  .hero-overlay {
+    background: rgba(224, 244, 255, 0.85);
+  }
+
   .hero-content h1 {
     font-size: 2rem;
   }
@@ -2913,6 +3043,7 @@ ul {
   .hero-stats-grid {
     grid-template-columns: 1fr 1fr;
   }
+
 
   .section {
     padding: 60px 0;
