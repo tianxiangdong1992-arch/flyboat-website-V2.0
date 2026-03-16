@@ -13,30 +13,31 @@
     <div class="container">
       <a href="index.html" class="logo">
         <img src="../flyboat-website/images/logo.jpg" alt="Flyboat Logo" class="logo-img">
-        <span>FLYBOAT<span class="logo-sub">Surge Protection Solutions</span></span>
+        <span><span data-i18n="logo.name">FLYBOAT</span><span class="logo-sub" data-i18n="logo.sub">Surge Protection Solutions</span></span>
       </a>
       <nav class="nav">
-        <a href="index.html">Home</a>
+        <a href="index.html" data-i18n="nav.home">Home</a>
         <div class="nav-dropdown">
-          <a href="products.html" class="active">Products</a>
+          <a href="products.html" class="active" data-i18n="nav.products">Products</a>
           <div class="nav-dropdown-menu">
-            <a href="products.html#mov-products">Metal Oxide Varistor</a>
+            <a href="products.html#mov-products" data-i18n="nav.mov">Metal Oxide Varistor</a>
             <div class="nav-dropdown-sub">
-              <a href="products.html#spd-products">Surge Protective Device OEM <span class="sub-arrow">&#9656;</span></a>
+              <a href="products.html#spd-products"><span data-i18n="nav.spd-oem">Surge Protective Device OEM</span> <span class="sub-arrow">&#9656;</span></a>
               <div class="nav-dropdown-submenu">
-                <a href="products.html#dc-spd-products">DC SPD OEM</a>
-                <a href="products.html#ac-spd-products">AC SPD OEM</a>
+                <a href="products.html#dc-spd-products" data-i18n="nav.dc-spd">DC SPD OEM</a>
+                <a href="products.html#ac-spd-products" data-i18n="nav.ac-spd">AC SPD OEM</a>
               </div>
             </div>
-            <a href="products.html#module-products">TMOV</a>
-            <a href="products.html#accessory-products">Accessories for SPDs</a>
+            <a href="products.html#module-products" data-i18n="nav.tmov">TMOV</a>
+            <a href="products.html#accessory-products" data-i18n="nav.accessories">Accessories for SPDs</a>
           </div>
         </div>
-        <a href="about.html">About Us</a>
-        <a href="news.html">News</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
+        <a href="about.html" data-i18n="nav.about">About Us</a>
+        <a href="news.html" data-i18n="nav.news">News</a>
+        <a href="blog.html" data-i18n="nav.blog">Blog</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
       </nav>
+      <button class="lang-toggle" title="Switch to Chinese">中文</button>
       <button class="menu-toggle" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
@@ -47,9 +48,9 @@
   <div class="page-header page-header-sm">
     <div class="container">
       <div class="breadcrumb">
-        <a href="index.html">Home</a>
+        <a href="index.html" data-i18n="nav.home">Home</a>
         <span class="sep">/</span>
-        <a href="products.html">Products</a>
+        <a href="products.html" data-i18n="nav.products">Products</a>
         <span class="sep">/</span>
         <span id="breadcrumb-category"></span>
         <span class="sep">/</span>
@@ -81,37 +82,37 @@
           </div>
 
           <div class="product-detail-actions">
-            <button class="btn btn-primary btn-arrow" onclick="openInquiry()">Send Inquiry</button>
-            <a href="contact.html" class="btn btn-outline">Contact Sales</a>
+            <button class="btn btn-primary btn-arrow" onclick="openInquiry()" data-i18n="product.sendInquiry">Send Inquiry</button>
+            <a href="contact.html" class="btn btn-outline" data-i18n="product.contactSales">Contact Sales</a>
           </div>
 
           <div class="product-detail-meta">
-            <div class="meta-item"><strong>Brand:</strong> FLYBOAT</div>
-            <div class="meta-item"><strong>Manufacturer:</strong> Guiyang High-Tech Yige Electronic Co., Ltd</div>
-            <div class="meta-item"><strong>Payment:</strong> T/T 50% deposit, 50% before delivery</div>
-            <div class="meta-item"><strong>Delivery:</strong> EXW, FOB, CFR, CIF, DDU</div>
+            <div class="meta-item"><strong data-i18n="product.meta.brand">Brand:</strong> <span data-i18n="product.brand">FLYBOAT</span></div>
+            <div class="meta-item"><strong data-i18n="product.meta.manufacturer">Manufacturer:</strong> <span data-i18n="product.meta.manufacturerVal">Guiyang High-Tech Yige Electronic Co., Ltd</span></div>
+            <div class="meta-item"><strong data-i18n="product.meta.payment">Payment:</strong> <span data-i18n="product.meta.paymentVal">T/T 50% deposit, 50% before delivery</span></div>
+            <div class="meta-item"><strong data-i18n="product.meta.delivery">Delivery:</strong> <span data-i18n="product.meta.deliveryVal">EXW, FOB, CFR, CIF, DDU</span></div>
           </div>
 
           <div class="product-service-row">
             <div class="product-service-item">
               <div class="product-service-icon">&#128666;</div>
               <div class="product-service-text">
-                <strong>Fast Delivery</strong>
-                <span>3-7 days after payment</span>
+                <strong data-i18n="product.service.fastDelivery">Fast Delivery</strong>
+                <span data-i18n="product.service.fastDeliveryDesc">7-15 days after payment</span>
               </div>
             </div>
             <div class="product-service-item">
               <div class="product-service-icon">&#9989;</div>
               <div class="product-service-text">
-                <strong>Quality Assurance</strong>
-                <span>ISO 9001 &amp; UL certified</span>
+                <strong data-i18n="product.service.qualityAssurance">Quality Assurance</strong>
+                <span data-i18n="product.service.qualityAssuranceDesc">ISO 9001 &amp; UL certified</span>
               </div>
             </div>
             <div class="product-service-item">
               <div class="product-service-icon">&#128222;</div>
               <div class="product-service-text">
-                <strong>24/7 Customer Service</strong>
-                <span>Expert support anytime</span>
+                <strong data-i18n="product.service.customerService">24/7 Customer Service</strong>
+                <span data-i18n="product.service.customerServiceDesc">Expert support anytime</span>
               </div>
             </div>
           </div>
@@ -120,127 +121,127 @@
 
       <!-- Description -->
       <div class="product-detail-block" id="description-block">
-        <h2>Product Description</h2>
+        <h2 data-i18n="product.description">Product Description</h2>
         <div id="product-description"></div>
         <div id="content-images-inline"></div>
       </div>
 
       <!-- Features -->
       <div class="product-detail-block" id="features-block" style="display:none">
-        <h2>Features &amp; Characteristics</h2>
+        <h2 data-i18n="product.features">Features &amp; Characteristics</h2>
         <ul class="feature-list" id="product-features"></ul>
       </div>
 
       <!-- Specifications Tables -->
       <div class="product-detail-block" id="specs-tables-block" style="display:none">
-        <h2>Technical Specifications</h2>
+        <h2 data-i18n="product.specifications">Technical Specifications</h2>
         <div id="product-spec-tables"></div>
       </div>
 
       <!-- Applications -->
       <div class="product-detail-block" id="applications-block" style="display:none">
-        <h2>Applications</h2>
+        <h2 data-i18n="product.applications">Applications</h2>
         <ul class="feature-list applications-list" id="product-applications"></ul>
       </div>
 
       <!-- Standards -->
       <div class="product-detail-block" id="standards-block" style="display:none">
-        <h2>Standards &amp; Certifications</h2>
+        <h2 data-i18n="product.standards">Standards &amp; Certifications</h2>
         <div class="standards-row" id="product-standards"></div>
       </div>
 
       <!-- Shipping & Payment -->
       <div class="product-detail-block" id="shipping-block">
-        <h2>Shipping &amp; Payment</h2>
+        <h2 data-i18n="product.shipping">Shipping &amp; Payment</h2>
         <div class="shipping-grid">
           <div class="shipping-card">
             <div class="shipping-card-icon">&#128230;</div>
-            <h3>Packing</h3>
-            <p>We pack our goods in neutral boxes and brown cartons. If you have a legally registered patent, we can pack the goods in your branded boxes after getting your authorization letters.</p>
+            <h3 data-i18n="product.shipping.packing">Packing</h3>
+            <p data-i18n="product.shipping.packingDesc">We pack our goods in neutral boxes and brown cartons. If you have a legally registered patent, we can pack the goods in your branded boxes after getting your authorization letters.</p>
           </div>
           <div class="shipping-card">
             <div class="shipping-card-icon">&#128176;</div>
-            <h3>Payment Terms</h3>
-            <p>T/T 50% as deposit, and 50% before delivery. We'll show you photos of the products and packages before you pay the balance.</p>
+            <h3 data-i18n="product.shipping.paymentTerms">Payment Terms</h3>
+            <p data-i18n="product.shipping.paymentTermsDesc">T/T 50% as deposit, and 50% before delivery. We'll show you photos of the products and packages before you pay the balance.</p>
           </div>
           <div class="shipping-card">
             <div class="shipping-card-icon">&#128666;</div>
-            <h3>Delivery</h3>
-            <p>EXW, FOB, CFR, CIF, DDU. Generally 3-7 days after receiving your advance payment. The specific delivery time depends on the items and the quantity of your order.</p>
+            <h3 data-i18n="product.shipping.delivery">Delivery</h3>
+            <p data-i18n="product.shipping.deliveryDesc">EXW, FOB, CFR, CIF, DDU. Generally 7-15 days after receiving your advance payment. The specific delivery time depends on the items and the quantity of your order.</p>
           </div>
           <div class="shipping-card">
             <div class="shipping-card-icon">&#128232;</div>
-            <h3>Shipping Policy</h3>
-            <p>All items will be shipped within 60 business days after received cleared payment. International shipping may delay due to strict customs and bad weather. Please contact us if you have NOT received item after 35 days.</p>
+            <h3 data-i18n="product.shipping.shippingPolicy">Shipping Policy</h3>
+            <p data-i18n="product.shipping.shippingPolicyDesc">All items will be shipped within 60 business days after received cleared payment. International shipping may delay due to strict customs and bad weather. Please contact us if you have NOT received item after 35 days.</p>
           </div>
         </div>
       </div>
 
       <!-- Why Choose Us -->
       <div class="product-detail-block" id="why-choose-block">
-        <h2>Why Choose FLYBOAT</h2>
+        <h2 data-i18n="product.whychoose">Why Choose FLYBOAT</h2>
         <div class="why-choose-grid">
           <div class="why-choose-card">
             <div class="why-choose-icon">&#9989;</div>
-            <h3>Quality Assurance</h3>
-            <p>All the products will go through lots of tests carefully before dispatch</p>
+            <h3 data-i18n="product.whychoose.quality">Quality Assurance</h3>
+            <p data-i18n="product.whychoose.qualityDesc">All the products will go through lots of tests carefully before dispatch</p>
           </div>
           <div class="why-choose-card">
             <div class="why-choose-icon">&#128666;</div>
-            <h3>Fast Shipping</h3>
-            <p>Competitive production capacity and fast shipping worldwide</p>
+            <h3 data-i18n="product.whychoose.shipping">Fast Shipping</h3>
+            <p data-i18n="product.whychoose.shippingDesc">Competitive production capacity and fast shipping worldwide</p>
           </div>
           <div class="why-choose-card">
             <div class="why-choose-icon">&#128176;</div>
-            <h3>Factory Direct Price</h3>
-            <p>Factory direct sale, most competitive manufacturer's price</p>
+            <h3 data-i18n="product.whychoose.price">Factory Direct Price</h3>
+            <p data-i18n="product.whychoose.priceDesc">Factory direct sale, most competitive manufacturer's price</p>
           </div>
           <div class="why-choose-card">
             <div class="why-choose-icon">&#128230;</div>
-            <h3>Small Order Acceptable</h3>
-            <p>Small orders are acceptable for testing and sample evaluation</p>
+            <h3 data-i18n="product.whychoose.smallOrder">Small Order Acceptable</h3>
+            <p data-i18n="product.whychoose.smallOrderDesc">Small orders are acceptable for testing and sample evaluation</p>
           </div>
         </div>
       </div>
 
       <!-- FAQ -->
       <div class="product-detail-block" id="faq-block">
-        <h2>Frequently Asked Questions</h2>
+        <h2 data-i18n="product.faq">Frequently Asked Questions</h2>
         <div class="faq-list" id="faq-list">
           <div class="faq-item">
             <button class="faq-question" onclick="toggleFaq(this)">
-              <span>What is your terms of packing?</span>
+              <span data-i18n="product.faq.packingQ">What is your terms of packing?</span>
               <span class="faq-toggle">+</span>
             </button>
             <div class="faq-answer">
-              <p>Generally, we pack our goods in neutral boxes and brown cartons. If you have a legally registered patent, we can pack the goods in your branded boxes after getting your authorization letters.</p>
+              <p data-i18n="product.faq.packingA">Generally, we pack our goods in neutral boxes and brown cartons. If you have a legally registered patent, we can pack the goods in your branded boxes after getting your authorization letters.</p>
             </div>
           </div>
           <div class="faq-item">
             <button class="faq-question" onclick="toggleFaq(this)">
-              <span>What is your terms of payment?</span>
+              <span data-i18n="product.faq.paymentQ">What is your terms of payment?</span>
               <span class="faq-toggle">+</span>
             </button>
             <div class="faq-answer">
-              <p>T/T 50% as deposit, and 50% before delivery. We'll show you the photos of the products and packages before you pay the balance.</p>
+              <p data-i18n="product.faq.paymentA">T/T 50% as deposit, and 50% before delivery. We'll show you the photos of the products and packages before you pay the balance.</p>
             </div>
           </div>
           <div class="faq-item">
             <button class="faq-question" onclick="toggleFaq(this)">
-              <span>What is your terms of delivery?</span>
+              <span data-i18n="product.faq.deliveryQ">What is your terms of delivery?</span>
               <span class="faq-toggle">+</span>
             </button>
             <div class="faq-answer">
-              <p>EXW, FOB, CFR, CIF, DDU.</p>
+              <p data-i18n="product.faq.deliveryA">EXW, FOB, CFR, CIF, DDU.</p>
             </div>
           </div>
           <div class="faq-item">
             <button class="faq-question" onclick="toggleFaq(this)">
-              <span>How about your delivery time?</span>
+              <span data-i18n="product.faq.deliveryTimeQ">How about your delivery time?</span>
               <span class="faq-toggle">+</span>
             </button>
             <div class="faq-answer">
-              <p>Generally, it will take 3-7 days after receiving your advance payment. The specific delivery time depends on the items and the quantity of your order.</p>
+              <p data-i18n="product.faq.deliveryTimeA">Generally, it will take 7-15 days after receiving your advance payment. The specific delivery time depends on the items and the quantity of your order.</p>
             </div>
           </div>
         </div>
@@ -248,29 +249,29 @@
 
       <!-- Customer Feedback & Service -->
       <div class="product-detail-block" id="feedback-block">
-        <h2>Customer Feedback &amp; Service</h2>
+        <h2 data-i18n="product.feedback">Customer Feedback &amp; Service</h2>
         <div class="feedback-grid">
           <div class="feedback-card">
             <div class="feedback-card-icon">&#128077;</div>
-            <h3>Your Satisfaction Matters</h3>
-            <p>Your satisfaction is most important for us. If you have a problem or question regarding your transaction, please contact us before leaving any type of feedback. We are always willing to work things out.</p>
+            <h3 data-i18n="product.feedback.satisfaction">Your Satisfaction Matters</h3>
+            <p data-i18n="product.feedback.satisfactionDesc">Your satisfaction is most important for us. If you have a problem or question regarding your transaction, please contact us before leaving any type of feedback. We are always willing to work things out.</p>
           </div>
           <div class="feedback-card">
             <div class="feedback-card-icon">&#128222;</div>
-            <h3>24/7 Customer Support</h3>
-            <p>Our engineering team provides expert guidance on product selection, technical specifications, and application support. Contact us anytime.</p>
+            <h3 data-i18n="product.feedback.support">24/7 Customer Support</h3>
+            <p data-i18n="product.feedback.supportDesc">Our engineering team provides expert guidance on product selection, technical specifications, and application support. Contact us anytime.</p>
           </div>
           <div class="feedback-card">
             <div class="feedback-card-icon">&#11088;</div>
-            <h3>Share Your Experience</h3>
-            <p>Once you have received your item, please leave feedback for us as this will inform us that you have received your items. We really appreciate your positive feedback and 5 Star ratings.</p>
+            <h3 data-i18n="product.feedback.experience">Share Your Experience</h3>
+            <p data-i18n="product.feedback.experienceDesc">Once you have received your item, please leave feedback for us as this will inform us that you have received your items. We really appreciate your positive feedback and 5 Star ratings.</p>
           </div>
         </div>
       </div>
 
       <!-- Related Products -->
       <div class="product-detail-block" id="related-block">
-        <h2>Related Products</h2>
+        <h2 data-i18n="product.related">Related Products</h2>
         <div class="products-grid" id="related-products"></div>
       </div>
     </div>
@@ -280,38 +281,38 @@
   <div class="modal-overlay" id="inquiry-modal" style="display:none">
     <div class="modal">
       <button class="modal-close" onclick="closeInquiry()">&times;</button>
-      <h2>Product Inquiry</h2>
+      <h2 data-i18n="product.inquiry">Product Inquiry</h2>
       <p class="modal-product-name" id="modal-product-name"></p>
       <form id="inquiry-form" onsubmit="submitInquiry(event)">
         <div class="form-row">
           <div class="form-group">
-            <label for="inq-name">Your Name *</label>
-            <input type="text" id="inq-name" required placeholder="Full name">
+            <label for="inq-name" data-i18n="inquiry.form.name">Your Name *</label>
+            <input type="text" id="inq-name" required placeholder="Full name" data-i18n-placeholder="inquiry.placeholder.name">
           </div>
           <div class="form-group">
-            <label for="inq-email">Email *</label>
-            <input type="email" id="inq-email" required placeholder="your@email.com">
+            <label for="inq-email" data-i18n="inquiry.form.email">Email *</label>
+            <input type="email" id="inq-email" required placeholder="your@email.com" data-i18n-placeholder="inquiry.placeholder.email">
           </div>
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label for="inq-company">Company</label>
-            <input type="text" id="inq-company" placeholder="Company name">
+            <label for="inq-company" data-i18n="inquiry.form.company">Company</label>
+            <input type="text" id="inq-company" placeholder="Company name" data-i18n-placeholder="inquiry.placeholder.company">
           </div>
           <div class="form-group">
-            <label for="inq-phone">Phone</label>
-            <input type="tel" id="inq-phone" placeholder="+1 234 567 890">
+            <label for="inq-phone" data-i18n="inquiry.form.phone">Phone</label>
+            <input type="tel" id="inq-phone" placeholder="+1 234 567 890" data-i18n-placeholder="inquiry.placeholder.phone">
           </div>
         </div>
         <div class="form-group">
-          <label for="inq-quantity">Quantity</label>
-          <input type="text" id="inq-quantity" placeholder="e.g. 10,000 pieces">
+          <label for="inq-quantity" data-i18n="inquiry.form.quantity">Quantity</label>
+          <input type="text" id="inq-quantity" placeholder="e.g. 10,000 pieces" data-i18n-placeholder="inquiry.placeholder.quantity">
         </div>
         <div class="form-group">
-          <label for="inq-message">Message *</label>
-          <textarea id="inq-message" required placeholder="Please describe your requirements, specifications needed, and any questions..."></textarea>
+          <label for="inq-message" data-i18n="inquiry.form.message">Message *</label>
+          <textarea id="inq-message" required placeholder="Please describe your requirements, specifications needed, and any questions..." data-i18n-placeholder="inquiry.placeholder.message"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary" style="width:100%">Submit Inquiry</button>
+        <button type="submit" class="btn btn-primary" style="width:100%" data-i18n="inquiry.form.submit">Submit Inquiry</button>
       </form>
     </div>
   </div>
@@ -319,9 +320,9 @@
   <!-- CTA -->
   <section class="cta">
     <div class="container">
-      <h2>Need a Custom Solution?</h2>
-      <p>We offer OEM/ODM customization for all products. Contact us for tailored surge protection solutions.</p>
-      <a href="contact.html" class="btn btn-arrow">Request a Quote</a>
+      <h2 data-i18n="product.cta.title">Need a Custom Solution?</h2>
+      <p data-i18n="product.cta.desc">We offer OEM/ODM customization for all products. Contact us for tailored surge protection solutions.</p>
+      <a href="contact.html" class="btn btn-arrow" data-i18n="product.cta.btn">Request a Quote</a>
     </div>
   </section>
 
@@ -332,33 +333,33 @@
         <div class="footer-brand">
           <div class="logo">
             <img src="../flyboat-website/images/logo.jpg" alt="Flyboat Logo" class="logo-img">
-            <span>FLYBOAT<span class="logo-sub">Surge Protection Solutions</span></span>
+            <span><span data-i18n="logo.name">FLYBOAT</span><span class="logo-sub" data-i18n="logo.sub">Surge Protection Solutions</span></span>
           </div>
-          <p>Guiyang High-Tech YiGe Electronic Co., Ltd. Over 20 years of expertise in manufacturing metal oxide varistors and surge protective devices.</p>
+          <p data-i18n="footer.desc">Guiyang High-Tech YiGe Electronic Co., Ltd. Over 20 years of expertise in manufacturing metal oxide varistors and surge protective devices.</p>
         </div>
         <div class="footer-col">
-          <h4>Quick Links</h4>
+          <h4 data-i18n="footer.quicklinks">Quick Links</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="about.html" data-i18n="footer.aboutus">About Us</a></li>
+            <li><a href="products.html" data-i18n="nav.products">Products</a></li>
+            <li><a href="news.html" data-i18n="nav.news">News</a></li>
+            <li><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
+            <li><a href="contact.html" data-i18n="footer.contactus">Contact Us</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Products</h4>
+          <h4 data-i18n="footer.products">Products</h4>
           <ul>
-            <li><a href="products.html">Metal Oxide Varistor</a></li>
-            <li><a href="products.html">DC SPD OEM</a></li>
-            <li><a href="products.html">AC SPD OEM</a></li>
-            <li><a href="products.html">TMOV</a></li>
-            <li><a href="products.html">SPD Accessories</a></li>
+            <li><a href="products.html" data-i18n="footer.mov">Metal Oxide Varistor</a></li>
+            <li><a href="products.html" data-i18n="footer.dcspd">DC SPD OEM</a></li>
+            <li><a href="products.html" data-i18n="footer.acspd">AC SPD OEM</a></li>
+            <li><a href="products.html" data-i18n="footer.tmov">TMOV</a></li>
+            <li><a href="products.html" data-i18n="footer.spdacc">SPD Accessories</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Contact</h4>
+          <h4 data-i18n="footer.contact">Contact</h4>
           <div class="footer-contact-item">
             <span class="icon">&#9993;</span>
             <span>m18685129425_1@163.com</span>
@@ -369,11 +370,11 @@
           </div>
           <div class="footer-contact-item">
             <span class="icon">&#9873;</span>
-            <span>Shawen High-Tech Zone, Chuangji Street, Baiyun District, Guiyang City, Guizhou Province, China</span>
+            <span data-i18n="footer.address">Shawen High-Tech Zone, Chuangji Street, Baiyun District, Guiyang City, Guizhou Province, China</span>
           </div>
         </div>
       </div>
-      <div class="footer-bottom">
+      <div class="footer-bottom" data-i18n="footer.copyright">
         &copy; 2025 Guiyang High-Tech Yige Electronic Co., Ltd. All Rights Reserved.
       </div>
     </div>
@@ -381,28 +382,32 @@
 
   <script src="js/products-data.js"></script>
   <script src="js/content-images.js"></script>
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
   <script>
   document.addEventListener('DOMContentLoaded', function() {
     var params = new URLSearchParams(window.location.search);
     var id = params.get('id');
+    var lang = localStorage.getItem('flyboat-lang') || 'en';
+    function t(en, zh) { return lang === 'zh' && zh ? zh : en; }
+
     if (!id || !window.PRODUCTS_DATA || !window.PRODUCTS_DATA[id]) {
       document.querySelector('.product-detail-section .container').innerHTML =
-        '<div style="text-align:center;padding:80px 0"><h2>Product Not Found</h2><p>The requested product could not be found.</p><a href="products.html" class="btn btn-primary" style="margin-top:20px">View All Products</a></div>';
+        '<div style="text-align:center;padding:80px 0"><h2>' + t('Product Not Found', '未找到产品') + '</h2><p>' + t('The requested product could not be found.', '未找到所请求的产品。') + '</p><a href="products.html" class="btn btn-primary" style="margin-top:20px">' + t('View All Products', '查看所有产品') + '</a></div>';
       return;
     }
 
     var p = window.PRODUCTS_DATA[id];
-    document.title = p.name + ' | Flyboat MOV';
+    document.title = t(p.name, p.nameZh) + (lang === 'zh' ? ' | 益舸' : ' | Flyboat MOV');
 
     // Breadcrumb
     document.getElementById('breadcrumb-category').textContent = p.category;
-    document.getElementById('breadcrumb-product').textContent = p.name;
+    document.getElementById('breadcrumb-product').textContent = t(p.name, p.nameZh);
 
     // Image
     var img = document.getElementById('product-image');
     img.src = p.image;
-    img.alt = p.name;
+    img.alt = t(p.name, p.nameZh);
 
     // Image gallery thumbnails
     var allImages = p.images && p.images.length > 1 ? p.images : [p.image];
@@ -410,7 +415,7 @@
       var thumbsHtml = '';
       allImages.forEach(function(src, idx) {
         thumbsHtml += '<div class="product-thumb' + (idx === 0 ? ' active' : '') + '" data-src="' + src + '">';
-        thumbsHtml += '<img src="' + src + '" alt="' + p.name + ' - Image ' + (idx + 1) + '">';
+        thumbsHtml += '<img src="' + src + '" alt="' + t(p.name, p.nameZh) + ' - ' + (idx + 1) + '">';
         thumbsHtml += '</div>';
       });
       document.getElementById('product-thumbs').innerHTML = thumbsHtml;
@@ -426,8 +431,8 @@
 
     // Basic info
     document.getElementById('product-category-badge').textContent = p.category;
-    document.getElementById('product-name').textContent = p.name;
-    document.getElementById('product-short-desc').textContent = p.shortDesc;
+    document.getElementById('product-name').textContent = t(p.name, p.nameZh);
+    document.getElementById('product-short-desc').textContent = t(p.shortDesc, p.shortDescZh);
 
     // Key specs
     if (p.specs && p.specs.length) {
@@ -439,13 +444,14 @@
     }
 
     // Description
-    document.getElementById('product-description').innerHTML = p.description;
+    document.getElementById('product-description').innerHTML = t(p.description, p.descriptionZh);
 
     // Features
-    if (p.features && p.features.length) {
+    var featuresArr = t(p.features, p.featuresZh);
+    if (featuresArr && featuresArr.length) {
       document.getElementById('features-block').style.display = '';
       var featHtml = '';
-      p.features.forEach(function(f) {
+      featuresArr.forEach(function(f) {
         featHtml += '<li>' + f + '</li>';
       });
       document.getElementById('product-features').innerHTML = featHtml;
@@ -475,10 +481,11 @@
     }
 
     // Applications
-    if (p.applications && p.applications.length) {
+    var appsArr = t(p.applications, p.applicationsZh);
+    if (appsArr && appsArr.length) {
       document.getElementById('applications-block').style.display = '';
       var appHtml = '';
-      p.applications.forEach(function(a) {
+      appsArr.forEach(function(a) {
         appHtml += '<li>' + a + '</li>';
       });
       document.getElementById('product-applications').innerHTML = appHtml;
@@ -504,11 +511,13 @@
     if (related.length) {
       var relHtml = '';
       related.forEach(function(r) {
+        var rName = t(r.name, r.nameZh);
+        var rDesc = t(r.shortDesc, r.shortDescZh);
         relHtml += '<div class="product-card"><a href="product.html?id=' + r.id + '">';
-        relHtml += '<div class="product-card-img"><img src="' + r.image + '" alt="' + r.name + '"></div>';
-        relHtml += '<div class="product-card-body"><h3>' + r.name + '</h3>';
-        relHtml += '<p>' + r.shortDesc.substring(0, 100) + '...</p>';
-        relHtml += '<span class="card-link">View Details &rarr;</span>';
+        relHtml += '<div class="product-card-img"><img src="' + r.image + '" alt="' + rName + '"></div>';
+        relHtml += '<div class="product-card-body"><h3>' + rName + '</h3>';
+        relHtml += '<p>' + rDesc.substring(0, 100) + '...</p>';
+        relHtml += '<span class="card-link">' + (lang === 'zh' ? '查看详情 &rarr;' : 'View Details &rarr;') + '</span>';
         relHtml += '</div></a></div>';
       });
       document.getElementById('related-products').innerHTML = relHtml;
@@ -517,9 +526,10 @@
     }
 
     // Product-specific FAQ (appended to the default FAQ list)
-    if (p.faq && p.faq.length) {
+    var faqArr = t(p.faq, p.faqZh);
+    if (faqArr && faqArr.length) {
       var faqHtml = '';
-      p.faq.forEach(function(f) {
+      faqArr.forEach(function(f) {
         faqHtml += '<div class="faq-item">';
         faqHtml += '<button class="faq-question" onclick="toggleFaq(this)">';
         faqHtml += '<span>' + f.question + '</span>';
@@ -535,13 +545,13 @@
     if (p.contentImages && p.contentImages.length) {
       var ciHtml = '';
       p.contentImages.forEach(function(src, idx) {
-        ciHtml += '<img class="content-image-inline" src="' + src + '" alt="' + p.name + ' - ' + (idx + 1) + '" loading="lazy">';
+        ciHtml += '<img class="content-image-inline" src="' + src + '" alt="' + t(p.name, p.nameZh) + ' - ' + (idx + 1) + '" loading="lazy">';
       });
       document.getElementById('content-images-inline').innerHTML = ciHtml;
     }
 
     // Modal product name
-    document.getElementById('modal-product-name').textContent = 'Inquiry for: ' + p.name;
+    document.getElementById('modal-product-name').textContent = (lang === 'zh' ? '询盘产品：' : 'Inquiry for: ') + t(p.name, p.nameZh);
   });
 
   function toggleFaq(btn) {
@@ -569,7 +579,8 @@
   }
   function submitInquiry(e) {
     e.preventDefault();
-    alert('Thank you for your inquiry about this product. Our team will contact you within 24 hours.');
+    var lang = localStorage.getItem('flyboat-lang') || 'en';
+    alert(lang === 'zh' ? '感谢您的产品询盘，我们的团队将在24小时内与您联系。' : 'Thank you for your inquiry about this product. Our team will contact you within 24 hours.');
     closeInquiry();
     document.getElementById('inquiry-form').reset();
   }

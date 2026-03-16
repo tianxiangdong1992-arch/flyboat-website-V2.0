@@ -14,30 +14,31 @@
     <div class="container">
       <a href="index.html" class="logo">
         <img src="../flyboat-website/images/logo.jpg" alt="Flyboat Logo" class="logo-img">
-        <span>FLYBOAT<span class="logo-sub">Surge Protection Solutions</span></span>
+        <span><span data-i18n="logo.name">FLYBOAT</span><span class="logo-sub" data-i18n="logo.sub">Surge Protection Solutions</span></span>
       </a>
       <nav class="nav">
-        <a href="index.html">Home</a>
+        <a href="index.html" data-i18n="nav.home">Home</a>
         <div class="nav-dropdown">
-          <a href="products.html" class="active">Products</a>
+          <a href="products.html" class="active" data-i18n="nav.products">Products</a>
           <div class="nav-dropdown-menu">
-            <a href="products.html#mov-products">Metal Oxide Varistor</a>
+            <a href="products.html#mov-products" data-i18n="nav.mov">Metal Oxide Varistor</a>
             <div class="nav-dropdown-sub">
-              <a href="products.html#spd-products">Surge Protective Device OEM <span class="sub-arrow">&#9656;</span></a>
+              <a href="products.html#spd-products"><span data-i18n="nav.spd-oem">Surge Protective Device OEM</span> <span class="sub-arrow">&#9656;</span></a>
               <div class="nav-dropdown-submenu">
-                <a href="products.html#dc-spd-products">DC SPD OEM</a>
-                <a href="products.html#ac-spd-products">AC SPD OEM</a>
+                <a href="products.html#dc-spd-products" data-i18n="nav.dc-spd">DC SPD OEM</a>
+                <a href="products.html#ac-spd-products" data-i18n="nav.ac-spd">AC SPD OEM</a>
               </div>
             </div>
-            <a href="products.html#module-products">TMOV</a>
-            <a href="products.html#accessory-products">Accessories for SPDs</a>
+            <a href="products.html#module-products" data-i18n="nav.tmov">TMOV</a>
+            <a href="products.html#accessory-products" data-i18n="nav.accessories">Accessories for SPDs</a>
           </div>
         </div>
-        <a href="about.html">About Us</a>
-        <a href="news.html">News</a>
-        <a href="blog.html">Blog</a>
-        <a href="contact.html">Contact</a>
+        <a href="about.html" data-i18n="nav.about">About Us</a>
+        <a href="news.html" data-i18n="nav.news">News</a>
+        <a href="blog.html" data-i18n="nav.blog">Blog</a>
+        <a href="contact.html" data-i18n="nav.contact">Contact</a>
       </nav>
+      <button class="lang-toggle" title="Switch to Chinese">中文</button>
       <button class="menu-toggle" aria-label="Toggle menu">
         <span></span><span></span><span></span>
       </button>
@@ -57,51 +58,51 @@
         <!-- Sidebar -->
         <aside class="products-sidebar">
           <div class="sidebar-section">
-            <h3>Categories</h3>
+            <h3 data-i18n="products.sidebar.categories">Categories</h3>
             <ul class="sidebar-cat-list">
-              <li><a href="#all" class="sidebar-cat-link active" data-category="all">All Products</a></li>
-              <li><a href="#mov-products" class="sidebar-cat-link" data-category="metal-oxide-varistor">Metal Oxide Varistor</a></li>
+              <li><a href="#all" class="sidebar-cat-link active" data-category="all" data-i18n="products.sidebar.all">All Products</a></li>
+              <li><a href="#mov-products" class="sidebar-cat-link" data-category="metal-oxide-varistor" data-i18n="nav.mov">Metal Oxide Varistor</a></li>
               <li class="sidebar-cat-parent">
-                <a href="#spd-products" class="sidebar-cat-link" data-category="spd">Surge Protective Device OEM</a>
+                <a href="#spd-products" class="sidebar-cat-link" data-category="spd" data-i18n="nav.spd-oem">Surge Protective Device OEM</a>
                 <ul class="sidebar-sub-list">
-                  <li><a href="#dc-spd-products" class="sidebar-cat-link" data-category="dc-spd">DC SPD OEM</a></li>
-                  <li><a href="#ac-spd-products" class="sidebar-cat-link" data-category="ac-spd">AC SPD OEM</a></li>
+                  <li><a href="#dc-spd-products" class="sidebar-cat-link" data-category="dc-spd" data-i18n="nav.dc-spd">DC SPD OEM</a></li>
+                  <li><a href="#ac-spd-products" class="sidebar-cat-link" data-category="ac-spd" data-i18n="nav.ac-spd">AC SPD OEM</a></li>
                 </ul>
               </li>
-              <li><a href="#module-products" class="sidebar-cat-link" data-category="protection-module">TMOV</a></li>
-              <li><a href="#accessory-products" class="sidebar-cat-link" data-category="accessories-for-spds">Accessories for SPDs</a></li>
+              <li><a href="#module-products" class="sidebar-cat-link" data-category="protection-module" data-i18n="nav.tmov">TMOV</a></li>
+              <li><a href="#accessory-products" class="sidebar-cat-link" data-category="accessories-for-spds" data-i18n="nav.accessories">Accessories for SPDs</a></li>
             </ul>
           </div>
 
           <div class="sidebar-section">
-            <h3>Products Recommended</h3>
+            <h3 data-i18n="products.sidebar.recommended">Products Recommended</h3>
             <div class="sidebar-recommended">
               <a href="product.html?id=ac-varistor" class="sidebar-rec-item">
                 <img src="../flyboat-website/images/products/ac-varistor.jpg" alt="AC Varistor">
                 <div class="sidebar-rec-info">
-                  <span class="sidebar-rec-name">AC Varistor</span>
-                  <span class="sidebar-rec-desc">Voltage power surge protector metal oxide varistor for AC applications</span>
+                  <span class="sidebar-rec-name" data-i18n="sidebar.rec.acvaristor.name">AC Varistor</span>
+                  <span class="sidebar-rec-desc" data-i18n="sidebar.rec.acvaristor.desc">Voltage power surge protector metal oxide varistor for AC applications</span>
                 </div>
               </a>
               <a href="product.html?id=mov-dc" class="sidebar-rec-item">
                 <img src="../flyboat-website/images/products/mov-dc.jpg" alt="34S Metal Oxide Varistor">
                 <div class="sidebar-rec-info">
-                  <span class="sidebar-rec-name">34S Metal Oxide Varistor</span>
-                  <span class="sidebar-rec-desc">MOV mainly used for surge protection in DC power systems</span>
+                  <span class="sidebar-rec-name" data-i18n="sidebar.rec.movdc.name">34S Metal Oxide Varistor</span>
+                  <span class="sidebar-rec-desc" data-i18n="sidebar.rec.movdc.desc">MOV mainly used for surge protection in DC power systems</span>
                 </div>
               </a>
               <a href="product.html?id=surge-protectors-signal-systems" class="sidebar-rec-item">
                 <img src="../flyboat-website/images/products/surge-protectors-signal-systems.jpg" alt="Surge Protectors Signal Systems">
                 <div class="sidebar-rec-info">
-                  <span class="sidebar-rec-name">Surge Protectors Signal Systems</span>
-                  <span class="sidebar-rec-desc">Protect signal &amp; data lines from lightning surges</span>
+                  <span class="sidebar-rec-name" data-i18n="sidebar.rec.signal.name">Surge Protectors Signal Systems</span>
+                  <span class="sidebar-rec-desc" data-i18n="sidebar.rec.signal.desc">Protect signal &amp; data lines from lightning surges</span>
                 </div>
               </a>
               <a href="product.html?id=ac-surge-protective-device-spd" class="sidebar-rec-item">
                 <img src="../flyboat-website/images/products/ac-surge-protective-device-spd.jpg" alt="AC Surge Protective Device SPD">
                 <div class="sidebar-rec-info">
-                  <span class="sidebar-rec-name">AC Surge Protective Device SPD</span>
-                  <span class="sidebar-rec-desc">AC power supply surge protection with modular design</span>
+                  <span class="sidebar-rec-name" data-i18n="sidebar.rec.acspd.name">AC Surge Protective Device SPD</span>
+                  <span class="sidebar-rec-desc" data-i18n="sidebar.rec.acspd.desc">AC power supply surge protection with modular design</span>
                 </div>
               </a>
             </div>
@@ -109,9 +110,9 @@
 
           <!-- Sidebar Contact -->
           <div class="sidebar-contact">
-            <h4>Need Help?</h4>
-            <p>Contact us for custom OEM/ODM solutions.</p>
-            <a href="contact.html" class="btn btn-sm btn-primary">Get a Quote</a>
+            <h4 data-i18n="products.sidebar.needHelp">Need Help?</h4>
+            <p data-i18n="products.sidebar.needHelpDesc">Contact us for custom OEM/ODM solutions.</p>
+            <a href="contact.html" class="btn btn-sm btn-primary" data-i18n="products.sidebar.getQuote">Get a Quote</a>
           </div>
         </aside>
 
@@ -130,7 +131,7 @@
           <!-- Product Grid Header -->
           <div class="products-main-header">
             <h3 id="products-grid-title">Products</h3>
-            <div class="products-count"><span id="products-count-num">0</span> products</div>
+            <div class="products-count"><span id="products-count-num">0</span> <span data-i18n="products.countLabel">products</span></div>
           </div>
 
           <!-- Product Grid -->
@@ -144,14 +145,14 @@
   <!-- Floating Inquiry Cart -->
   <div class="inquiry-cart" id="inquiry-cart" style="display:none">
     <div class="inquiry-cart-header">
-      <span>&#128203; Inquiry Basket (<span id="cart-count">0</span>)</span>
+      <span>&#128203; <span data-i18n="inquiry.cart.title">Inquiry Basket</span> (<span id="cart-count">0</span>)</span>
       <button class="inquiry-cart-toggle" id="cart-toggle" title="Collapse">&#9660;</button>
     </div>
     <div class="inquiry-cart-body" id="cart-body">
       <ul class="inquiry-cart-list" id="cart-list"></ul>
       <div class="inquiry-cart-actions">
-        <button class="btn btn-sm btn-outline inquiry-cart-clear" onclick="clearCart()">Clear All</button>
-        <button class="btn btn-sm btn-primary" onclick="openInquiryFromCart()">Send Inquiry</button>
+        <button class="btn btn-sm btn-outline inquiry-cart-clear" onclick="clearCart()" data-i18n="inquiry.cart.clearAll">Clear All</button>
+        <button class="btn btn-sm btn-primary" onclick="openInquiryFromCart()" data-i18n="inquiry.cart.send">Send Inquiry</button>
       </div>
     </div>
   </div>
@@ -160,34 +161,34 @@
   <div class="modal-overlay" id="inquiry-modal" style="display:none">
     <div class="modal">
       <button class="modal-close" onclick="closeInquiry()">&times;</button>
-      <h2>Product Inquiry</h2>
+      <h2 data-i18n="product.inquiry">Product Inquiry</h2>
       <div id="modal-product-list" class="modal-product-list"></div>
       <form id="inquiry-form" onsubmit="submitInquiry(event)">
         <div class="form-row">
           <div class="form-group">
-            <label for="inq-name">Your Name *</label>
-            <input type="text" id="inq-name" required placeholder="Full name">
+            <label for="inq-name" data-i18n="inquiry.form.name">Your Name *</label>
+            <input type="text" id="inq-name" required placeholder="Full name" data-i18n-placeholder="inquiry.placeholder.name">
           </div>
           <div class="form-group">
-            <label for="inq-email">Email *</label>
-            <input type="email" id="inq-email" required placeholder="your@email.com">
+            <label for="inq-email" data-i18n="inquiry.form.email">Email *</label>
+            <input type="email" id="inq-email" required placeholder="your@email.com" data-i18n-placeholder="inquiry.placeholder.email">
           </div>
         </div>
         <div class="form-row">
           <div class="form-group">
-            <label for="inq-company">Company</label>
-            <input type="text" id="inq-company" placeholder="Company name">
+            <label for="inq-company" data-i18n="inquiry.form.company">Company</label>
+            <input type="text" id="inq-company" placeholder="Company name" data-i18n-placeholder="inquiry.placeholder.company">
           </div>
           <div class="form-group">
-            <label for="inq-phone">Phone</label>
-            <input type="tel" id="inq-phone" placeholder="+1 234 567 890">
+            <label for="inq-phone" data-i18n="inquiry.form.phone">Phone</label>
+            <input type="tel" id="inq-phone" placeholder="+1 234 567 890" data-i18n-placeholder="inquiry.placeholder.phone">
           </div>
         </div>
         <div class="form-group">
-          <label for="inq-message">Message *</label>
-          <textarea id="inq-message" required placeholder="Please describe your requirements, specifications needed, and any questions..."></textarea>
+          <label for="inq-message" data-i18n="inquiry.form.message">Message *</label>
+          <textarea id="inq-message" required placeholder="Please describe your requirements, specifications needed, and any questions..." data-i18n-placeholder="inquiry.placeholder.message"></textarea>
         </div>
-        <button type="submit" class="btn btn-primary" style="width:100%">Submit Inquiry</button>
+        <button type="submit" class="btn btn-primary" style="width:100%" data-i18n="inquiry.form.submit">Submit Inquiry</button>
       </form>
     </div>
   </div>
@@ -195,9 +196,9 @@
   <!-- CTA -->
   <section class="cta">
     <div class="container">
-      <h2>Need a Custom Solution?</h2>
-      <p>We offer OEM/ODM customization for all our products. Contact us to discuss your requirements.</p>
-      <a href="contact.html" class="btn btn-arrow">Request a Quote</a>
+      <h2 data-i18n="product.cta.title">Need a Custom Solution?</h2>
+      <p data-i18n="products.cta.desc">We offer OEM/ODM customization for all our products. Contact us to discuss your requirements.</p>
+      <a href="contact.html" class="btn btn-arrow" data-i18n="product.cta.btn">Request a Quote</a>
     </div>
   </section>
 
@@ -208,33 +209,33 @@
         <div class="footer-brand">
           <div class="logo">
             <img src="../flyboat-website/images/logo.jpg" alt="Flyboat Logo" class="logo-img">
-            <span>FLYBOAT<span class="logo-sub">Surge Protection Solutions</span></span>
+            <span><span data-i18n="logo.name">FLYBOAT</span><span class="logo-sub" data-i18n="logo.sub">Surge Protection Solutions</span></span>
           </div>
-          <p>Guiyang High-Tech YiGe Electronic Co., Ltd. Over 20 years of expertise in manufacturing metal oxide varistors and surge protective devices.</p>
+          <p data-i18n="footer.desc">Guiyang High-Tech YiGe Electronic Co., Ltd. Over 20 years of expertise in manufacturing metal oxide varistors and surge protective devices.</p>
         </div>
         <div class="footer-col">
-          <h4>Quick Links</h4>
+          <h4 data-i18n="footer.quicklinks">Quick Links</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Us</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="news.html">News</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="index.html" data-i18n="nav.home">Home</a></li>
+            <li><a href="about.html" data-i18n="footer.aboutus">About Us</a></li>
+            <li><a href="products.html" data-i18n="nav.products">Products</a></li>
+            <li><a href="news.html" data-i18n="nav.news">News</a></li>
+            <li><a href="blog.html" data-i18n="nav.blog">Blog</a></li>
+            <li><a href="contact.html" data-i18n="footer.contactus">Contact Us</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Products</h4>
+          <h4 data-i18n="footer.products">Products</h4>
           <ul>
-            <li><a href="products.html#mov-products">Metal Oxide Varistor</a></li>
-            <li><a href="products.html#dc-spd-products">DC SPD OEM</a></li>
-            <li><a href="products.html#ac-spd-products">AC SPD OEM</a></li>
-            <li><a href="products.html#module-products">TMOV</a></li>
-            <li><a href="products.html#accessory-products">SPD Accessories</a></li>
+            <li><a href="products.html#mov-products" data-i18n="footer.mov">Metal Oxide Varistor</a></li>
+            <li><a href="products.html#dc-spd-products" data-i18n="footer.dcspd">DC SPD OEM</a></li>
+            <li><a href="products.html#ac-spd-products" data-i18n="footer.acspd">AC SPD OEM</a></li>
+            <li><a href="products.html#module-products" data-i18n="footer.tmov">TMOV</a></li>
+            <li><a href="products.html#accessory-products" data-i18n="footer.spdacc">SPD Accessories</a></li>
           </ul>
         </div>
         <div class="footer-col">
-          <h4>Contact</h4>
+          <h4 data-i18n="footer.contact">Contact</h4>
           <div class="footer-contact-item">
             <span class="icon">&#9993;</span>
             <span>m18685129425_1@163.com</span>
@@ -245,118 +246,143 @@
           </div>
           <div class="footer-contact-item">
             <span class="icon">&#9873;</span>
-            <span>Shawen High-Tech Zone, Chuangji Street, Baiyun District, Guiyang City, Guizhou Province, China</span>
+            <span data-i18n="footer.address">Shawen High-Tech Zone, Chuangji Street, Baiyun District, Guiyang City, Guizhou Province, China</span>
           </div>
         </div>
       </div>
-      <div class="footer-bottom">
+      <div class="footer-bottom" data-i18n="footer.copyright">
         &copy; 2025 Guiyang High-Tech Yige Electronic Co., Ltd. All Rights Reserved.
       </div>
     </div>
   </footer>
 
   <script src="js/products-data.js"></script>
+  <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
   <script>
   document.addEventListener('DOMContentLoaded', function() {
     if (!window.PRODUCTS_DATA) return;
+    var lang = localStorage.getItem('flyboat-lang') || 'en';
+    var brandName = lang === 'zh' ? '益舸' : 'Flyboat';
+    function t(en, zh) { return lang === 'zh' && zh ? zh : en; }
 
     // ========== Category content data ==========
     var categoryContent = {
       'all': {
         whatIs: {
-          title: 'Comprehensive Surge Protection Solutions',
-          text: 'Flyboat offers a complete range of surge protection products including metal oxide varistors (MOV), DC and AC surge protective devices (SPD), thermally protected MOVs (TMOV), and accessories. All products are lead-free, manufactured to international standards, and available with full OEM/ODM customization support.'
+          title: t('Comprehensive Surge Protection Solutions', '全面的浪涌保护解决方案'),
+          text: t(
+            brandName + ' offers a complete range of surge protection products including metal oxide varistors (MOV), DC and AC surge protective devices (SPD), thermally protected MOVs (TMOV), and accessories. All products are lead-free, manufactured to international standards, and available with full OEM/ODM customization support.',
+            brandName + '提供全系列浪涌保护产品，包括金属氧化物压敏电阻（MOV）、直流和交流浪涌保护器（SPD）、热保护压敏电阻（TMOV）以及配件。所有产品均无铅环保，按国际标准制造，并支持OEM/ODM定制。'
+          )
         },
         advantages: null
       },
       'metal-oxide-varistor': {
         whatIs: {
-          title: 'What is Metal Oxide Varistor?',
-          text: 'Metal oxide varistors are voltage dependent, nonlinear devices which have an electrical behavior similar to back-to-back zener diodes. When exposed to high voltage transients, the varistor impedance changes many orders of magnitude from a near open circuit to a highly conductive level, clamping the transient voltage to a safe level and absorbing the potentially destructive energy to protect circuit components.'
+          title: t('What is Metal Oxide Varistor?', '什么是金属氧化物压敏电阻？'),
+          text: t(
+            'Metal oxide varistors are voltage dependent, nonlinear devices which have an electrical behavior similar to back-to-back zener diodes. When exposed to high voltage transients, the varistor impedance changes many orders of magnitude from a near open circuit to a highly conductive level, clamping the transient voltage to a safe level and absorbing the potentially destructive energy to protect circuit components.',
+            '金属氧化物压敏电阻是一种电压相关的非线性器件，其电气特性类似于背对背连接的齐纳二极管。当暴露于高压瞬态时，压敏电阻的阻抗会发生数个数量级的变化，从接近开路状态变为高导电状态，将瞬态电压箝位到安全水平，并吸收可能造成破坏的能量以保护电路元件。'
+          )
         },
         advantages: {
-          title: 'Advantages of Metal Oxide Varistor',
+          title: t('Advantages of Metal Oxide Varistor', '金属氧化物压敏电阻的优势'),
           items: [
-            { heading: 'Voltage Clamping', text: 'MOVs provide effective voltage clamping, diverting excess voltage away from sensitive electronic components and protecting them from transient overvoltages.' },
-            { heading: 'Fast Response Time', text: 'They demonstrate fast response time, reacting quickly to voltage spikes and limiting the duration of overvoltage conditions. Response time is less than 25ns.' },
-            { heading: 'Cost-Effective', text: 'MOVs are relatively simple and cost-effective components, making them ideal for large-scale applications in consumer electronics and industrial equipment.' },
-            { heading: 'Long Lifespan', text: 'They maintain a long lifespan during normal operation, providing reliable surge protection throughout the entire service life of the equipment.' }
+            { heading: t('Voltage Clamping', '电压箝位'), text: t('MOVs provide effective voltage clamping, diverting excess voltage away from sensitive electronic components and protecting them from transient overvoltages.', 'MOV提供有效的电压箝位，将过量电压从敏感电子元件引开，保护其免受瞬态过电压的影响。') },
+            { heading: t('Fast Response Time', '快速响应'), text: t('They demonstrate fast response time, reacting quickly to voltage spikes and limiting the duration of overvoltage conditions. Response time is less than 25ns.', '具有快速响应时间，能够迅速对电压尖峰做出反应，限制过电压持续时间。响应时间小于25ns。') },
+            { heading: t('Cost-Effective', '经济高效'), text: t('MOVs are relatively simple and cost-effective components, making them ideal for large-scale applications in consumer electronics and industrial equipment.', 'MOV是相对简单且经济高效的元件，非常适合消费电子和工业设备的大规模应用。') },
+            { heading: t('Long Lifespan', '使用寿命长'), text: t('They maintain a long lifespan during normal operation, providing reliable surge protection throughout the entire service life of the equipment.', '在正常工作条件下具有较长的使用寿命，在设备整个使用周期内提供可靠的浪涌保护。') }
           ]
         }
       },
       'spd': {
         whatIs: {
-          title: 'What is Surge Protective Device OEM?',
-          text: 'A Surge Protective Device OEM (Original Equipment Manufacturer) is a company that specializes in designing, manufacturing, and supplying surge protective devices for various applications and industries. These manufacturers create tailored surge protection solutions and help organizations access expertise in surge protection technology while ensuring compliance with industry standards.'
+          title: t('What is Surge Protective Device OEM?', '什么是浪涌保护器OEM？'),
+          text: t(
+            'A Surge Protective Device OEM (Original Equipment Manufacturer) is a company that specializes in designing, manufacturing, and supplying surge protective devices for various applications and industries. These manufacturers create tailored surge protection solutions and help organizations access expertise in surge protection technology while ensuring compliance with industry standards.',
+            '浪涌保护器OEM（原始设备制造商）是一家专门为各种应用和行业设计、制造和供应浪涌保护器的公司。这些制造商创建定制的浪涌保护解决方案，帮助组织获取浪涌保护技术方面的专业知识，同时确保符合行业标准。'
+          )
         },
         advantages: {
-          title: 'Advantages of Surge Protective Device OEM',
+          title: t('Advantages of Surge Protective Device OEM', '浪涌保护器OEM的优势'),
           items: [
-            { heading: 'Prevents Electrical Problems', text: 'Surge protectors prevent damage to electrical components, wiring, and equipment that could result from power surges and voltage spikes, ensuring continuous operation of critical systems.' },
-            { heading: 'Equipment Protection', text: 'The devices safeguard necessary systems, particularly high-power equipment that frequently cycles on and off, extending equipment lifespan and reducing maintenance costs.' },
-            { heading: 'Customization', text: 'SPD OEMs can provide tailored surge protection solutions to meet specific application requirements, ensuring optimal protection for sensitive equipment.' },
-            { heading: 'Technical Support', text: 'OEMs offer technical assistance, training, and guidance on installation, maintenance, and troubleshooting of surge protection devices.' }
+            { heading: t('Prevents Electrical Problems', '防止电气问题'), text: t('Surge protectors prevent damage to electrical components, wiring, and equipment that could result from power surges and voltage spikes, ensuring continuous operation of critical systems.', '浪涌保护器防止电力浪涌和电压尖峰对电气元件、线路和设备造成的损坏，确保关键系统的持续运行。') },
+            { heading: t('Equipment Protection', '设备保护'), text: t('The devices safeguard necessary systems, particularly high-power equipment that frequently cycles on and off, extending equipment lifespan and reducing maintenance costs.', '该设备保护重要系统，特别是频繁开关的大功率设备，延长设备使用寿命并降低维护成本。') },
+            { heading: t('Customization', '定制化'), text: t('SPD OEMs can provide tailored surge protection solutions to meet specific application requirements, ensuring optimal protection for sensitive equipment.', 'SPD OEM可以提供定制的浪涌保护解决方案，满足特定应用需求，确保敏感设备获得最佳保护。') },
+            { heading: t('Technical Support', '技术支持'), text: t('OEMs offer technical assistance, training, and guidance on installation, maintenance, and troubleshooting of surge protection devices.', 'OEM提供技术协助、培训以及浪涌保护器安装、维护和故障排除方面的指导。') }
           ]
         }
       },
       'dc-spd': {
         whatIs: {
-          title: 'What is DC SPD OEM?',
-          text: 'DC surge protective devices protect against lightning surge voltages in solar systems (PV power supply systems). These units install in parallel on DC networks and deliver common and different modes protection against electrical surges and spikes, whether caused directly or indirectly by lightning strikes. As an OEM manufacturer, Flyboat provides custom-branded DC SPD solutions tailored to your specifications.'
+          title: t('What is DC SPD OEM?', '什么是直流SPD OEM？'),
+          text: t(
+            'DC surge protective devices protect against lightning surge voltages in solar systems (PV power supply systems). These units install in parallel on DC networks and deliver common and different modes protection against electrical surges and spikes, whether caused directly or indirectly by lightning strikes. As an OEM manufacturer, ' + brandName + ' provides custom-branded DC SPD solutions tailored to your specifications.',
+            '直流浪涌保护器用于保护太阳能系统（光伏电源系统）免受雷电浪涌电压的影响。这些设备并联安装在直流网络上，提供共模和差模保护，防止由直接或间接雷击引起的电气浪涌和尖峰。作为OEM制造商，' + brandName + '提供根据您的规格定制的品牌直流SPD解决方案。'
+          )
         },
         advantages: {
-          title: 'Advantages of DC SPD OEM',
+          title: t('Advantages of DC SPD OEM', '直流SPD OEM的优势'),
           items: [
-            { heading: 'Electrical Problem Prevention', text: 'DC SPDs help prevent electrical problems while providing peace of mind for users by ensuring continuous operation of critical systems such as photovoltaic installations.' },
-            { heading: 'Extended Equipment Lifespan', text: 'Benefits include increased equipment lifespan, reduced maintenance costs, improved system reliability, and enhanced safety for DC electrical installations.' },
-            { heading: 'Customization Capability', text: 'As an OEM, Flyboat offers tailored surge protection solutions designed to meet specific application requirements, ensuring optimal protection for sensitive equipment.' },
-            { heading: 'Technical Support', text: 'Flyboat provides technical assistance, training, and guidance on installation, maintenance, and troubleshooting of DC surge protection devices.' }
+            { heading: t('Electrical Problem Prevention', '电气问题预防'), text: t('DC SPDs help prevent electrical problems while providing peace of mind for users by ensuring continuous operation of critical systems such as photovoltaic installations.', '直流SPD帮助预防电气问题，确保光伏安装等关键系统的持续运行，为用户提供安心保障。') },
+            { heading: t('Extended Equipment Lifespan', '延长设备寿命'), text: t('Benefits include increased equipment lifespan, reduced maintenance costs, improved system reliability, and enhanced safety for DC electrical installations.', '优势包括延长设备使用寿命、降低维护成本、提高系统可靠性以及增强直流电气装置的安全性。') },
+            { heading: t('Customization Capability', '定制能力'), text: t('As an OEM, ' + brandName + ' offers tailored surge protection solutions designed to meet specific application requirements, ensuring optimal protection for sensitive equipment.', '作为OEM，' + brandName + '提供定制的浪涌保护解决方案，满足特定应用需求，确保敏感设备获得最佳保护。') },
+            { heading: t('Technical Support', '技术支持'), text: t(brandName + ' provides technical assistance, training, and guidance on installation, maintenance, and troubleshooting of DC surge protection devices.', brandName + '提供直流浪涌保护器安装、维护和故障排除方面的技术协助、培训和指导。') }
           ]
         }
       },
       'ac-spd': {
         whatIs: {
-          title: 'What is AC SPD OEM?',
-          text: 'Equipment connected to alternating current (AC) networks can be easily subjected to a multitude of undesirable electrical phenomena. AC surge protection devices are engineered to safeguard electrical systems and equipment from surge events by restricting transient voltages and redirecting surge currents. These protectors address serious risks posed by voltage surges and power anomalies, making them essential for system safety.'
+          title: t('What is AC SPD OEM?', '什么是交流SPD OEM？'),
+          text: t(
+            'Equipment connected to alternating current (AC) networks can be easily subjected to a multitude of undesirable electrical phenomena. AC surge protection devices are engineered to safeguard electrical systems and equipment from surge events by restricting transient voltages and redirecting surge currents. These protectors address serious risks posed by voltage surges and power anomalies, making them essential for system safety.',
+            '连接到交流（AC）网络的设备很容易受到多种不良电气现象的影响。交流浪涌保护器经过精心设计，通过限制瞬态电压和重新引导浪涌电流来保护电气系统和设备免受浪涌事件的影响。这些保护器应对电压浪涌和电力异常带来的严重风险，是系统安全的必要保障。'
+          )
         },
         advantages: {
-          title: 'Advantages of AC SPD OEM',
+          title: t('Advantages of AC SPD OEM', '交流SPD OEM的优势'),
           items: [
-            { heading: 'Protecting Electronic Products & Appliances', text: 'AC surge protection devices rapidly interrupt high-voltage surges during surge events, preventing them from damaging connected electronic products and appliances. This extends equipment lifespan and reduces costly repairs.' },
-            { heading: 'Enhancing Electrical Safety', text: 'Surge events are a common cause of electrical system failures and fires. AC SPDs maintain electrical system stability, minimizing circuit damage and significantly reducing fire risks and other electrical hazards.' },
-            { heading: 'Technical Support', text: 'Flyboat AC SPD OEM offers technical assistance, training, and guidance on installation, maintenance, and troubleshooting of surge protection devices.' },
-            { heading: 'Customization', text: 'AC SPD OEM provides tailored surge protection solutions to meet specific application requirements, ensuring optimal protection for sensitive equipment in residential, commercial, and industrial settings.' }
+            { heading: t('Protecting Electronic Products & Appliances', '保护电子产品和电器'), text: t('AC surge protection devices rapidly interrupt high-voltage surges during surge events, preventing them from damaging connected electronic products and appliances. This extends equipment lifespan and reduces costly repairs.', '交流浪涌保护器在浪涌事件中快速中断高压浪涌，防止其损坏连接的电子产品和电器，延长设备使用寿命并减少昂贵的维修费用。') },
+            { heading: t('Enhancing Electrical Safety', '增强电气安全'), text: t('Surge events are a common cause of electrical system failures and fires. AC SPDs maintain electrical system stability, minimizing circuit damage and significantly reducing fire risks and other electrical hazards.', '浪涌事件是电气系统故障和火灾的常见原因。交流SPD维持电气系统稳定性，最大限度地减少电路损坏，显著降低火灾风险和其他电气危害。') },
+            { heading: t('Technical Support', '技术支持'), text: t(brandName + ' AC SPD OEM offers technical assistance, training, and guidance on installation, maintenance, and troubleshooting of surge protection devices.', brandName + '交流SPD OEM提供浪涌保护器安装、维护和故障排除方面的技术协助、培训和指导。') },
+            { heading: t('Customization', '定制化'), text: t('AC SPD OEM provides tailored surge protection solutions to meet specific application requirements, ensuring optimal protection for sensitive equipment in residential, commercial, and industrial settings.', '交流SPD OEM提供定制的浪涌保护解决方案，满足特定应用需求，确保住宅、商业和工业环境中敏感设备获得最佳保护。') }
           ]
         }
       },
       'protection-module': {
         whatIs: {
-          title: 'What is TMOV?',
-          text: 'Thermally protected metal oxide varistors (TMOV) combine a standard MOV element with an integrated thermal disconnect mechanism. When the MOV degrades due to sustained overvoltage or excessive energy absorption, the thermal element safely disconnects the varistor from the circuit, preventing potential fire hazards. TMOVs and surge protective modules are applicable for all common electrical power systems with modular designs for easy installation and replacement.'
+          title: t('What is TMOV?', '什么是TMOV？'),
+          text: t(
+            'Thermally protected metal oxide varistors (TMOV) combine a standard MOV element with an integrated thermal disconnect mechanism. When the MOV degrades due to sustained overvoltage or excessive energy absorption, the thermal element safely disconnects the varistor from the circuit, preventing potential fire hazards. TMOVs and surge protective modules are applicable for all common electrical power systems with modular designs for easy installation and replacement.',
+            '热保护金属氧化物压敏电阻（TMOV）将标准MOV元件与集成的热断开机构相结合。当MOV因持续过电压或过度能量吸收而老化时，热元件安全地将压敏电阻从电路中断开，防止潜在的火灾隐患。TMOV和浪涌保护模块适用于所有常见的电力系统，采用模块化设计，便于安装和更换。'
+          )
         },
         advantages: {
-          title: 'Advantages of TMOV & Surge Protective Modules',
+          title: t('Advantages of TMOV & Surge Protective Modules', 'TMOV和浪涌保护模块的优势'),
           items: [
-            { heading: 'Enhanced Safety', text: 'Built-in thermal disconnect mechanism automatically removes degraded varistors from the circuit, preventing overheating and potential fire hazards.' },
-            { heading: 'Modular Design', text: 'Easy plug-in installation and replacement without rewiring. Modular design allows for quick field maintenance and system upgrades.' },
-            { heading: 'Wide Compatibility', text: 'Applicable for all common electrical power systems including single-phase, three-phase, and specialized industrial power configurations.' },
-            { heading: 'Status Indication', text: 'Many modules feature visual status indicators showing protection status, allowing quick identification of units requiring replacement.' }
+            { heading: t('Enhanced Safety', '增强安全性'), text: t('Built-in thermal disconnect mechanism automatically removes degraded varistors from the circuit, preventing overheating and potential fire hazards.', '内置热断开机构自动将老化的压敏电阻从电路中移除，防止过热和潜在的火灾隐患。') },
+            { heading: t('Modular Design', '模块化设计'), text: t('Easy plug-in installation and replacement without rewiring. Modular design allows for quick field maintenance and system upgrades.', '易于插拔安装和更换，无需重新布线。模块化设计允许快速现场维护和系统升级。') },
+            { heading: t('Wide Compatibility', '广泛兼容性'), text: t('Applicable for all common electrical power systems including single-phase, three-phase, and specialized industrial power configurations.', '适用于所有常见电力系统，包括单相、三相和专用工业电力配置。') },
+            { heading: t('Status Indication', '状态指示'), text: t('Many modules feature visual status indicators showing protection status, allowing quick identification of units requiring replacement.', '许多模块具有可视状态指示器，显示保护状态，可快速识别需要更换的单元。') }
           ]
         }
       },
       'accessories-for-spds': {
         whatIs: {
-          title: 'What are Accessories for SPDs?',
-          text: 'Surge protective devices (SPDs) are items of equipment whose key components can be varistors, suppressor diodes, gas discharge tubes (GDTs), or spark gaps. Accessories for SPDs include backup protection devices, remote signaling modules, mounting brackets, and other complementary components essential for complete surge protection installations. These accessories ensure proper installation, monitoring, and maintenance of SPD systems.'
+          title: t('What are Accessories for SPDs?', '什么是SPD配件？'),
+          text: t(
+            'Surge protective devices (SPDs) are items of equipment whose key components can be varistors, suppressor diodes, gas discharge tubes (GDTs), or spark gaps. Accessories for SPDs include backup protection devices, remote signaling modules, mounting brackets, and other complementary components essential for complete surge protection installations. These accessories ensure proper installation, monitoring, and maintenance of SPD systems.',
+            '浪涌保护器（SPD）是一类设备，其核心元件可以是压敏电阻、抑制二极管、气体放电管（GDT）或放电间隙。SPD配件包括后备保护装置、远程信号模块、安装支架以及完整浪涌保护安装所需的其他辅助组件。这些配件确保SPD系统的正确安装、监控和维护。'
+          )
         },
         advantages: {
-          title: 'Advantages of SPD Accessories',
+          title: t('Advantages of SPD Accessories', 'SPD配件的优势'),
           items: [
-            { heading: 'Voltage Regulation', text: 'Accessories help stabilize power supply by working together with SPDs to divert excess voltage away from connected equipment during surge events.' },
-            { heading: 'Equipment Protection', text: 'They safeguard sensitive electronics by ensuring proper SPD installation and operation, absorbing or redirecting voltage spikes that could cause damage.' },
-            { heading: 'Fire Prevention', text: 'By ensuring proper SPD functioning and backup protection, accessories help reduce the risk of fire caused by excessive voltage reaching equipment.' },
-            { heading: 'Easy Installation', text: 'Designed for simple setup and wide compatibility with standard electrical systems in homes, offices, and industrial facilities.' }
+            { heading: t('Voltage Regulation', '电压调节'), text: t('Accessories help stabilize power supply by working together with SPDs to divert excess voltage away from connected equipment during surge events.', '配件与SPD协同工作，在浪涌事件中将过量电压从连接设备引开，帮助稳定电源。') },
+            { heading: t('Equipment Protection', '设备保护'), text: t('They safeguard sensitive electronics by ensuring proper SPD installation and operation, absorbing or redirecting voltage spikes that could cause damage.', '通过确保SPD的正确安装和运行，吸收或重新引导可能造成损坏的电压尖峰，保护敏感电子设备。') },
+            { heading: t('Fire Prevention', '火灾预防'), text: t('By ensuring proper SPD functioning and backup protection, accessories help reduce the risk of fire caused by excessive voltage reaching equipment.', '通过确保SPD的正常运行和后备保护，配件有助于减少因过高电压到达设备而引起火灾的风险。') },
+            { heading: t('Easy Installation', '易于安装'), text: t('Designed for simple setup and wide compatibility with standard electrical systems in homes, offices, and industrial facilities.', '设计简便，与家庭、办公室和工业设施中的标准电气系统广泛兼容。') }
           ]
         }
       }
@@ -428,9 +454,15 @@
       // Update grid title & count
       countEl.textContent = products.length;
       if (category === 'all') {
-        gridTitleEl.textContent = 'All Products';
+        gridTitleEl.textContent = t('All Products', '所有产品');
       } else {
-        gridTitleEl.textContent = (content.whatIs ? content.whatIs.title.replace('What is ', '').replace('What are ', '').replace('?', '') : 'Products');
+        var titleText = content.whatIs ? content.whatIs.title : t('Products', '产品');
+        if (lang !== 'zh') {
+          titleText = titleText.replace('What is ', '').replace('What are ', '').replace('?', '');
+        } else {
+          titleText = titleText.replace('什么是', '').replace('？', '');
+        }
+        gridTitleEl.textContent = titleText;
       }
 
       // Update active sidebar link
@@ -445,17 +477,19 @@
       var html = '';
       products.forEach(function(p) {
         var checked = inquiryCart.indexOf(p.id) !== -1;
+        var pName = t(p.name, p.nameZh);
+        var pDesc = t(p.shortDesc, p.shortDescZh);
         html += '<div class="product-grid-card' + (checked ? ' in-cart' : '') + '">';
         html += '<a href="product.html?id=' + p.id + '" class="product-grid-card-link">';
-        html += '<div class="product-grid-card-img"><img src="' + p.image + '" alt="' + p.name + '"></div>';
+        html += '<div class="product-grid-card-img"><img src="' + p.image + '" alt="' + pName + '"></div>';
         html += '<div class="product-grid-card-body">';
-        html += '<h4>' + p.name + '</h4>';
-        html += '<p>' + p.shortDesc.substring(0, 100) + (p.shortDesc.length > 100 ? '...' : '') + '</p>';
+        html += '<h4>' + pName + '</h4>';
+        html += '<p>' + pDesc.substring(0, 100) + (pDesc.length > 100 ? '...' : '') + '</p>';
         html += '</div>';
         html += '</a>';
         html += '<label class="inquiry-checkbox-label">';
         html += '<input type="checkbox" class="inquiry-checkbox" data-id="' + p.id + '"' + (checked ? ' checked' : '') + '>';
-        html += '<span class="inquiry-checkbox-text">Add to Inquiry</span>';
+        html += '<span class="inquiry-checkbox-text">' + t('Add to Inquiry', '加入询问列表') + '</span>';
         html += '</label>';
         html += '</div>';
       });
@@ -490,7 +524,7 @@
       cartCollapsed = !cartCollapsed;
       cartBodyEl.style.display = cartCollapsed ? 'none' : '';
       this.innerHTML = cartCollapsed ? '&#9650;' : '&#9660;';
-      this.title = cartCollapsed ? 'Expand' : 'Collapse';
+      this.title = cartCollapsed ? t('Expand', '展开') : t('Collapse', '收起');
     });
 
     function updateCart() {
@@ -504,10 +538,11 @@
       inquiryCart.forEach(function(id) {
         var p = window.PRODUCTS_DATA[id];
         if (!p) return;
+        var pName = t(p.name, p.nameZh);
         html += '<li class="inquiry-cart-item">';
-        html += '<img src="' + p.image + '" alt="' + p.name + '">';
-        html += '<span class="inquiry-cart-item-name">' + p.name + '</span>';
-        html += '<button class="inquiry-cart-item-remove" onclick="removeFromCart(\'' + id + '\')" title="Remove">&times;</button>';
+        html += '<img src="' + p.image + '" alt="' + pName + '">';
+        html += '<span class="inquiry-cart-item-name">' + pName + '</span>';
+        html += '<button class="inquiry-cart-item-remove" onclick="removeFromCart(\'' + id + '\')" title="' + t('Remove', '移除') + '">&times;</button>';
         html += '</li>';
       });
       cartListEl.innerHTML = html;
@@ -536,11 +571,11 @@
     window.openInquiryFromCart = function() {
       if (inquiryCart.length === 0) return;
       // Build product list for modal
-      var html = '<p class="modal-inquiry-label">Products in your inquiry:</p><ul class="modal-inquiry-products">';
+      var html = '<p class="modal-inquiry-label">' + t('Products in your inquiry:', '您询盘中的产品：') + '</p><ul class="modal-inquiry-products">';
       inquiryCart.forEach(function(id) {
         var p = window.PRODUCTS_DATA[id];
         if (!p) return;
-        html += '<li>' + p.name + '</li>';
+        html += '<li>' + t(p.name, p.nameZh) + '</li>';
       });
       html += '</ul>';
       document.getElementById('modal-product-list').innerHTML = html;
@@ -582,7 +617,8 @@
   }
   function submitInquiry(e) {
     e.preventDefault();
-    alert('Thank you for your inquiry. Our team will contact you within 24 hours.');
+    var lang = localStorage.getItem('flyboat-lang') || 'en';
+    alert(lang === 'zh' ? '感谢您的询盘，我们的团队将在24小时内与您联系。' : 'Thank you for your inquiry. Our team will contact you within 24 hours.');
     closeInquiry();
     document.getElementById('inquiry-form').reset();
     if (typeof clearCart === 'function') clearCart();

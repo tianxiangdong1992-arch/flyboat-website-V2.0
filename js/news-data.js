@@ -2,235 +2,339 @@ window.NEWS_DATA = [
   {
     id: "what-is-mov",
     title: "What Is MOV",
+    titleZh: "什么是MOV（金属氧化物压敏电阻）",
     date: "2025-08-05",
     excerpt: "Metal Oxide Varistors (MOVs) are a type of nonlinear resistor component primarily composed of zinc oxide (ZnO). Learn about their concept, operating principle, and role in circuit protection.",
+    excerptZh: "MOV（金属氧化物压敏电阻）是一种以氧化锌（ZnO）为主要成分的非线性电阻元件。了解其概念、工作原理及在电路保护中的作用。",
     content: "<h3>I. Concept of MOV (Metal-Oxide Varistor)</h3><p>Metal Oxide Varistors (MOVs) are a type of nonlinear resistor component primarily composed of zinc oxide (ZnO). They are fabricated using typical electronic ceramic processes, incorporating various metal oxides to form polycrystalline semiconductor ceramic components. The resistance of a MOV varies nonlinearly with changes in voltage, exhibiting symmetrical I-V characteristics. This characteristic makes MOVs play a significant role in circuit protection.</p><h3>II. Operating Principle of Varistor</h3><p>The working principle of a varistor is based on its nonlinear volt-ampere characteristics. Below the threshold voltage, the resistance of the varistor is very high, and almost no current flows through it. However, when the voltage exceeds the threshold voltage, the resistance drops sharply, allowing a large current to be discharged. This characteristic enables the varistor to respond quickly to voltage changes, preventing electronic devices from being damaged by voltage overload and overvoltage by suppressing and limiting excessively high voltages.</p><p>Specifically, when the voltage in the circuit exceeds the operating voltage range of the varistor, it will automatically change to a lower resistance value, guiding the excessively high voltage to the ground, thereby protecting the electronic components of the subsequent circuit from being damaged by the excessively high voltage. When the voltage in the circuit returns to the normal range, the varistor will return to a higher resistance value to maintain the normal operation of the circuit.</p><h3>III. The Role of Varistors in Circuits</h3><p>Varistors are primarily used in circuits for power overvoltage protection and voltage stabilization. They are typically used in parallel within the circuit. When there is a sharp change in voltage across the varistor, it short-circuits, causing the current fuse to melt and thus providing protection. Varistors can absorb abnormal voltages, such as lightning surges, protecting electronic devices from damage.</p>",
+    contentZh: "<h3>一、MOV（金属氧化物压敏电阻）的概念</h3><p>MOV（金属氧化物压敏电阻）是一种以氧化锌（ZnO）为主要成分的非线性电阻元件。它采用典型的电子陶瓷工艺制造，掺入多种金属氧化物，形成多晶半导体陶瓷元件。压敏电阻的阻值随电压变化呈非线性变化，具有对称的I-V特性。这一特性使压敏电阻在电路保护中发挥着重要作用。</p><h3>二、压敏电阻的工作原理</h3><p>压敏电阻的工作原理基于其非线性伏安特性。在阈值电压以下，压敏电阻的阻值非常高，几乎没有电流流过。然而，当电压超过阈值电压时，阻值急剧下降，允许大电流通过放电。这一特性使压敏电阻能够快速响应电压变化，通过抑制和限制过高电压，防止电子设备因电压过载和过电压而损坏。</p><p>具体而言，当电路中的电压超过压敏电阻的工作电压范围时，它会自动变为较低的阻值，将过高的电压引导至接地端，从而保护后续电路的电子元件免受过高电压的损坏。当电路中的电压恢复到正常范围时，压敏电阻将恢复到较高的阻值，以维持电路的正常运行。</p><h3>三、压敏电阻在电路中的作用</h3><p>压敏电阻主要用于电路中的电源过电压保护和稳压。它们通常以并联方式接入电路。当压敏电阻两端的电压发生急剧变化时，它会短路，导致电流熔断器熔断，从而起到保护作用。压敏电阻可以吸收异常电压，如雷击浪涌，保护电子设备免受损坏。</p>",
     image: "../flyboat-website/images/news/what-is-mov.webp",
-    category: "News"
+    category: "News",
+    categoryZh: "新闻"
   },
   {
     id: "hannover-messe-2025",
     title: "Hannover Messe 2025",
+    titleZh: "2025年汉诺威工业博览会",
     date: "2025-03-31",
     excerpt: "Celebrating the success of Hannover Messe 2025! Flyboat showcased cutting-edge surge protection solutions at Hall 12, Booth D60-5.",
+    excerptZh: "热烈祝贺2025年汉诺威工业博览会圆满成功！益舸在12号馆D60-5展位展示了前沿浪涌保护解决方案。",
     content: "<p>We warmly congratulate Hannover Messe 2025 on another outstanding edition! As a leading MOV (Metal Oxide Varistor) manufacturer, we are excited to showcase our cutting-edge surge protection solutions at <strong>Hall 12, Booth D60-5</strong>. Visitors are welcome to explore our innovations and discuss how we can meet your specific needs.</p><h3>Key Advantages of Our MOV Technology:</h3><p><strong>Tailored Solutions</strong> &ndash; We specialize in customized MOV designs to perfectly match your voltage, current, and application requirements.</p><p><strong>Stringent Certification</strong> &ndash; All our products are rigorously tested and certified by <strong>UL &amp; TUV</strong>, ensuring top-tier safety and reliability.</p><p><strong>Patented Thermal Management</strong> &ndash; Our proprietary <strong>Centralized Heat Spot Technology</strong> optimizes tripping efficiency by concentrating thermal energy at the chip&rsquo;s core.</p><p><strong>Smart Automated Production</strong> &ndash; With <strong>fully automated manufacturing</strong>, we guarantee superior cost efficiency, exceptional consistency, and premium quality control.</p><p>Join us at <strong>Hall 12, D60-5</strong> to experience our latest MOV innovations firsthand. Let&rsquo;s build a safer, more efficient future together!</p>",
+    contentZh: "<p>热烈祝贺2025年汉诺威工业博览会再次圆满举办！作为领先的MOV（金属氧化物压敏电阻）制造商，益舸很荣幸在<strong>12号馆D60-5展位</strong>展示我们前沿的浪涌保护解决方案。欢迎各位参观者前来了解我们的创新产品，共同探讨如何满足您的具体需求。</p><h3>我们MOV技术的核心优势：</h3><p><strong>定制化解决方案</strong> &ndash; 我们专注于定制化压敏电阻设计，完美匹配您的电压、电流和应用需求。</p><p><strong>严格认证</strong> &ndash; 所有产品均经过<strong>UL和TUV</strong>严格测试和认证，确保最高等级的安全性和可靠性。</p><p><strong>专利热管理技术</strong> &ndash; 我们的专有<strong>集中热点技术</strong>通过将热能集中在芯片核心区域来优化脱扣效率。</p><p><strong>智能自动化生产</strong> &ndash; 凭借<strong>全自动化制造</strong>，我们保证卓越的成本效益、出色的一致性和优质的品控。</p><p>欢迎莅临<strong>12号馆D60-5展位</strong>，亲身体验我们最新的压敏电阻创新产品。让我们携手共建更安全、更高效的未来！</p>",
     image: "../flyboat-website/images/news/hannover-messe-2025.jpg",
-    category: "Event"
+    category: "Event",
+    categoryZh: "活动"
   },
   {
     id: "mov-rd-cost-reductions",
     title: "MOV's R&D Cost Reductions",
+    titleZh: "压敏电阻研发降本",
     date: "2024-03-01",
     excerpt: "Continuously optimizing MOV formulas and matching technology to reduce costs while maintaining quality and performance standards.",
+    excerptZh: "持续优化压敏电阻配方及匹配技术，在保持质量和性能标准的同时降低成本。",
     content: "<h3>Our Goal:</h3><ol><li>Continuously optimizing of class I MOV formula and its matching technology. Current status: 34S431, VV gradient = 95V/mm, T1=7kA+T2=20kA. R&amp;D objectives: 1. Improve T1 to &ge;8kA, 2. Raise VV gradient to 110V/mm without T1 impulse current degradation.</li><li>Automate: TOV screening and wrapping adhesive tape will be automated in 2024.</li><li>New requirements: T1+T2, (85&deg;C &amp; 85%RH+UDC)*1000h, -40&deg;C~105&deg;C &ge;500 cycles.</li><li>Some wind power requires MOV which VV&ge;4000V, It goes beyond the scope of IEC61643-331. How about the standard?</li></ol><h3>Reduce Costs:</h3><ol><li>Volume reduction: a. Thickness reduction, its influence on 8/20 capability is slight, but it will reduce the TOV tolerance, and has security risks. Don&rsquo;t approve. b. Area reduction, it will increase the 8/20 residual voltage slightly, but has little influence on TOV tolerance. Approve. We need to notice that because the thermal energy converted by impulse current in operating duty test is constant, specific heat capacities of different MOV are nearly the same, so the less the MOV&rsquo;s mass, the higher the temperature rises. Excessive temperature rise will disconnect SPD. So even the change rate of VV is OK, volume reduction is still restricted by temperature rise. Now we can use 30S instead of 34S, the cost may reduce by 5-8%. The residual voltage at In will increase by ~10%.</li><li>Instead of silver electrode printing by copper electrode printing: The production process are more complex, demand better equipment and more strict storage condition. We estimated the benefits is very limited and are watching and waiting.</li></ol>",
+    contentZh: "<h3>我们的目标：</h3><ol><li>持续优化I类压敏电阻配方及其匹配技术。当前状态：34S431，VV梯度=95V/mm，T1=7kA+T2=20kA。研发目标：1. 提高T1至&ge;8kA；2. 在不降低T1冲击电流的前提下，将VV梯度提高至110V/mm。</li><li>自动化：TOV筛选和缠绕胶带将于2024年实现自动化。</li><li>新要求：T1+T2，(85&deg;C &amp; 85%RH+UDC)*1000h，-40&deg;C~105&deg;C &ge;500次循环。</li><li>部分风电项目要求VV&ge;4000V的压敏电阻，这已超出IEC61643-331的范围，标准如何应对？</li></ol><h3>降本措施：</h3><ol><li>体积缩减：a. 减薄厚度，对8/20能力影响较小，但会降低TOV耐受能力，存在安全风险，不予批准。b. 减小面积，会略微增加8/20残压，但对TOV耐受能力影响较小，予以批准。需要注意的是，由于操作负载试验中冲击电流转化的热能是恒定的，不同压敏电阻的比热容几乎相同，因此压敏电阻质量越小，温升越高。过高的温升会导致SPD（浪涌保护器）断开。因此即使VV变化率合格，体积缩减仍受限于温升。目前可用30S替代34S，成本可降低约5-8%，In处的残压将增加约10%。</li><li>用铜电极印刷替代银电极印刷：生产工艺更复杂，对设备要求更高，存储条件更严格。我们评估收益非常有限，目前持观望态度。</li></ol>",
     image: "../flyboat-website/images/news/mov-rd-cost-reductions.jpg",
-    category: "R&D"
+    category: "R&D",
+    categoryZh: "研发"
   },
   {
     id: "our-key-technologies",
     title: "Our Key Technologies",
+    titleZh: "我们的核心技术",
     date: "2024-04-02",
     excerpt: "Discover Flyboat's proprietary technological innovations including edge strengthening, TOV screening, DC MOV for PV, and high reliable SPD disconnector.",
+    excerptZh: "了解益舸的专有技术创新，包括边缘加固、TOV筛选、光伏用直流压敏电阻及高可靠性浪涌保护器脱扣装置。",
     content: "<p><strong>Key technology 1:</strong> MOV&rsquo;s edge strengthening. This technology moves the MOV&rsquo;s puncture point by TOV to the middle area covered with copper electrode sheet. It enhances the TOV tolerance of MOV, increases the breakdown time, and transfers the heat of puncture point to disconnector more quickly by copper sheet, so it helps SPD to disconnect more quickly. It has a significant improvement on the safety performance of SPD under TOV.</p><p><strong>Key technology 2:</strong> TOV screening. Each of Flyboat&rsquo;s MOV is screened by TOV(AC). The screening rate is about 50-100ppm. This can ensure the SPD&rsquo;s safety under the load voltage not more than 1.35UC.</p><p><strong>Key technology 3:</strong> DC MOV for PV. Our DC MOV formula and its matching technology increase the MOV&rsquo;s stability greatly under ageing test applying UDC load even at 125&deg;C.</p><p><strong>Typical:</strong> 22SK821, In&ge;10kA, Ur/10kA &le;1800V, Imax=25kA, applied UDC=670V at 125&deg;C for 1000h, the change rate of U1mA will be: -5%&le;(&Delta;U1mA/U1mA)max&le;10%</p><p><strong>Key technology 4:</strong> A type of high reliable SPD disconnector based on MOV2. It&rsquo;s our company&rsquo;s open patent, we just produce MOV for it.</p><p><strong>Technical features:</strong></p><ol><li>The MOV&rsquo;s breakdown point is overlapped with the disconnector&rsquo;s disconnect point, the heat conduction is the shortest distance.</li><li>Add an iron sheet (1mm thick) between the MOV surface and the copper electrode sheet. When the MOV ceramic is breakdown by TOV, the iron sheet will cover the flaming for a short time. This can gain more time for SPD&rsquo;s disconnector to disconnect to prevent fire.</li></ol><p><strong>Rotary disconnector:</strong></p><ol><li>After disconnect, the separation distance between disconnector and MOV is wider. This will help to arc extinct. So the safety will be enhanced.</li><li>Rotary disconnector does not occupy more thickness, so the total thickness can be thinner.</li></ol><div class=\"article-images\"><img src=\"../flyboat-website/images/news/key-tech-1.png\" alt=\"MOV Edge Strengthening Technology\"><img src=\"../flyboat-website/images/news/key-tech-2.png\" alt=\"TOV Screening Process\"><img src=\"../flyboat-website/images/news/key-tech-3.png\" alt=\"DC MOV Technology\"><img src=\"../flyboat-website/images/news/key-tech-4.png\" alt=\"SPD Disconnector\"><img src=\"../flyboat-website/images/news/key-tech-5.png\" alt=\"Technical Diagram 1\"><img src=\"../flyboat-website/images/news/key-tech-6.png\" alt=\"Technical Diagram 2\"><img src=\"../flyboat-website/images/news/key-tech-7.png\" alt=\"Rotary Disconnector\"></div>",
+    contentZh: "<p><strong>核心技术一：</strong>压敏电阻边缘加固技术。该技术将压敏电阻在TOV下的击穿点移至铜电极片覆盖的中间区域。它增强了压敏电阻的TOV耐受能力，延长了击穿时间，并通过铜片更快地将击穿点的热量传导至脱扣装置，从而帮助SPD（浪涌保护器）更快断开。该技术显著提升了浪涌保护器在TOV下的安全性能。</p><p><strong>核心技术二：</strong>TOV筛选。益舸的每片压敏电阻均经过TOV(AC)筛选，筛选率约为50-100ppm。这确保了浪涌保护器在负载电压不超过1.35UC时的安全性。</p><p><strong>核心技术三：</strong>光伏用直流压敏电阻。我们的直流压敏电阻配方及其匹配技术大幅提升了压敏电阻在施加UDC负载老化试验中的稳定性，即使在125&deg;C条件下也表现出色。</p><p><strong>典型参数：</strong>22SK821，In&ge;10kA，Ur/10kA &le;1800V，Imax=25kA，在125&deg;C下施加UDC=670V持续1000h，U1mA的变化率为：-5%&le;(&Delta;U1mA/U1mA)max&le;10%</p><p><strong>核心技术四：</strong>一种基于MOV2的高可靠性浪涌保护器脱扣装置。这是我公司的公开专利，我们仅生产其中的压敏电阻。</p><p><strong>技术特点：</strong></p><ol><li>压敏电阻的击穿点与脱扣装置的断开点重合，热传导距离最短。</li><li>在压敏电阻表面与铜电极片之间增加一片铁片（厚1mm）。当压敏电阻陶瓷被TOV击穿时，铁片会短暂覆盖火焰。这为浪涌保护器脱扣装置的断开争取了更多时间，防止起火。</li></ol><p><strong>旋转式脱扣装置：</strong></p><ol><li>断开后，脱扣装置与压敏电阻之间的分离距离更大，有利于灭弧，从而增强安全性。</li><li>旋转式脱扣装置不占用额外厚度，因此总厚度可以更薄。</li></ol><div class=\"article-images\"><img src=\"../flyboat-website/images/news/key-tech-1.png\" alt=\"压敏电阻边缘加固技术\"><img src=\"../flyboat-website/images/news/key-tech-2.png\" alt=\"TOV筛选工艺\"><img src=\"../flyboat-website/images/news/key-tech-3.png\" alt=\"直流压敏电阻技术\"><img src=\"../flyboat-website/images/news/key-tech-4.png\" alt=\"浪涌保护器脱扣装置\"><img src=\"../flyboat-website/images/news/key-tech-5.png\" alt=\"技术图示1\"><img src=\"../flyboat-website/images/news/key-tech-6.png\" alt=\"技术图示2\"><img src=\"../flyboat-website/images/news/key-tech-7.png\" alt=\"旋转式脱扣装置\"></div>",
     image: "../flyboat-website/images/news/our-key-technologies.png",
-    category: "Technology"
+    category: "Technology",
+    categoryZh: "技术"
   },
   {
     id: "aging-test-dc-voltage",
     title: "Aging Test Results Under DC Voltage Of General MOV And DC MOV",
+    titleZh: "普通压敏电阻与直流压敏电阻在直流电压下的老化测试结果",
     date: "2023-04-16",
     excerpt: "Comprehensive test data comparing General MOV with DC MOV components under various DC voltage aging conditions at temperatures from 85\u00B0C to 125\u00B0C.",
+    excerptZh: "全面的测试数据对比了普通压敏电阻与直流压敏电阻在85\u00B0C至125\u00B0C不同直流电压老化条件下的性能表现。",
     content: "<p>This article presents comprehensive test data comparing General Metal Oxide Varistors (MOV) with DC MOV components under various DC voltage aging conditions.</p><h3>Test Conditions and Results</h3><p>The document contains multiple data tables showing performance metrics across different testing scenarios:</p><p><strong>Test Parameters Include:</strong></p><ul><li>Temperature ranges: 85&deg;C to 125&deg;C</li><li>DC voltage loads: 505VDC and 670VDC</li><li>Duration periods: 200 hours to 1000 hours</li><li>Humidity conditions: Up to 85% relative humidity</li></ul><p><strong>Measured Metrics:</strong></p><ul><li>Varistor voltage (V)</li><li>Leakage current (&mu;A)</li><li>Post-test voltage change rates (positive and negative directions)</li></ul><h3>Key Findings</h3><p>Data demonstrates that DC MOV components consistently maintain more stable voltage characteristics under extended DC loading compared to General MOV units. General MOV devices showed voltage degradation ranging from -3.84% to -78.1% under sustained DC stress, while DC MOV variants exhibited changes between -2.21% and +13.70%.</p><p><em>Note: The initial and post-test values of the above tests are obtained at room temperature, and the leakage current is the value obtained at 75% U1mA.</em></p>",
+    contentZh: "<p>本文提供了普通金属氧化物压敏电阻（MOV）与直流压敏电阻在不同直流电压老化条件下的全面测试数据对比。</p><h3>测试条件与结果</h3><p>文件包含多组数据表格，展示了不同测试场景下的性能指标：</p><p><strong>测试参数包括：</strong></p><ul><li>温度范围：85&deg;C至125&deg;C</li><li>直流电压负载：505VDC和670VDC</li><li>持续时间：200小时至1000小时</li><li>湿度条件：最高85%相对湿度</li></ul><p><strong>测量指标：</strong></p><ul><li>压敏电压 (V)</li><li>漏电流 (&mu;A)</li><li>测试后电压变化率（正向和负向）</li></ul><h3>主要发现</h3><p>数据表明，与普通压敏电阻相比，直流压敏电阻在长时间直流负载下始终保持更稳定的电压特性。普通压敏电阻在持续直流应力下的电压衰减范围为-3.84%至-78.1%，而直流压敏电阻的变化范围为-2.21%至+13.70%。</p><p><em>注：以上测试的初始值和测试后值均在室温下获得，漏电流为75% U1mA下的测量值。</em></p>",
     image: "../flyboat-website/images/news/aging-test-dc-voltage.png",
-    category: "Research"
+    category: "Research",
+    categoryZh: "研究"
   },
   {
     id: "hannover-messe-2023",
     title: "We Decided To Join Hannover Messe As Exhibitor",
+    titleZh: "我们决定参加汉诺威工业博览会",
     date: "2023-04-11",
     excerpt: "Flyboat joined the Hannover Messe as an exhibitor, connecting with international partners and presenting our comprehensive surge protection product lineup.",
+    excerptZh: "益舸以参展商身份参加汉诺威工业博览会，与国际合作伙伴建立联系，展示我们全面的浪涌保护产品系列。",
     content: "<p>Flyboat is excited to announce our decision to participate in the prestigious Hannover Messe as an exhibitor. This marks an important milestone in our international expansion strategy.</p><p>As one of the world&rsquo;s largest industrial trade fairs, Hannover Messe provides the perfect platform for us to showcase our comprehensive range of metal oxide varistors and surge protective devices to a global audience.</p><p>We look forward to connecting with potential partners, distributors, and customers from around the world, and demonstrating our commitment to delivering high-quality surge protection solutions.</p>",
+    contentZh: "<p>益舸很高兴宣布我们决定以参展商身份参加享有盛誉的汉诺威工业博览会。这标志着我们国际化拓展战略的重要里程碑。</p><p>作为全球最大的工业展会之一，汉诺威工业博览会为我们提供了绝佳的平台，向全球客户展示我们全系列的金属氧化物压敏电阻和浪涌保护器产品。</p><p>我们期待与来自世界各地的潜在合作伙伴、经销商和客户建立联系，展示我们致力于提供高品质浪涌保护解决方案的承诺。</p>",
     image: "../flyboat-website/images/news/hannover-messe-2023.png",
-    category: "Event"
+    category: "Event",
+    categoryZh: "活动"
   },
   {
     id: "basic-performance-of-varistor",
     title: "Basic Performance Of Varistor",
+    titleZh: "压敏电阻的基本性能",
     date: "2021-09-22",
     excerpt: "Impact resistance characteristics - the varistor itself should be able to withstand the specified impact current, impact energy, and average power.",
+    excerptZh: "冲击耐受特性——压敏电阻本身应能承受规定的冲击电流、冲击能量和平均功率。",
     content: "<p>(1) Protection characteristics. When the impact strength of the impact source (or the impact current Isp=Usp/Zs) does not exceed the specified value, the limit voltage of the varistor is not allowed to exceed the impulse withstand voltage (Urp) that the protected object can withstand.</p><p>(2) Impact resistance characteristics, that is, the varistor itself should be able to withstand the specified impact current, impact energy, and average power when multiple impacts occur successively.</p>",
+    contentZh: "<p>(1) 保护特性。当冲击源的冲击强度（或冲击电流Isp=Usp/Zs）不超过规定值时，压敏电阻的限制电压不允许超过被保护对象所能承受的脉冲耐受电压（Urp）。</p><p>(2) 冲击耐受特性，即压敏电阻本身应能在多次连续冲击时承受规定的冲击电流、冲击能量和平均功率。</p>",
     image: "../flyboat-website/images/news/basic-performance-varistor.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "varistor-function",
     title: "Varistor Function",
+    titleZh: "压敏电阻的功能",
     date: "2021-08-19",
     excerpt: "DC high-voltage and small-current voltage-stabilizing components, whose stable voltage can be several thousand volts, which cannot be achieved by silicon voltage regulator tubes.",
+    excerptZh: "直流高压小电流稳压元件，其稳定电压可达数千伏，这是硅稳压管无法实现的。",
     content: "<p>Varistor is mainly used for transient overvoltage protection, but its volt-ampere characteristics similar to semiconductor Zener tube also enables it to have a variety of circuit component functions, for example, it can be used as:</p><p>(1) DC high-voltage and small-current voltage-stabilizing components, whose stable voltage can be as high as several thousand volts, which cannot be achieved by silicon voltage regulator tubes.</p><p>(2) Voltage fluctuation detection element.</p><p>(3) DC level shift components.</p><p>(4) Pressure equalizing components.</p><p>(5) Fluorescence activation element.</p>",
+    contentZh: "<p>压敏电阻主要用于瞬态过电压保护，但其类似于半导体稳压管的伏安特性也使其具有多种电路元件功能，例如可用作：</p><p>(1) 直流高压小电流稳压元件，其稳定电压可高达数千伏，这是硅稳压管无法实现的。</p><p>(2) 电压波动检测元件。</p><p>(3) 直流电平移位元件。</p><p>(4) 均压元件。</p><p>(5) 荧光启辉元件。</p>",
     image: "../flyboat-website/images/news/varistor-function.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "high-energy-varistor",
     title: "High Energy Varistor",
+    titleZh: "高能型压敏电阻",
     date: "2021-07-29",
     excerpt: "High-energy type refers to a varistor used to absorb the magnetic energy in large inductance coils such as generator excitation coils.",
+    excerptZh: "高能型是指用于吸收发电机励磁线圈等大电感线圈中磁能的压敏电阻。",
     content: "<p>High-energy type refers to a varistor used to absorb the magnetic energy in large inductance coils such as generator excitation coils and lifting electromagnet coils.</p><p>For this type of application, the main technical indicator is energy absorption capacity.</p>",
+    contentZh: "<p>高能型是指用于吸收发电机励磁线圈、起重电磁铁线圈等大电感线圈中磁能的压敏电阻。</p><p>对于此类应用，主要技术指标是能量吸收能力。</p>",
     image: "../flyboat-website/images/news/high-energy-varistor.jpg",
-    category: "Product"
+    category: "Product",
+    categoryZh: "产品"
   },
   {
     id: "high-power-varistor",
     title: "High-power Varistor",
+    titleZh: "高功率型压敏电阻",
     date: "2021-07-13",
     excerpt: "High-power type refers to a varistor used to absorb continuous pulse groups that appear periodically in switching power converters.",
+    excerptZh: "高功率型是指用于吸收开关电源变换器中周期性出现的连续脉冲群的压敏电阻。",
     content: "<p>High-power type refers to a varistor used to absorb continuous pulse groups that appear periodically, such as a varistor connected to a switching power converter, where the impulse voltage appears periodically, and the period is known, and the energy value can generally be calculated. The peak value of the voltage is not large, but due to the high frequency of occurrence, its average power is quite large.</p>",
+    contentZh: "<p>高功率型是指用于吸收周期性出现的连续脉冲群的压敏电阻，例如连接在开关电源变换器上的压敏电阻，其冲击电压周期性出现，周期已知，能量值通常可以计算。电压峰值不大，但由于出现频率高，其平均功率相当大。</p>",
     image: "../flyboat-website/images/news/high-power-varistor.jpg",
-    category: "Product"
+    category: "Product",
+    categoryZh: "产品"
   },
   {
     id: "surge-suppression-varistor",
     title: "Surge Suppression Varistor",
+    titleZh: "浪涌抑制型压敏电阻",
     date: "2021-06-23",
     excerpt: "Surge suppression type refers to a varistor used to suppress transient overvoltages such as lightning overvoltage and operating overvoltage.",
+    excerptZh: "浪涌抑制型是指用于抑制雷击过电压和操作过电压等瞬态过电压的压敏电阻。",
     content: "<p>Surge suppression type refers to a varistor used to suppress transient overvoltages such as lightning overvoltage and operating overvoltage.</p><p>The appearance of such transient overvoltage is random and non-periodic, and the peak value of current and voltage may be large. Most varistors fall into this category.</p>",
+    contentZh: "<p>浪涌抑制型是指用于抑制雷击过电压和操作过电压等瞬态过电压的压敏电阻。</p><p>此类瞬态过电压的出现具有随机性和非周期性，电流和电压的峰值可能很大。大多数压敏电阻属于此类。</p>",
     image: "../flyboat-website/images/news/surge-suppression-varistor.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "varistor-type",
     title: "Varistor Type",
+    titleZh: "压敏电阻的类型",
     date: "2021-06-18",
     excerpt: "The appearance of transient overvoltage is random, non-periodic, and the peak current and voltage may be very large. Understanding varistor types helps in proper selection.",
+    excerptZh: "瞬态过电压的出现具有随机性和非周期性，峰值电流和电压可能非常大。了解压敏电阻的类型有助于正确选型。",
     content: "<p>Varistors can be classified into three main types based on their application:</p><h3>Surge Suppression Type</h3><p>Refers to a varistor used to suppress transient overvoltages such as lightning overvoltage and operating overvoltage. These devices handle random, non-periodic voltage spikes with potentially large peak values, encompassing most varistor applications.</p><h3>High-Power Type</h3><p>This category addresses varistors managing periodic pulse groups from devices like switching power converters. The impulse voltage occurs at known intervals with calculable energy values and modest peak voltages, though frequent occurrences generate substantial average power.</p><h3>High-Energy Type</h3><p>These varistors absorb magnetic energy from large inductance coils in generators and electromagnets, with energy absorption capacity serving as the primary technical specification.</p>",
+    contentZh: "<p>根据应用场景，压敏电阻可分为三大类型：</p><h3>浪涌抑制型</h3><p>用于抑制雷击过电压和操作过电压等瞬态过电压的压敏电阻。这类器件处理随机、非周期性的电压尖峰，峰值可能很大，涵盖了大多数压敏电阻的应用。</p><h3>高功率型</h3><p>此类压敏电阻用于处理来自开关电源变换器等设备的周期性脉冲群。冲击电压以已知间隔出现，能量值可计算，峰值电压适中，但由于出现频率高，平均功率相当大。</p><h3>高能型</h3><p>这类压敏电阻用于吸收发电机和电磁铁中大电感线圈的磁能，能量吸收能力是其主要技术指标。</p>",
     image: "../flyboat-website/images/news/varistor-type.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "protection-resistance",
     title: "Protection Resistance",
+    titleZh: "保护用电阻",
     date: "2021-06-09",
     excerpt: "The protection function of a varistor can be repeated many times in most applications, but sometimes it is also made into a one-off protection device.",
+    excerptZh: "压敏电阻的保护功能在大多数应用中可以重复多次使用，但有时也会制成一次性保护器件。",
     content: "<p>The protection function of a varistor can be repeated many times in most applications, but sometimes it is also made into a &ldquo;one-off&rdquo; protection device like a current fuse.</p><p>For example, a varistor with short-circuit contacts connected in parallel to some current transformer loads.</p>",
+    contentZh: "<p>压敏电阻的保护功能在大多数应用中可以重复多次使用，但有时也会像电流熔断器一样被制成&ldquo;一次性&rdquo;保护器件。</p><p>例如，将带有短路触点的压敏电阻并联到某些电流互感器的负载上。</p>",
     image: "../flyboat-website/images/news/protection-resistance.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "varistor-for-protection",
     title: "Varistor For Protection",
+    titleZh: "保护用压敏电阻",
     date: "2021-05-22",
     excerpt: "Distinguishing between varistors for power supply protection versus signal and data line protection, each meeting different technical standards.",
+    excerptZh: "区分电源保护用压敏电阻与信号线和数据线保护用压敏电阻，二者需满足不同的技术标准。",
     content: "<p>When selecting varistors for protection applications, three key classification criteria should be considered:</p><p><strong>1) Application Type:</strong> Distinguish whether it is a varistor for power supply protection, or a varistor for signal line and data line protection. They must meet the requirements of different technical standards.</p><p><strong>2) Voltage Specification:</strong> Varistors used across power lines can be categorized as either AC or DC based on the continuous working voltage applied. Each experiences different aging characteristics under their respective voltage stresses.</p><p><strong>3) Overvoltage Handling:</strong> Varistors are classified into three categories &mdash; surge suppression type, high-power type, and high-energy type &mdash; determined by the abnormal overvoltage characteristics they are designed to withstand.</p>",
+    contentZh: "<p>在选择保护用压敏电阻时，应考虑三个关键分类标准：</p><p><strong>1) 应用类型：</strong>区分是电源保护用压敏电阻，还是信号线和数据线保护用压敏电阻。它们需要满足不同技术标准的要求。</p><p><strong>2) 电压规格：</strong>跨接在电力线上使用的压敏电阻可根据施加的持续工作电压分为交流型和直流型。在各自的电压应力下，它们具有不同的老化特性。</p><p><strong>3) 过电压处理：</strong>压敏电阻按其所需承受的异常过电压特性分为三类——浪涌抑制型、高功率型和高能型。</p>",
     image: "../flyboat-website/images/news/varistor-for-protection.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "varistor-application-type",
     title: "Varistor Application Type",
+    titleZh: "压敏电阻的应用类型",
     date: "2021-05-12",
     excerpt: "Different application occasions require different varistor specifications based on voltage and current requirements. Understanding these differences is key.",
+    excerptZh: "不同的应用场合需要根据电压和电流要求选择不同规格的压敏电阻。理解这些差异至关重要。",
     content: "<p>Different application occasions, the purpose of applying varistor, the voltage/current acting on the varistor should be different, so the requirements on the varistor are also different. Pay attention to distinguish this difference, it is very important for correct use.</p><p>According to different purposes, varistors can be divided into two categories:</p><ol><li>Varistor for protection</li><li>Varistor used for circuit function</li></ol>",
+    contentZh: "<p>不同的应用场合，使用压敏电阻的目的不同，作用于压敏电阻上的电压/电流也不同，因此对压敏电阻的要求也不同。注意区分这些差异，对于正确使用至关重要。</p><p>根据不同的用途，压敏电阻可分为两大类：</p><ol><li>保护用压敏电阻</li><li>电路功能用压敏电阻</li></ol>",
     image: "../flyboat-website/images/news/varistor-application-type.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "the-role-of-varistor",
     title: "The Role Of Varistor",
+    titleZh: "压敏电阻的作用",
     date: "2021-04-22",
     excerpt: "The biggest characteristic of a varistor is that when the voltage applied to it is lower than its threshold, the current flowing through it is extremely small.",
+    excerptZh: "压敏电阻最大的特点是当施加在其上的电压低于其阈值时，流过的电流极其微小。",
     content: "<p>What is the use of varistor? The biggest characteristic of a varistor is that when the voltage applied to it is lower than its threshold &ldquo;UN&rdquo;, the current flowing through it is extremely small, which is equivalent to a closed valve. When the voltage exceeds UN, its resistance value becomes smaller, so that the current flowing through it increases sharply, and the impact on other circuits does not change much, thereby reducing the impact of overvoltage on subsequent sensitive circuits. Using this function, the abnormal overvoltage that often occurs in the circuit can be suppressed, and the circuit can be protected from the damage of the overvoltage.</p><p>For example, the power supply circuit of our home color TV uses zinc oxide varistor. The varistor varistor voltage used here is 470V. When the maximum value (non-effective value) of the transient surge voltage exceeds 470V, the varistor is to reflect his clamping characteristics, pull the excessively high voltage down, and let the subsequent circuit work in a safe range.</p>",
+    contentZh: "<p>压敏电阻有什么用？压敏电阻最大的特点是当施加在其上的电压低于其阈值&ldquo;UN&rdquo;时，流过的电流极其微小，相当于一个关闭的阀门。当电压超过UN时，其阻值变小，流过的电流急剧增大，而对其他电路的影响变化不大，从而减小了过电压对后续敏感电路的影响。利用这一功能，可以抑制电路中经常出现的异常过电压，保护电路免受过电压的损害。</p><p>例如，我们家用彩色电视机的电源电路就使用了氧化锌压敏电阻。这里使用的压敏电压为470V。当瞬态浪涌电压的最大值（非有效值）超过470V时，压敏电阻发挥其钳位特性，将过高的电压拉低，使后续电路在安全范围内工作。</p>",
     image: "../flyboat-website/images/news/role-of-varistor.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "varistor-application-range",
     title: "Varistor Application Range",
+    titleZh: "压敏电阻的应用范围",
     date: "2021-04-10",
     excerpt: "Varistors are widely used in power systems, surge suppressors, security systems, motor protection, automotive electronics, and household appliances.",
+    excerptZh: "压敏电阻广泛应用于电力系统、浪涌抑制器、安防系统、电机保护、汽车电子和家用电器等领域。",
     content: "<p>Varistors have a wide range of applications across various industries and systems:</p><ol><li><strong>Power System</strong> &ndash; Protection of electrical power distribution networks</li><li><strong>Surge Suppressor</strong> &ndash; Core component in surge protection devices</li><li><strong>Security System</strong> &ndash; Protecting sensitive security and monitoring equipment</li><li><strong>Motor Protection</strong> &ndash; Safeguarding electric motors from voltage spikes</li><li><strong>Automotive Electronic System</strong> &ndash; Protection of vehicle electronic control units</li><li><strong>Household Appliances</strong> &ndash; Ensuring safety and longevity of consumer electronics</li></ol>",
+    contentZh: "<p>压敏电阻在各行业和系统中有着广泛的应用：</p><ol><li><strong>电力系统</strong> &ndash; 电力配电网络保护</li><li><strong>浪涌抑制器</strong> &ndash; 浪涌保护器的核心元件</li><li><strong>安防系统</strong> &ndash; 保护敏感的安全和监控设备</li><li><strong>电机保护</strong> &ndash; 防止电动机受到电压尖峰损害</li><li><strong>汽车电子系统</strong> &ndash; 保护车辆电子控制单元</li><li><strong>家用电器</strong> &ndash; 确保消费类电子产品的安全性和使用寿命</li></ol>",
     image: "../flyboat-website/images/news/varistor-application-range.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "what-are-the-advantages-of-varistors",
     title: "What Are The Advantages Of Varistors",
+    titleZh: "压敏电阻有哪些优势",
     date: "2021-03-28",
     excerpt: "The monomer flow can reach 70KA or even higher. Varistors offer fast response time, low leakage current, and multiple packaging forms.",
+    excerptZh: "单体通流量可达70KA甚至更高。压敏电阻具有响应速度快、漏电流低、多种封装形式等优点。",
     content: "<p>Varistors offer several key advantages that make them indispensable in electronic circuit protection:</p><ol><li>The monomer flow can reach 70KA or even higher.</li><li>Fast response time.</li><li>Low leakage current.</li><li>Multiple lead types: straight, bent and other special lead types.</li><li>Multiple packaging forms: bulk, roll packaging, roll packaging.</li></ol>",
+    contentZh: "<p>压敏电阻具有多项关键优势，使其在电子电路保护中不可或缺：</p><ol><li>单体通流量可达70KA甚至更高。</li><li>响应速度快。</li><li>漏电流低。</li><li>多种引线类型：直引线、弯引线及其他特殊引线类型。</li><li>多种封装形式：散装、卷装等。</li></ol>",
     image: "../flyboat-website/images/news/advantages-of-varistors.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "advantages-of-varistor",
     title: "Advantages Of Varistor",
+    titleZh: "压敏电阻的优点",
     date: "2021-03-18",
     excerpt: "Various diameter sizes from SMD to 53mm, wide voltage range 18V-1800V, and large current processing and energy absorption capacity.",
+    excerptZh: "多种直径尺寸从SMD到53mm，宽电压范围18V-1800V，大电流处理和能量吸收能力。",
     content: "<p>Varistors offer numerous advantages for circuit protection applications:</p><ol><li>Various diameter sizes: SMD, 5mm, 7mm, 10mm, 14mm, 20mm, 25mm, 32mm, 34mm, 40mm, 53mm.</li><li>Wide range of variable resistance voltage: 18V-1800V.</li><li>A variety of surge capacity: standard, high surge, ultra high surge.</li><li>Large current processing and energy absorption capacity.</li></ol>",
+    contentZh: "<p>压敏电阻在电路保护应用中具有众多优点：</p><ol><li>多种直径尺寸：SMD、5mm、7mm、10mm、14mm、20mm、25mm、32mm、34mm、40mm、53mm。</li><li>宽范围的压敏电压：18V-1800V。</li><li>多种浪涌容量：标准型、高浪涌型、超高浪涌型。</li><li>大电流处理和能量吸收能力。</li></ol>",
     image: "../flyboat-website/images/news/advantages-varistor.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "precautions-for-varistors",
     title: "Precautions For Varistors",
+    titleZh: "压敏电阻使用注意事项",
     date: "2021-03-10",
     excerpt: "Continuous working voltage must not exceed maximum allowable values during voltage fluctuations to preserve service life.",
+    excerptZh: "在电压波动时，持续工作电压不得超过最大允许值，以保证压敏电阻的使用寿命。",
     content: "<p>(1) It must be ensured that the continuous working voltage will not exceed the maximum allowable value when the voltage fluctuation is maximum, otherwise the service life of the varistor will be shortened;</p><p>(2) When a varistor is used between the power line and the ground, sometimes the voltage between the line and the ground rises due to poor grounding. Therefore, a varistor with a higher nominal voltage than the line-to-line use is usually used.</p><p>The surge current absorbed by the varistor should be less than the maximum flow rate of the product.</p>",
+    contentZh: "<p>(1) 必须确保在电压波动最大时，持续工作电压不超过最大允许值，否则压敏电阻的使用寿命将会缩短；</p><p>(2) 当压敏电阻用于电力线与接地线之间时，有时由于接地不良导致线地间电压升高。因此通常使用比线间使用时标称电压更高的压敏电阻。</p><p>压敏电阻吸收的浪涌电流应小于产品的最大通流量。</p>",
     image: "../flyboat-website/images/news/precautions-varistors.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "how-to-choose-a-varistor",
     title: "How To Choose A Varistor",
+    titleZh: "如何选择压敏电阻",
     date: "2021-02-28",
     excerpt: "DC or AC voltage across varistors should remain below nominal voltage even during worst-case power supply fluctuations.",
+    excerptZh: "即使在电源波动最严重的情况下，压敏电阻两端的直流或交流电压也应低于标称电压。",
     content: "<p>Generally speaking, the varistor is often used in parallel with the protected device or device. Under normal circumstances, the DC or AC voltage across the varistor should be lower than the nominal voltage, even when the power supply fluctuates the worst.</p><p>It should not be higher than the maximum continuous working voltage selected in the rated value, and the nominal voltage value corresponding to the maximum continuous working voltage value is the selected value. For the application of overvoltage protection, the varistor voltage value should be greater than the voltage value of the actual circuit.</p><p>Generally, the following formula should be used to select: VmA=av/bc where: a is the circuit voltage fluctuation coefficient; v is the DC working voltage of the circuit (AC is the effective value); b is the varistor voltage error; c is the aging coefficient of the component; the actual value of VmA calculated in this way is 1.5 times the DC working voltage, and the peak value should be considered in the AC state, so the calculation result should be expanded 1.414 times.</p>",
+    contentZh: "<p>一般来说，压敏电阻通常与被保护的设备或器件并联使用。在正常情况下，压敏电阻两端的直流或交流电压应低于标称电压，即使在电源波动最严重时也是如此。</p><p>不应高于额定值中选择的最大持续工作电压，与最大持续工作电压值对应的标称电压值即为所选值。对于过电压保护的应用，压敏电压值应大于实际电路的电压值。</p><p>一般应使用以下公式进行选择：VmA=av/bc，其中：a为电路电压波动系数；v为电路的直流工作电压（交流为有效值）；b为压敏电压误差；c为元件的老化系数。这样计算出的VmA实际值为直流工作电压的1.5倍，在交流状态下应考虑峰值，因此计算结果应扩大1.414倍。</p>",
     image: "../flyboat-website/images/news/how-to-choose-varistor.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "selection-of-varistor",
     title: "Selection Of Varistor",
+    titleZh: "压敏电阻的选型",
     date: "2021-02-20",
     excerpt: "Grade voltage represents the peak voltage appearing across a varistor when it passes 8/20 grade current pulses.",
+    excerptZh: "残压是指压敏电阻在通过8/20等级电流脉冲时两端出现的电压峰值。",
     content: "<p>Before choosing a varistor, you should first understand the following related technical parameters: Nominal voltage refers to the voltage value across the varistor under the specified temperature and DC current. Leakage current refers to the current value flowing in the varistor when the maximum continuous DC voltage is applied under the condition of 25&deg;C.</p><p>Grade voltage refers to the voltage peak value that appears at both ends of the varistor when it passes 8/20 grade current pulses. The flow rate is the peak current when the specified pulse current (8/20&mu;s) waveform is applied.</p><p>Surge environmental parameters include the maximum surge current Ipm (or the maximum surge voltage Vpm and the surge source impedance Zo), the surge pulse width Tt, the minimum time interval Tm between two adjacent surges, and the preset value of the varistor during the working life, the total number of surge pulses N etc.</p>",
+    contentZh: "<p>在选择压敏电阻之前，应首先了解以下相关技术参数：标称电压是指在规定温度和直流电流下压敏电阻两端的电压值。漏电流是指在25&deg;C条件下施加最大持续直流电压时流过压敏电阻的电流值。</p><p>残压是指压敏电阻在通过8/20等级电流脉冲时两端出现的电压峰值。通流量是施加规定脉冲电流（8/20&mu;s）波形时的峰值电流。</p><p>浪涌环境参数包括最大浪涌电流Ipm（或最大浪涌电压Vpm和浪涌源阻抗Zo）、浪涌脉冲宽度Tt、两个相邻浪涌之间的最小时间间隔Tm，以及压敏电阻在工作寿命期间的预设值、浪涌脉冲总数N等。</p>",
     image: "../flyboat-website/images/news/selection-of-varistor.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "working-principle-of-varistor",
     title: "Working Principle Of Varistor",
+    titleZh: "压敏电阻的工作原理",
     date: "2021-02-10",
     excerpt: "When the voltage applied to the varistor is lower than its threshold, the current flowing through it is extremely small, equivalent to a resistor with infinite resistance.",
+    excerptZh: "当施加在压敏电阻上的电压低于其阈值时，流过的电流极其微小，相当于一个阻值无穷大的电阻。",
     content: "<p>When the voltage applied to the varistor is lower than its threshold, the current flowing through it is extremely small, which is equivalent to a resistor with infinite resistance. In other words, when the voltage applied to it is lower than its threshold, it is equivalent to an off-state switch.</p><p>When the voltage applied to the varistor exceeds its threshold, the current flowing through it increases sharply, which is equivalent to a resistor with very low resistance. In other words, when the voltage applied to it is higher than its threshold, it is equivalent to a closed switch.</p>",
+    contentZh: "<p>当施加在压敏电阻上的电压低于其阈值时，流过的电流极其微小，相当于一个阻值无穷大的电阻。换句话说，当施加在其上的电压低于阈值时，它相当于一个断开的开关。</p><p>当施加在压敏电阻上的电压超过其阈值时，流过的电流急剧增大，相当于一个阻值非常小的电阻。换句话说，当施加在其上的电压高于阈值时，它相当于一个闭合的开关。</p>",
     image: "../flyboat-website/images/news/working-principle-varistor.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "introduction-of-varistor",
     title: "Introduction Of Varistor",
+    titleZh: "压敏电阻简介",
     date: "2021-01-30",
     excerpt: "The response time of the varistor is ns level, which is faster than the gas discharge tube and slightly slower than the TVS tube.",
+    excerptZh: "压敏电阻的响应时间为纳秒级，比气体放电管快，略慢于TVS管。",
     content: "<p>The response time of the varistor is ns, which is faster than the gas discharge tube and slightly slower than the TVS tube. In general, the response speed of the overvoltage protection for electronic circuits can meet the requirements.</p><p>The junction capacitance of a varistor is generally in the range of several hundred to several thousand Pf. In many cases, it is not suitable to be directly used in the protection of high-frequency signal lines. When it is used in the protection of AC circuits, because its junction capacitance is large, it will increase leakage.</p><p>Current needs to be fully considered when designing the protection circuit. The current capacity of the varistor is larger, but smaller than that of the gas discharge tube. Varistor is abbreviated as VDR, which is a non-linear overvoltage protection semiconductor component sensitive to voltage.</p>",
+    contentZh: "<p>压敏电阻的响应时间为纳秒级，比气体放电管快，略慢于TVS管。一般而言，对于电子电路的过电压保护，其响应速度可以满足要求。</p><p>压敏电阻的结电容通常在几百到几千Pf的范围内。在许多情况下，不适合直接用于高频信号线的保护。当用于交流电路保护时，由于结电容较大，会增加漏电流。</p><p>设计保护电路时需要充分考虑电流容量。压敏电阻的电流容量较大，但小于气体放电管。压敏电阻缩写为VDR，是一种对电压敏感的非线性过电压保护半导体元件。</p>",
     image: "../flyboat-website/images/news/introduction-of-varistor.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "introduction-to-varistor",
     title: "Introduction To Varistor",
+    titleZh: "压敏电阻导论",
     date: "2021-01-20",
     excerpt: "Varistor is a voltage-limiting protection device. The main parameters include varistor voltage, current capacity, junction capacitance, and response time.",
+    excerptZh: "压敏电阻是一种限压型保护器件。主要参数包括压敏电压、电流容量、结电容和响应时间。",
     content: "<p>Varistor is a voltage-limiting protection device. Using the non-linear characteristics of the varistor, when an overvoltage appears between the two poles of the varistor, the varistor can clamp the voltage to a relatively fixed voltage value, thereby realizing the protection of the subsequent circuit.</p><p>The main parameters of varistor are: varistor voltage, current capacity, junction capacitance, response time, etc.</p>",
+    contentZh: "<p>压敏电阻是一种限压型保护器件。利用压敏电阻的非线性特性，当过电压出现在压敏电阻的两极之间时，压敏电阻可以将电压钳位在一个相对固定的电压值，从而实现对后续电路的保护。</p><p>压敏电阻的主要参数有：压敏电压、电流容量、结电容、响应时间等。</p>",
     image: "../flyboat-website/images/news/introduction-to-varistor.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "varistor",
     title: "Varistor",
+    titleZh: "压敏电阻",
     date: "2021-01-10",
     excerpt: "A varistor is a resistive device with non-linear volt-ampere characteristics, mainly used for voltage clamping and excess current absorption.",
+    excerptZh: "压敏电阻是一种具有非线性伏安特性的电阻器件，主要用于电压钳位和多余电流吸收。",
     content: "<p>A &ldquo;varistor&rdquo; is a resistive device with non-linear volt-ampere characteristics. It is mainly used to clamp the voltage when the circuit is subjected to overvoltage and absorb excess current to protect sensitive devices.</p><p>The English name is &ldquo;Voltage Dependent Resistor&rdquo; abbreviated as &ldquo;VDR&rdquo;, or &ldquo;Varistor&rdquo;. The resistor body material of a varistor is a semiconductor, so it is a variety of semiconductor resistors. Nowadays, the &ldquo;zinc oxide&rdquo; (ZnO) varistor is widely used, and its main material is composed of the divalent element zinc (Zn) and the hexavalent element oxygen (O). So from the point of view of materials, zinc oxide varistor is a kind of &ldquo;II-VI group oxide semiconductor&rdquo;.</p><p>In Taiwan, the varistor is called a &ldquo;surge absorber&rdquo;, sometimes also called an &ldquo;electric shock (surge) suppressor (absorber)&rdquo;.</p>",
+    contentZh: "<p>&ldquo;压敏电阻&rdquo;是一种具有非线性伏安特性的电阻器件。主要用于在电路遭受过电压时钳位电压并吸收多余电流，保护敏感器件。</p><p>英文名称为&ldquo;Voltage Dependent Resistor&rdquo;，缩写为&ldquo;VDR&rdquo;，或称&ldquo;Varistor&rdquo;。压敏电阻的电阻体材料是半导体，因此它是半导体电阻器的一种。目前广泛使用的是&ldquo;氧化锌&rdquo;（ZnO）压敏电阻，其主要材料由二价元素锌（Zn）和六价元素氧（O）组成。因此从材料角度来看，氧化锌压敏电阻是一种&ldquo;II-VI族氧化物半导体&rdquo;。</p><p>在台湾地区，压敏电阻被称为&ldquo;突波吸收器&rdquo;，有时也称为&ldquo;电击（浪涌）抑制器（吸收器）&rdquo;。</p>",
     image: "../flyboat-website/images/news/varistor.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   }
 ];

@@ -190,6 +190,24 @@ ul {
 }
 
 /* Mobile menu toggle */
+.lang-toggle {
+  background: var(--ocean);
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  margin-left: 16px;
+  white-space: nowrap;
+}
+
+.lang-toggle:hover {
+  background: var(--ocean-dark);
+}
+
 .menu-toggle {
   display: none;
   flex-direction: column;

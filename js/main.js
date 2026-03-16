@@ -88,7 +88,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if (form) {
     form.addEventListener('submit', (e) => {
       e.preventDefault();
-      alert('Thank you for your inquiry. We will get back to you shortly.');
+      var lang = localStorage.getItem('flyboat-lang') || 'en';
+      alert(lang === 'zh' ? '感谢您的询盘，我们将尽快与您联系。' : 'Thank you for your inquiry. We will get back to you shortly.');
       form.reset();
     });
   }

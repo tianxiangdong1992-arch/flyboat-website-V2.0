@@ -300,3 +300,15 @@ flyboat-website-V2.0/
 10. **Color mismatch** -- V2 uses `#0077B6`, original uses `#107ed8`
 11. **Container width** -- V2 is 1200px, original is 1600px
 12. **Product count** -- `products-data.js` has 31 entries but CLAUDE.md documents 26 from original
+
+---
+
+## i18n / Language Policy
+
+- **Supported languages:** English (en) and Chinese (zh). The site uses `localStorage` key `flyboat-lang`.
+- **Language switching uses force-refresh:** When the user clicks the language toggle, `toggleLang()` in `js/i18n.js` sets the new language in `localStorage` and calls `location.reload()`. All page scripts read the language once on load. There is NO live re-render on language change.
+- **All new content must be translated into all supported languages.** When adding products, news, blogs, or any user-visible text:
+  - Static HTML: use `data-i18n` attributes mapped to keys in `TRANSLATIONS` (in `js/i18n.js`).
+  - Dynamic JS content: use the `t(en, zh)` helper pattern and add `*Zh` fields (e.g., `nameZh`, `contentZh`) to data objects.
+- **Do NOT implement live re-render for language switching.** No pub/sub, no custom events, no storage listeners, no re-render callbacks. The force-refresh approach is intentional — it guarantees no mixed-language state and is zero-maintenance.
+- **Brand name translation:** "Flyboat" = "益舸" in Chinese. "YiGe" = "益舸". Always use these mappings.

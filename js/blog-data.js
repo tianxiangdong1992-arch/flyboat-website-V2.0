@@ -2,109 +2,157 @@ window.BLOG_DATA = [
   {
     id: "how-to-test-dc-mov-pv-system",
     title: "How to Test the Performance of a DC MOV in a PV System?",
+    titleZh: "如何测试光伏系统中直流压敏电阻的性能？",
     date: "2026-01-20",
     excerpt: "DC Metal Oxide Varistors (MOVs) protect photovoltaic systems from overvoltage surges. Learn the critical performance metrics and testing methodology for PV system MOVs.",
+    excerptZh: "直流金属氧化物压敏电阻（MOV）保护光伏系统免受过电压浪涌影响。了解光伏系统用MOV的关键性能指标和测试方法。",
     content: "<p>DC Metal Oxide Varistors (MOVs) protect photovoltaic systems from overvoltage surges by diverting excess current when voltage spikes occur. Under normal conditions, they maintain high resistance, but during surge events, their resistance drops dramatically to shield sensitive equipment.</p><h3>Critical Performance Metrics</h3><p>Five critical performance metrics must be evaluated:</p><ul><li><strong>Clamping Voltage</strong> - The maximum voltage allowed through the MOV. A lower clamping voltage indicates better protection.</li><li><strong>Maximum Continuous Operating Voltage (MCOV)</strong> - The highest voltage the MOV can sustain continuously.</li><li><strong>Surge Current Rating</strong> - The maximum surge current the MOV can handle.</li><li><strong>Energy Absorption Capacity</strong> - Total energy the MOV can safely absorb.</li><li><strong>Leakage Current</strong> - A low leakage current is desirable to minimize power consumption.</li></ul><h3>Testing Methodology</h3><p><strong>Bench Testing:</strong> Uses specialized equipment outside the system to measure parameters precisely through surge generators and oscilloscopes.</p><p><strong>In-Situ Testing:</strong> Evaluates MOVs while installed in actual PV systems using surge monitoring and leakage current devices.</p><p><strong>Environmental Testing:</strong> Assesses performance across temperature cycles, humidity exposure, and vibration conditions.</p><p>Regular testing of DC MOVs in PV systems is essential to ensure their continued performance, as degradation from repeated surges and environmental factors can occur over time.</p>",
+    contentZh: "<p>直流金属氧化物压敏电阻（MOV）通过在电压尖峰发生时转移多余电流来保护光伏系统免受过电压浪涌的影响。在正常条件下，它们保持高阻态，但在浪涌事件中，其电阻急剧下降以保护敏感设备。</p><h3>关键性能指标</h3><p>需要评估五个关键性能指标：</p><ul><li><strong>钳位电压</strong> - 通过MOV的最大允许电压。钳位电压越低，保护效果越好。</li><li><strong>最大持续工作电压（MCOV）</strong> - MOV能够持续承受的最高电压。</li><li><strong>浪涌电流额定值</strong> - MOV能够处理的最大浪涌电流。</li><li><strong>能量吸收能力</strong> - MOV能够安全吸收的总能量。</li><li><strong>漏电流</strong> - 低漏电流有利于减少功耗。</li></ul><h3>测试方法</h3><p><strong>台架测试：</strong>使用系统外的专用设备，通过浪涌发生器和示波器精确测量各项参数。</p><p><strong>在线测试：</strong>在MOV安装于实际光伏系统中时，使用浪涌监测和漏电流设备进行评估。</p><p><strong>环境测试：</strong>评估在温度循环、湿度暴露和振动条件下的性能。</p><p>定期测试光伏系统中的直流压敏电阻对于确保其持续性能至关重要，因为反复浪涌和环境因素可能导致性能随时间退化。</p>",
     image: "../flyboat-website/images/products/power-line-spd.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "top-10-1000v-dc-spd-suppliers",
     title: "Top 10 1000V DC SPD Suppliers in the World 2025",
+    titleZh: "2025年全球十大1000V直流浪涌保护器供应商",
     date: "2026-01-19",
     excerpt: "A 1000V DC Surge Protective Device (SPD) is a crucial component in electrical systems. Discover the top 10 global suppliers and their key advantages.",
+    excerptZh: "1000V直流SPD（浪涌保护器）是电气系统中的关键元件。了解全球十大供应商及其核心优势。",
     content: "<p>A 1000V DC Surge Protective Device (SPD) protects electrical systems operating at 1000 volts direct current. These devices, crucial in solar power plants and EV charging stations, divert the excess current to the ground and clamp the voltage to a safe level, preventing equipment failure and safety hazards.</p><h3>Top 10 Suppliers</h3><ol><li><strong>Guiyang High-Tech Yige Electronic Co.</strong> \u2014 Emphasizes customization ability and cost-effectiveness with high-energy handling capacity and fast response times.</li><li><strong>ABB</strong> \u2014 A century-old global leader offering advanced surge protection technology and monitoring capabilities across 100+ countries.</li><li><strong>Siemens</strong> \u2014 German conglomerate featuring modular designs and environmental adaptability across temperature extremes.</li><li><strong>Schneider Electric</strong> \u2014 Focuses on energy efficiency and seamless integration with sustainability commitments.</li><li><strong>DEHN + S\u00D6HNE</strong> \u2014 German specialist providing specialized surge protection expertise and customized solutions.</li><li><strong>Phoenix Contact</strong> \u2014 Known for compact integrated designs with high-speed response capabilities.</li><li><strong>Eaton</strong> \u2014 Power management expert offering multiple protection levels and remote monitoring functions.</li><li><strong>OBO BETTERMANN</strong> \u2014 German manufacturer emphasizing easy maintenance and system compatibility.</li><li><strong>SurgeX</strong> \u2014 Innovation-focused with advanced surge protection algorithms for high-end applications.</li><li><strong>Bussmann (Eaton)</strong> \u2014 Combines fuse-based protection with reliable long-term performance.</li></ol><p>The market remains competitive, with suppliers differentiated by technological innovation, customization capabilities, and industry specialization. Growth drivers include renewable energy and electric vehicle sectors.</p>",
+    contentZh: "<p>1000V直流SPD（浪涌保护器）用于保护工作电压为1000伏直流的电气系统。这些器件在太阳能发电站和电动汽车充电站中至关重要，能够将多余电流转移至接地端并将电压钳位在安全水平，防止设备故障和安全隐患。</p><h3>十大供应商</h3><ol><li><strong>贵阳高新益舸电子有限公司</strong> &mdash; 强调定制化能力和成本效益，具有高能量处理能力和快速响应时间。</li><li><strong>ABB</strong> &mdash; 百年全球领导者，在100多个国家提供先进的浪涌保护技术和监测能力。</li><li><strong>西门子</strong> &mdash; 德国企业集团，提供模块化设计和极端温度下的环境适应性。</li><li><strong>施耐德电气</strong> &mdash; 专注于能效和无缝集成，致力于可持续发展。</li><li><strong>DEHN + S\u00D6HNE</strong> &mdash; 德国专业厂商，提供专业浪涌保护技术和定制化解决方案。</li><li><strong>菲尼克斯电气</strong> &mdash; 以紧凑集成设计和高速响应能力著称。</li><li><strong>伊顿</strong> &mdash; 电源管理专家，提供多级保护和远程监控功能。</li><li><strong>OBO BETTERMANN</strong> &mdash; 德国制造商，注重易维护性和系统兼容性。</li><li><strong>SurgeX</strong> &mdash; 以创新为导向，采用先进浪涌保护算法，面向高端应用。</li><li><strong>Bussmann (伊顿)</strong> &mdash; 将熔断器保护与可靠的长期性能相结合。</li></ol><p>市场竞争激烈，供应商通过技术创新、定制化能力和行业专业化进行差异化竞争。可再生能源和电动汽车领域是主要增长驱动力。</p>",
     image: "../flyboat-website/images/products/dc-mov-for-pv-system.jpg",
-    category: "Industry"
+    category: "Industry",
+    categoryZh: "行业"
   },
   {
     id: "imax-40ka-warranty-period",
     title: "Does Imax 40KA 230/400V Have a Warranty Period?",
+    titleZh: "Imax 40KA 230/400V是否有保修期？",
     date: "2026-01-19",
     excerpt: "The Imax 40KA 230/400V is a high-quality surge protective device (SPD). Learn about its warranty coverage, claim process, and related products.",
+    excerptZh: "Imax 40KA 230/400V是一款高品质浪涌保护器（SPD）。了解其保修范围、索赔流程及相关产品。",
     content: "<p>The Imax 40KA 230/400V is a high-quality surge protective device (SPD) that plays a crucial role in protecting electrical systems from voltage surges. Surges can be caused by lightning strikes, power grid fluctuations, or the switching of large electrical loads.</p><h3>Warranty Coverage</h3><p>Yes, the Imax 40KA 230/400V does come with a warranty period. The exact length and terms may vary depending on the region of purchase, the specific distributor, and any promotional offers. A standard warranty provides coverage against manufacturing defects and premature failures.</p><h3>Warranty Claims</h3><p>During the warranty period, issues related to manufacturing flaws will receive support in the form of repair, replacement, or a refund. To claim warranty, contact customer support with:</p><ul><li>Date of purchase</li><li>Serial number of the product</li><li>Description of the malfunction</li></ul><h3>Important Notes</h3><p>The warranty does not cover damage caused by improper installation, misuse, or extreme environmental conditions beyond the product's specified operating range. Professional installation by a qualified electrician is recommended to maintain warranty validity.</p><h3>Related Products</h3><p>Our product range also includes the 220V Lightning Protection Three Phase for three-phase electrical systems and the 220V 10/40kA Surge Protector for various surge current rating requirements.</p>",
+    contentZh: "<p>Imax 40KA 230/400V是一款高品质浪涌保护器（SPD），在保护电气系统免受电压浪涌方面发挥着关键作用。浪涌可能由雷击、电网波动或大型电气负荷的开关操作引起。</p><h3>保修范围</h3><p>是的，Imax 40KA 230/400V提供保修服务。保修期限和条款可能因购买地区、具体经销商和促销活动而异。标准保修涵盖制造缺陷和过早失效的保障。</p><h3>保修索赔</h3><p>在保修期内，与制造缺陷相关的问题将获得维修、更换或退款的支持。申请保修时，请联系客户支持并提供：</p><ul><li>购买日期</li><li>产品序列号</li><li>故障描述</li></ul><h3>重要说明</h3><p>保修不涵盖因安装不当、误用或超出产品规定工作范围的极端环境条件造成的损坏。建议由具有资质的电气工程师进行专业安装，以维持保修有效性。</p><h3>相关产品</h3><p>我们的产品系列还包括适用于三相电气系统的220V三相防雷保护器和满足各种浪涌电流额定值要求的220V 10/40kA浪涌保护器。</p>",
     image: "../flyboat-website/images/products/imax-40ka-230-400v.jpg",
-    category: "Product"
+    category: "Product",
+    categoryZh: "产品"
   },
   {
     id: "advantages-dc-mov-pv-system",
     title: "What Are the Advantages of Using a DC MOV in a PV System?",
+    titleZh: "光伏系统中使用直流压敏电阻有哪些优势？",
     date: "2026-01-19",
     excerpt: "DC Metal Oxide Varistors serve as critical protective components in photovoltaic systems. Learn about surge protection, reliability, and cost-effectiveness.",
+    excerptZh: "直流金属氧化物压敏电阻是光伏系统中的关键保护元件。了解浪涌保护、可靠性和经济性等方面的优势。",
     content: "<p>In photovoltaic systems, DC Metal Oxide Varistors (MOVs) serve as critical protective components offering several key benefits.</p><h3>Surge Protection</h3><p>DC MOVs function as voltage-dependent resistors. Under normal conditions they maintain high resistance, but when voltage spikes occur \u2014 from lightning or grid disturbances \u2014 their resistance drops dramatically, diverting excess current to ground and safeguarding inverters and controllers.</p><h3>System Reliability</h3><p>By protecting sensitive equipment from electrical surges, DC MOVs reduce component failures, lower maintenance needs, and extend equipment lifespans. The devices maintain performance across multiple surge events over extended periods.</p><h3>High-Voltage Compatibility</h3><p>Modern PV systems increasingly operate at 1000V DC or higher. DC MOVs are engineered specifically for these applications, providing appropriate insulation and clamping characteristics.</p><h3>Cost-Effectiveness</h3><p>Initial investment in DC MOVs yields long-term savings through reduced repair costs, minimized downtime, and prevented revenue losses in commercial installations.</p><h3>Installation & Maintenance</h3><p>DC MOVs integrate easily into existing circuitry with standardized mounting and connections. They require minimal maintenance and can be quickly replaced if damaged.</p><h3>Standards Compliance</h3><p>Products meeting IEC 61643-311 and UL 1449 standards ensure regulatory compliance across global markets.</p>",
+    contentZh: "<p>在光伏系统中，直流金属氧化物压敏电阻（MOV）作为关键保护元件，提供多项核心优势。</p><h3>浪涌保护</h3><p>直流压敏电阻作为电压依赖型电阻工作。正常条件下保持高阻态，但当电压尖峰出现时——无论是雷击还是电网扰动——其电阻急剧下降，将多余电流转移至接地端，保护逆变器和控制器的安全。</p><h3>系统可靠性</h3><p>通过保护敏感设备免受电气浪涌影响，直流压敏电阻减少了元件故障、降低了维护需求并延长了设备使用寿命。器件在长时间内经历多次浪涌事件后仍能保持性能。</p><h3>高压兼容性</h3><p>现代光伏系统日益采用1000V直流甚至更高的工作电压。直流压敏电阻专为这些应用而设计，提供适当的绝缘和钳位特性。</p><h3>经济性</h3><p>直流压敏电阻的初始投资可通过降低维修成本、减少停机时间和避免商业安装中的收入损失来实现长期回报。</p><h3>安装与维护</h3><p>直流压敏电阻可通过标准化安装和连接方式轻松集成到现有电路中。维护需求极少，损坏时可快速更换。</p><h3>标准合规</h3><p>符合IEC 61643-311和UL 1449标准的产品确保在全球市场的法规合规性。</p>",
     image: "../flyboat-website/images/products/solar-system-1000v.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "esd-protection-metal-oxide-varistor",
     title: "What Is the ESD Protection Ability of a Metal Oxide Varistor?",
+    titleZh: "金属氧化物压敏电阻的ESD防护能力如何？",
     date: "2026-01-19",
     excerpt: "Metal Oxide Varistors (MOVs) provide excellent ESD protection through fast response times, clamping voltage control, and energy absorption capacity.",
+    excerptZh: "金属氧化物压敏电阻（MOV）通过快速响应、钳位电压控制和能量吸收能力提供出色的ESD（静电放电）防护。",
     content: "<p>Metal Oxide Varistors (MOVs) are voltage-dependent, nonlinear resistors made of a ceramic material composed mainly of zinc oxide (ZnO). They provide crucial Electrostatic Discharge (ESD) protection for sensitive electronics.</p><h3>How MOVs Provide ESD Protection</h3><p><strong>Clamping Voltage:</strong> MOVs switch from high to low resistance upon reaching their clamping voltage, diverting dangerous current spikes away from sensitive circuits.</p><p><strong>Fast Response Time:</strong> MOVs can start conducting within nanoseconds of the voltage exceeding the clamping voltage, which is critical given ESD pulses' extremely short rise times.</p><p><strong>Energy Absorption Capacity:</strong> Larger MOVs absorb greater energy amounts. Bare Disc Varistors utilize their single-disc construction to maximize surface area for effective energy dissipation.</p><h3>Factors Affecting ESD Protection</h3><ul><li><strong>Temperature:</strong> Higher temperatures increase leakage current and decrease clamping voltage effectiveness.</li><li><strong>Aging:</strong> Prolonged voltage exposure causes changes in electrical properties, including increased leakage and voltage shifts.</li><li><strong>Voltage Rating:</strong> Inappropriate ratings either trigger unnecessary conduction or fail to respond adequately to ESD events.</li></ul><h3>Applications</h3><ul><li><strong>Consumer Electronics:</strong> Smartphones, tablets, and laptops</li><li><strong>Industrial Electronics:</strong> Control systems, motor drives, and power supplies</li><li><strong>Telecommunications:</strong> Routers, modems, and communication interfaces</li></ul>",
+    contentZh: "<p>金属氧化物压敏电阻（MOV）是以氧化锌（ZnO）为主要成分的陶瓷材料制成的电压依赖型非线性电阻器。它们为敏感电子设备提供关键的ESD（静电放电）防护。</p><h3>MOV如何提供ESD防护</h3><p><strong>钳位电压：</strong>MOV在达到钳位电压时从高阻态切换为低阻态，将危险的电流尖峰从敏感电路中转移。</p><p><strong>快速响应时间：</strong>MOV可在电压超过钳位电压后的纳秒级时间内开始导通，这对于ESD脉冲极短的上升时间至关重要。</p><p><strong>能量吸收能力：</strong>较大的MOV可吸收更多能量。裸片压敏电阻利用其单片结构最大化表面积，实现有效的能量耗散。</p><h3>影响ESD防护的因素</h3><ul><li><strong>温度：</strong>较高温度会增加漏电流并降低钳位电压的有效性。</li><li><strong>老化：</strong>长期电压暴露会导致电气特性变化，包括漏电流增加和电压偏移。</li><li><strong>电压额定值：</strong>不恰当的额定值会导致不必要的导通或无法充分响应ESD事件。</li></ul><h3>应用领域</h3><ul><li><strong>消费类电子：</strong>智能手机、平板电脑和笔记本电脑</li><li><strong>工业电子：</strong>控制系统、电机驱动和电源</li><li><strong>通信设备：</strong>路由器、调制解调器和通信接口</li></ul>",
     image: "../flyboat-website/images/products/bare-disc-varistors.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "top-10-protection-module-suppliers",
     title: "Top 10 Protection Module Suppliers in the World 2025",
+    titleZh: "2025年全球十大保护模块供应商",
     date: "2026-01-16",
     excerpt: "Protection modules safeguard equipment from over-voltage, over-current, and short-circuit conditions. Discover the top 10 global suppliers.",
+    excerptZh: "保护模块保护设备免受过压、过流和短路等危害。了解全球十大供应商。",
     content: "<p>A protection module is a crucial component in various electronic and electrical systems. It serves to safeguard equipment, circuits, and users from a wide range of potential hazards, such as over-voltage, over-current, short-circuit, and under-voltage conditions.</p><h3>Top 10 Suppliers</h3><ol><li><strong>Guiyang High-Tech Yige Electronic Co., Ltd</strong> \u2014 Leading Chinese manufacturer with advanced MOV technology and customization capabilities.</li><li><strong>ABB Group</strong> \u2014 Global power and automation leader with comprehensive protection solutions.</li><li><strong>Siemens AG</strong> \u2014 German engineering giant with innovative protection module designs.</li><li><strong>Schneider Electric</strong> \u2014 French multinational with energy-efficient protection systems.</li><li><strong>Eaton Corporation</strong> \u2014 American power management company with diverse protection product lines.</li><li><strong>Mitsubishi Electric Corporation</strong> \u2014 Japanese manufacturer with high-reliability protection modules.</li><li><strong>Hitachi Ltd.</strong> \u2014 Japanese conglomerate with advanced electronic protection technology.</li><li><strong>General Electric (GE)</strong> \u2014 American industrial leader with comprehensive electrical protection solutions.</li><li><strong>Toshiba Corporation</strong> \u2014 Japanese manufacturer with innovative semiconductor-based protection.</li><li><strong>AEG Power Solutions</strong> \u2014 German specialist in power conversion and protection systems.</li></ol><p>Each company brings unique strengths in technology, manufacturing capabilities, and market expertise to the protection module industry.</p>",
+    contentZh: "<p>保护模块是各类电子和电气系统中的关键元件。它用于保护设备、电路和用户免受过压、过流、短路和欠压等多种潜在危害。</p><h3>十大供应商</h3><ol><li><strong>贵阳高新益舸电子有限公司</strong> &mdash; 中国领先的制造商，拥有先进的压敏电阻技术和定制化能力。</li><li><strong>ABB集团</strong> &mdash; 全球电力和自动化领导者，提供全面的保护解决方案。</li><li><strong>西门子</strong> &mdash; 德国工程巨头，拥有创新的保护模块设计。</li><li><strong>施耐德电气</strong> &mdash; 法国跨国企业，提供节能保护系统。</li><li><strong>伊顿公司</strong> &mdash; 美国电源管理企业，拥有多元化的保护产品线。</li><li><strong>三菱电机</strong> &mdash; 日本制造商，提供高可靠性保护模块。</li><li><strong>日立</strong> &mdash; 日本企业集团，拥有先进的电子保护技术。</li><li><strong>通用电气（GE）</strong> &mdash; 美国工业领导者，提供全面的电气保护解决方案。</li><li><strong>东芝</strong> &mdash; 日本制造商，专注于基于半导体的创新保护技术。</li><li><strong>AEG Power Solutions</strong> &mdash; 德国电力转换和保护系统专业厂商。</li></ol><p>每家企业在技术、制造能力和市场专业性方面为保护模块行业带来独特优势。</p>",
     image: "../flyboat-website/images/products/spd-modular.jpg",
-    category: "Industry"
+    category: "Industry",
+    categoryZh: "行业"
   },
   {
     id: "how-to-install-dc-mov-pv-system",
     title: "How to Install a DC MOV in a PV System?",
+    titleZh: "如何在光伏系统中安装直流压敏电阻？",
     date: "2026-01-15",
     excerpt: "A step-by-step guide to correctly installing DC Metal Oxide Varistors in photovoltaic setups for enhanced safety and longevity.",
+    excerptZh: "分步指南：如何在光伏系统中正确安装直流金属氧化物压敏电阻，以提升安全性和使用寿命。",
     content: "<p>A well-installed DC MOV can significantly enhance the safety and longevity of your PV system by protecting it from overvoltage and surge events.</p><h3>Pre-installation Preparations</h3><p><strong>Select the Right DC MOV:</strong> Consider the system's voltage rating, expected surge current, and environmental conditions.</p><p><strong>Check Components and Tools:</strong> Prepare screwdriver, wire cutters, crimping tools, and voltage tester. Ensure the PV system is shut down before beginning.</p><h3>Installation Steps</h3><p><strong>1. Location Determination:</strong> Install the DC MOV as close as possible to the equipment needing protection (inverter or charge controller). In typical PV systems, install in the DC combiner box.</p><p><strong>2. Wiring Connection:</strong></p><ul><li>Identify positive and negative DC circuits (red and black color-coding)</li><li>Connect the DC MOV in parallel with the circuit being protected</li><li>Use proper terminals and connectors with crimped connections</li></ul><p><strong>3. Grounding:</strong> Ground the MOV to the PV system's grounding system using a grounding wire of sufficient size. Connect to the grounding bus bar in the combiner box.</p><h3>Post-installation Checks</h3><p>Conduct visual inspection of all connections and test with a voltage tester to verify readings are within normal operating range. Test with a surge generator to confirm proper MOV functioning.</p><h3>Maintenance</h3><p>Conduct regular inspections for wear, corrosion, or physical damage. Some DC MOVs include visual indicators or remote monitoring capabilities for early detection of potential issues.</p>",
+    contentZh: "<p>正确安装的直流压敏电阻可以通过防止过电压和浪涌事件，显著提升光伏系统的安全性和使用寿命。</p><h3>安装前准备</h3><p><strong>选择合适的直流压敏电阻：</strong>考虑系统的额定电压、预期浪涌电流和环境条件。</p><p><strong>检查组件和工具：</strong>准备好螺丝刀、剥线钳、压接工具和电压测试仪。确保在开始之前光伏系统已停机。</p><h3>安装步骤</h3><p><strong>1. 确定安装位置：</strong>将直流压敏电阻安装在尽可能靠近需要保护的设备（逆变器或充电控制器）的位置。在典型的光伏系统中，安装在直流汇流箱内。</p><p><strong>2. 接线连接：</strong></p><ul><li>识别直流正极和负极回路（红色和黑色标识）</li><li>将直流压敏电阻与被保护电路并联连接</li><li>使用合适的端子和连接器，采用压接方式</li></ul><p><strong>3. 接地：</strong>使用足够截面积的接地线将压敏电阻接入光伏系统的接地系统。连接至汇流箱中的接地母排。</p><h3>安装后检查</h3><p>对所有连接进行目视检查，并使用电压测试仪验证读数在正常工作范围内。使用浪涌发生器测试以确认压敏电阻功能正常。</p><h3>维护保养</h3><p>定期检查是否有磨损、腐蚀或物理损坏。部分直流压敏电阻带有可视指示器或远程监控功能，可早期发现潜在问题。</p>",
     image: "../flyboat-website/images/products/solar-system-1000v.jpg",
-    category: "Guide"
+    category: "Guide",
+    categoryZh: "指南"
   },
   {
     id: "surface-temperature-34s-mov",
     title: "What Is the Surface Temperature of 34S Metal Oxide Varistor During Operation?",
+    titleZh: "34S金属氧化物压敏电阻工作时的表面温度是多少？",
     date: "2026-01-15",
     excerpt: "Understanding surface temperature characteristics of 34S MOVs is crucial for reliable operation. Learn about key factors and acceptable temperature ranges.",
+    excerptZh: "了解34S压敏电阻的表面温度特性对于可靠运行至关重要。了解关键影响因素和可接受的温度范围。",
     content: "<p>Understanding the surface temperature of 34S Metal Oxide Varistors (MOVs) during operation is crucial for ensuring reliable surge protection.</p><h3>Key Factors Affecting Surface Temperature</h3><ul><li><strong>Applied Voltage:</strong> When a voltage surge occurs, the varistor conducts a large amount of current, which leads to increased power dissipation and temperature elevation.</li><li><strong>Surge Current and Frequency:</strong> High-magnitude, frequent surges prevent adequate cooling between events, causing sustained temperature increases.</li><li><strong>Ambient Temperature:</strong> Higher surrounding temperatures reduce the varistor's heat dissipation efficiency, as temperature differential drives heat transfer.</li><li><strong>Heat Dissipation Mechanisms:</strong> Conduction through leads, convection via ventilation, and radiation all contribute to cooling effectiveness.</li></ul><h3>Temperature Monitoring</h3><p>Use thermocouples or infrared thermometers to measure surface temperatures at multiple points for accurate representation of the thermal profile.</p><h3>Acceptable Temperature Range</h3><p>The maximum surface temperature can range from 85\u00B0C to 125\u00B0C depending on the specific model. Exceeding these limits risks thermal degradation and component failure.</p><p>Rigorous testing and quality control ensure proper temperature performance during high-energy surge events.</p>",
+    contentZh: "<p>了解34S金属氧化物压敏电阻（MOV）在工作过程中的表面温度对于确保可靠的浪涌保护至关重要。</p><h3>影响表面温度的关键因素</h3><ul><li><strong>施加电压：</strong>当电压浪涌发生时，压敏电阻通过大量电流，导致功耗增加和温度升高。</li><li><strong>浪涌电流和频率：</strong>高幅值、高频率的浪涌使得两次事件之间无法充分冷却，导致温度持续上升。</li><li><strong>环境温度：</strong>较高的环境温度降低了压敏电阻的散热效率，因为温差驱动热传递。</li><li><strong>散热机制：</strong>通过引线的热传导、通风对流和辐射均有助于冷却效果。</li></ul><h3>温度监测</h3><p>使用热电偶或红外测温仪在多个点测量表面温度，以准确反映热分布特征。</p><h3>可接受的温度范围</h3><p>根据具体型号，最高表面温度范围为85\u00B0C至125\u00B0C。超过这些限值有热退化和元件失效的风险。</p><p>严格的测试和质量控制确保在高能浪涌事件中的正常温度表现。</p>",
     image: "../flyboat-website/images/products/industrial-high-energy-varistor.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "plug-in-surge-arrester-medium-voltage",
     title: "Can a Plug-in Surge Arrester Be Used in Medium-Voltage Electrical Systems?",
+    titleZh: "插拔式浪涌保护器能否用于中压电气系统？",
     date: "2026-01-15",
     excerpt: "Examining whether plug-in surge arresters can protect medium-voltage electrical systems (1-35 kV range) with MOV technology.",
+    excerptZh: "探讨插拔式浪涌保护器能否利用MOV（金属氧化物压敏电阻）技术保护中压电气系统（1-35 kV范围）。",
     content: "<p>This article examines whether plug-in surge arresters can protect medium-voltage electrical systems (1-35 kV range). These devices utilize metal-oxide varistors (MOVs) that quickly change from a high-resistance state to a low-resistance state when the voltage exceeds a certain threshold.</p><h3>Key Advantages</h3><ul><li><strong>Installation & Maintenance:</strong> Plug-in units enable rapid replacement without extensive downtime, crucial for systems where interruptions carry significant economic costs.</li><li><strong>Modular Flexibility:</strong> The design permits customization through combined modules, allowing targeted protection across diverse industrial applications.</li><li><strong>Cost-Effectiveness:</strong> Only faulty modules require replacement rather than entire units, reducing both parts and labor expenses.</li></ul><h3>Limitations</h3><p>Challenges include thermal management during high-energy surges, compatibility concerns with complex grounding schemes, and environmental durability requirements for outdoor installations.</p><h3>Real-World Examples</h3><p>Case studies demonstrate effectiveness in coastal areas prone to lightning strikes and industrial plants experiencing switching surge damage to sensitive equipment.</p><p>Plug-in surge arresters are technically feasible for medium-voltage systems when properly selected to match specific system requirements.</p>",
+    contentZh: "<p>本文探讨插拔式浪涌保护器能否保护中压电气系统（1-35 kV范围）。这些器件利用金属氧化物压敏电阻（MOV），在电压超过一定阈值时迅速从高阻态转变为低阻态。</p><h3>主要优势</h3><ul><li><strong>安装与维护：</strong>插拔式设计可快速更换，无需长时间停机，这对于中断会造成重大经济损失的系统至关重要。</li><li><strong>模块化灵活性：</strong>设计允许通过组合模块实现定制化，在多种工业应用中提供针对性保护。</li><li><strong>经济性：</strong>仅需更换故障模块而非整个装置，降低了备件和人工成本。</li></ul><h3>局限性</h3><p>挑战包括高能浪涌时的热管理、与复杂接地方案的兼容性问题，以及户外安装的环境耐久性要求。</p><h3>实际案例</h3><p>案例研究证明了其在易遭雷击的沿海地区和因开关浪涌导致敏感设备损坏的工业厂房中的有效性。</p><p>在正确选型以匹配具体系统要求的前提下，插拔式浪涌保护器在技术上完全可用于中压系统。</p>",
     image: "../flyboat-website/images/products/plug-in-surge-arrester.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "spd-accessories-classroom",
     title: "Are There Accessories for SPDs That Can Be Used in a Classroom?",
+    titleZh: "有哪些浪涌保护器配件适用于教室环境？",
     date: "2026-01-14",
     excerpt: "Discover SPD accessories suitable for classroom environments, from green plastic SPDs to customizable protection modules for educational settings.",
+    excerptZh: "了解适用于教室环境的浪涌保护器配件，从绿色塑料外壳SPD到可定制的教育场所保护模块。",
     content: "<p>Yes! There are several SPD accessories suitable for classroom environments that can protect electrical equipment and even serve as educational tools.</p><h3>Green Plastic SPD</h3><p>This eco-friendly, durable SPD can be easily installed near electrical outlets. Its green plastic casing is resistant to scratches and impacts \u2014 ideal for active classroom environments. Teachers can use it to explain surge protection concepts to students.</p><h3>Surge Protective Components</h3><p>These components can be integrated into existing classroom electrical systems and added to power strips connecting multiple devices. They provide an extra layer of protection by quickly diverting excess voltage away from connected computers, projectors, and smart boards.</p><h3>Customizable SPD Plastic</h3><p>Schools with their own branding or color schemes can order SPDs in custom colors to match. This can even become a creative project for students, combining electrical safety education with design skills.</p><h3>Benefits for Learning</h3><ul><li>Students can focus on studies without worrying about power failures</li><li>Minimizes disruptions from surge-related equipment malfunctions</li><li>Can be incorporated into safety curriculum for hands-on learning</li><li>Teaches students about electrical safety and hazard identification</li></ul><p>Most accessories are user-friendly with clear installation instructions suitable for teachers or school staff with basic electrical knowledge.</p>",
+    contentZh: "<p>当然有！多种浪涌保护器配件适用于教室环境，既可以保护电气设备，还可以作为教学工具。</p><h3>绿色塑料外壳SPD</h3><p>这款环保耐用的浪涌保护器可轻松安装在电源插座附近。其绿色塑料外壳耐刮擦、耐冲击，非常适合活跃的教室环境。教师可以用它向学生讲解浪涌保护的概念。</p><h3>浪涌保护元件</h3><p>这些元件可集成到现有教室电气系统中，并添加到连接多个设备的电源排插上。它们通过快速转移多余电压，为连接的电脑、投影仪和智能白板提供额外的保护层。</p><h3>可定制SPD塑料外壳</h3><p>有自身品牌标识或配色方案的学校可以订购定制颜色的浪涌保护器以匹配校园风格。这甚至可以成为学生的创意项目，将电气安全教育与设计技能相结合。</p><h3>学习收益</h3><ul><li>学生可以专注于学习，无需担心电源故障</li><li>最大限度减少因浪涌导致的设备故障中断</li><li>可纳入安全课程进行实践教学</li><li>教导学生了解电气安全和危害识别</li></ul><p>大多数配件操作简便，附有清晰的安装说明，适合具有基本电气知识的教师或学校工作人员使用。</p>",
     image: "../flyboat-website/images/products/green-plastic-spd.jpg",
-    category: "Application"
+    category: "Application",
+    categoryZh: "应用"
   },
   {
     id: "vibration-resistance-bare-disc-varistors",
     title: "What Is the Vibration Resistance of Bare Disc Varistors?",
+    titleZh: "裸片压敏电阻的抗振性能如何？",
     date: "2026-01-14",
     excerpt: "Bare Disc Varistors must withstand vibration in industrial, automotive, and aerospace applications. Learn about testing standards and real-world performance.",
+    excerptZh: "裸片压敏电阻必须在工业、汽车和航空航天应用中承受振动。了解测试标准和实际性能表现。",
     content: "<p>Bare Disc Varistors are Metal Oxide Varistors (MOVs) that protect electrical devices from over-voltage situations. In applications like industrial machinery, automotive electronics, and aerospace equipment, vibration resistance is critical.</p><h3>Why Vibration Resistance Matters</h3><p>Without proper vibration resistance, varistors can experience internal structural damage, leading to increased leakage current, shifted clamping voltage, or complete failure.</p><h3>Manufacturing and Testing</h3><p>High-quality materials and controlled sintering processes create dense, uniform structures. Testing follows international standards like IEC 60068-2-6, with products withstanding vibrations up to 20g in the frequency range of 10-2000 Hz for extended periods.</p><h3>Real-World Applications</h3><ul><li><strong>Automotive:</strong> Engine control units (ECUs) where constant engine vibration is present</li><li><strong>Industrial:</strong> Motor control panels in manufacturing environments</li><li><strong>Aerospace:</strong> Avionics and flight control systems with extreme vibration profiles</li></ul><p>Customized solutions and technical support are available for specialized vibration requirements across various industries.</p>",
+    contentZh: "<p>裸片压敏电阻是一种金属氧化物压敏电阻（MOV），用于保护电气设备免受过电压损害。在工业机械、汽车电子和航空航天设备等应用中，抗振性能至关重要。</p><h3>抗振性能为何重要</h3><p>如果抗振性能不足，压敏电阻可能出现内部结构损坏，导致漏电流增大、钳位电压偏移或完全失效。</p><h3>制造与测试</h3><p>高品质材料和受控烧结工艺可形成致密均匀的结构。测试遵循IEC 60068-2-6等国际标准，产品可在10-2000 Hz频率范围内承受高达20g的长时间振动。</p><h3>实际应用</h3><ul><li><strong>汽车：</strong>持续承受发动机振动的发动机控制单元（ECU）</li><li><strong>工业：</strong>制造环境中的电机控制面板</li><li><strong>航空航天：</strong>承受极端振动工况的航空电子和飞控系统</li></ul><p>可为各行业的特殊振动需求提供定制化解决方案和技术支持。</p>",
     image: "../flyboat-website/images/products/high-energy-suppressor-discs.jpg",
-    category: "Technical"
+    category: "Technical",
+    categoryZh: "技术"
   },
   {
     id: "marking-on-dc-spd",
     title: "What Is the Marking on a DC SPD?",
+    titleZh: "直流浪涌保护器上的标识有哪些？",
     date: "2026-01-14",
     excerpt: "Understanding DC SPD markings is essential for proper device selection and installation. Learn about voltage ratings, protection levels, and certification marks.",
+    excerptZh: "了解直流SPD（浪涌保护器）上的标识对于正确选型和安装至关重要。了解电压额定值、保护等级和认证标志。",
     content: "<p>DC Surge Protective Devices feature several critical markings that identify their specifications and capabilities. Understanding these markings is essential for proper device selection, installation, and safety compliance.</p><h3>Key Marking Types</h3><ul><li><strong>Manufacturer Information:</strong> Device name, logo, and model number for identification and support</li><li><strong>Rated Voltage (Un):</strong> The maximum continuous operating voltage the SPD can withstand without damage</li><li><strong>Voltage Protection Level (Up):</strong> The residual voltage during surge events \u2014 lower values indicate superior protection</li><li><strong>Discharge Current Capacity:</strong> Specified as In (nominal) and Imax (maximum) to measure surge-handling ability</li></ul><h3>Protection Classes</h3><ul><li><strong>Class I:</strong> Primary lightning protection at service entrance</li><li><strong>Class II:</strong> Secondary protection at distribution panels</li><li><strong>Class III:</strong> Fine protection for sensitive equipment</li></ul><h3>Safety Certifications</h3><p>Look for UL, CE, and IEC markings that confirm compliance with industry standards and regulatory requirements.</p><h3>Symbolic Indicators</h3><p>Lightning bolt symbols indicate surge protection capability. Grounding symbols show earth connections. Degradation indicators alert users when replacement is needed \u2014 typically via green/red status windows.</p>",
+    contentZh: "<p>直流浪涌保护器上标有多种关键标识，用于说明其规格和性能。了解这些标识对于正确选型、安装和安全合规至关重要。</p><h3>主要标识类型</h3><ul><li><strong>制造商信息：</strong>设备名称、标识和型号，用于识别和支持</li><li><strong>额定电压（Un）：</strong>浪涌保护器在不损坏情况下可承受的最大持续工作电压</li><li><strong>电压保护水平（Up）：</strong>浪涌事件中的残压——数值越低表示保护效果越好</li><li><strong>放电电流能力：</strong>以In（标称值）和Imax（最大值）表示，衡量浪涌处理能力</li></ul><h3>保护等级</h3><ul><li><strong>I级：</strong>进线端的一级防雷保护</li><li><strong>II级：</strong>配电面板的二级保护</li><li><strong>III级：</strong>敏感设备的精细保护</li></ul><h3>安全认证</h3><p>应注意UL、CE和IEC标志，确认符合行业标准和法规要求。</p><h3>符号指示</h3><p>闪电符号表示浪涌保护能力。接地符号表示接地连接。劣化指示器在需要更换时提醒用户——通常通过绿色/红色状态窗口显示。</p>",
     image: "../flyboat-website/images/products/dc-mov-for-pv-system.jpg",
-    category: "Guide"
+    category: "Guide",
+    categoryZh: "指南"
   }
 ];
