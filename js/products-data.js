@@ -9,6 +9,7 @@ window.PRODUCTS_DATA = {
   name: "AC Varistor",
   nameZh: "交流压敏电阻",
   category: "Metal Oxide Varistor",
+  categoryZh: "金属氧化物压敏电阻",
   categorySlug: "metal-oxide-varistor",
   shortDesc: "High Voltage Power Surge Protector Metal Oxide Varistor Class I 20S-C U1MA(V): 80-1800 UAC: 60-1000",
   shortDescZh: "高压电涌保护器 金属氧化物压敏电阻 Class I 20S-C U1MA(V): 80-1800 UAC: 60-1000",
@@ -64,7 +65,9 @@ window.PRODUCTS_DATA = {
   specTables: [
     {
       title: "20SK Series Technical Parameters",
+      titleZh: "20SK系列技术参数",
       headers: ["Type", "U1mA (V)", "U1mA (%)", "UAC (V)", "UDC (V)", "In (kA)", "Imax (kA)", "UP (V)", "ETM (J)", "UL", "C-UL", "TUV"],
+      headersZh: ["型号", "U1mA (V)", "U1mA (%)", "UAC (V)", "UDC (V)", "In (kA)", "Imax (kA)", "UP (V)", "ETM (J)", "UL", "C-UL", "TUV"],
       rows: [
         ["20SK431", "430", "\u00b110", "275", "350", "7", "15", "990-2.2", "340", "\u221a", "\u221a", "\u2014"],
         ["20SK471", "620", "\u00b110", "300", "385", "7", "15", "1070-2.2", "360", "\u221a", "\u221a", "\u2014"],
@@ -89,6 +92,7 @@ window.PRODUCTS_DATA = {
   name: "MOV DC",
   nameZh: "直流压敏电阻",
   category: "Metal Oxide Varistor",
+  categoryZh: "金属氧化物压敏电阻",
   categorySlug: "metal-oxide-varistor",
   shortDesc: "FLYBOAT 34S Protected Varistor Series for DC applications",
   shortDescZh: "益舸 34S 直流应用保护型压敏电阻系列",
@@ -146,7 +150,9 @@ window.PRODUCTS_DATA = {
   specTables: [
     {
       title: "34S Series Technical Parameters",
+      titleZh: "34S系列技术参数",
       headers: ["Part Number", "Vac (V)", "Vdc (V)", "V1mA (V)", "Ip (A)", "Vc (V)", "I (A)", "Energy (J)", "Cap @1KHz (pF)"],
+      headersZh: ["零件编号", "Vac (V)", "Vdc (V)", "V1mA (V)", "Ip (A)", "Vc (V)", "I (A)", "能量 (J)", "电容 @1KHz (pF)"],
       rows: [
         ["34S330K", "20", "26", "33 (30-36)", "60", "65", "12000", "50", "43000"],
         ["34S390K", "25", "31", "39 (35-43)", "60", "77", "12000", "65", "31500"],
@@ -191,7 +197,7 @@ window.PRODUCTS_DATA = {
 },
 
 "class-i-mov": {
-  id: "class-i-mov", name: "Class I MOV", nameZh: "I级MOV压敏电阻", category: "Metal Oxide Varistor", categorySlug: "metal-oxide-varistor",
+  id: "class-i-mov", name: "Class I MOV", nameZh: "I级MOV压敏电阻", category: "Metal Oxide Varistor", categoryZh: "金属氧化物压敏电阻", categorySlug: "metal-oxide-varistor",
   shortDesc: "34S Square 220V High Power MOV Varistor - Peak current Imax 40kA",
   shortDescZh: "34S方形 220V 大功率MOV压敏电阻 - 峰值电流Imax 40kA",
   description: `<p>34S Square 220V High Power MOV Varistor with High Energy Absorption Capability. U1MA(V): 80-1000, UAC: 60-1000.</p><p>Peak current reaches the world leading level. It can afford 8/20\u00b5s impulse, peak current Imax 40kA, punch 2 times.</p>`,
@@ -208,7 +214,7 @@ window.PRODUCTS_DATA = {
 },
 
 "industrial-high-energy-varistor": {
-  id: "industrial-high-energy-varistor", name: "Industrial High Energy Varistor", nameZh: "工业级高能量压敏电阻", category: "Metal Oxide Varistor", categorySlug: "metal-oxide-varistor",
+  id: "industrial-high-energy-varistor", name: "Industrial High Energy Varistor", nameZh: "工业级高能量压敏电阻", category: "Metal Oxide Varistor", categoryZh: "金属氧化物压敏电阻", categorySlug: "metal-oxide-varistor",
   shortDesc: "Metal Oxide Varistor Class I 22S-U-LV U1MA(V):80-1800 UAC:60-1000",
   shortDescZh: "金属氧化物压敏电阻 Class I 22S-U-LV U1MA(V):80-1800 UAC:60-1000",
   description: `<p>Metal oxide varistors are typically constructed from zinc oxide combined with small additions of other metal oxides. The 34S Metal Oxide Varistor features a wide operating voltage range from 11 to 1600 VRMS with high surge current ratings up to 8 kA.</p>`,
@@ -225,7 +231,7 @@ window.PRODUCTS_DATA = {
 },
 
 "metal-oxide-square-disc-varistors": {
-  id: "metal-oxide-square-disc-varistors", name: "Metal Oxide Square Disc Varistors", nameZh: "方形金属氧化物压敏电阻片", category: "Metal Oxide Varistor", categorySlug: "metal-oxide-varistor",
+  id: "metal-oxide-square-disc-varistors", name: "Metal Oxide Square Disc Varistors", nameZh: "方形金属氧化物压敏电阻片", category: "Metal Oxide Varistor", categoryZh: "金属氧化物压敏电阻", categorySlug: "metal-oxide-varistor",
   shortDesc: "Voltage Power Surge Protector Metal Oxide Varistor Class I 25D-C U1MA(V):80-1800",
   shortDescZh: "电压浪涌保护器 金属氧化物压敏电阻 Class I 25D-C U1MA(V):80-1800",
   description: `<p>Voltage Power Surge Protector Metal Oxide Varistor Class I 25D-C. Square disc format varistors with accurately defined dimensional tolerances.</p>`,
@@ -242,7 +248,7 @@ window.PRODUCTS_DATA = {
 },
 
 "high-energy-suppressor-discs": {
-  id: "high-energy-suppressor-discs", name: "High Energy Suppressor Discs", nameZh: "高能量浪涌抑制片", category: "Metal Oxide Varistor", categorySlug: "metal-oxide-varistor",
+  id: "high-energy-suppressor-discs", name: "High Energy Suppressor Discs", nameZh: "高能量浪涌抑制片", category: "Metal Oxide Varistor", categoryZh: "金属氧化物压敏电阻", categorySlug: "metal-oxide-varistor",
   shortDesc: "MOV Metal Oxide Varistor for SPD - 34R Series",
   shortDescZh: "SPD用MOV金属氧化物压敏电阻 - 34R系列",
   description: `<p>MOV Metal Oxide Varistor for surge protective device (SPD). FLYBOAT was almost TOP 3 in the world for MOV Metal Oxide Varistor for SPD.</p>`,
@@ -259,7 +265,7 @@ window.PRODUCTS_DATA = {
 },
 
 "mov-varistor-for-spd": {
-  id: "mov-varistor-for-spd", name: "MOV Varistor For SPD", nameZh: "SPD用MOV压敏电阻", category: "Metal Oxide Varistor", categorySlug: "metal-oxide-varistor",
+  id: "mov-varistor-for-spd", name: "MOV Varistor For SPD", nameZh: "SPD用MOV压敏电阻", category: "Metal Oxide Varistor", categoryZh: "金属氧化物压敏电阻", categorySlug: "metal-oxide-varistor",
   shortDesc: "MOV Material Surge Protection Device SPD Working Voltage 220V-520V 25D Type",
   shortDescZh: "MOV材料浪涌保护器 工作电压220V-520V 25D型",
   description: `<p>MOV Material Surge Protection Device SPD with Working Voltage 220V-520V, 25D Type. Voltage protection level Up up to 1.8 kV.</p>`,
@@ -277,7 +283,7 @@ window.PRODUCTS_DATA = {
 
 "bare-disc-varistors": {
   id: "bare-disc-varistors", name: "Bare Disc Varistors", nameZh: "裸片压敏电阻",
-  category: "Metal Oxide Varistor", categorySlug: "metal-oxide-varistor",
+  category: "Metal Oxide Varistor", categoryZh: "金属氧化物压敏电阻", categorySlug: "metal-oxide-varistor",
   shortDesc: "MOV LT - 34S911K 550VAc SPD Metal Oxide Varistor Class I 32D-C",
   shortDescZh: "MOV LT - 34S911K 550VAc 浪涌保护器用金属氧化物压敏电阻 Class I 32D-C",
   description: `<p>Customized Bare Disc Varistors with superior surge protection performance. UL1449 4th approved (UL File No. E319871).</p>`,
@@ -295,7 +301,7 @@ window.PRODUCTS_DATA = {
 
 "32d-metal-oxide-varistor": {
   id: "32d-metal-oxide-varistor", name: "32D Metal Oxide Varistor", nameZh: "32D金属氧化物压敏电阻",
-  category: "Metal Oxide Varistor", categorySlug: "metal-oxide-varistor",
+  category: "Metal Oxide Varistor", categoryZh: "金属氧化物压敏电阻", categorySlug: "metal-oxide-varistor",
   shortDesc: "Energy absorption >1000J, Peak current Imax 40kA",
   shortDescZh: "能量吸收>1000J，峰值电流Imax 40kA",
   description: `<p>Energy absorption capacity >1000J. Peak current reaches world-leading levels, handling 8/20\u00b5s impulse with peak current Imax 40kA.</p>`,
@@ -313,7 +319,7 @@ window.PRODUCTS_DATA = {
 
 "34s-metal-oxide-varistor": {
   id: "34s-metal-oxide-varistor", name: "34S Metal Oxide Varistor", nameZh: "34S金属氧化物压敏电阻",
-  category: "Metal Oxide Varistor", categorySlug: "metal-oxide-varistor",
+  category: "Metal Oxide Varistor", categoryZh: "金属氧化物压敏电阻", categorySlug: "metal-oxide-varistor",
   shortDesc: "34x34mm Square Shape Epoxy Encapsulated Zinc MOV 34S 40KA For SPD",
   shortDescZh: "34x34mm方形环氧封装氧化锌MOV 34S 40KA 浪涌保护器专用",
   description: `<p>The 34x34mm square-shaped varistor is an epoxy-encapsulated zinc metal oxide component rated for 40KA surge protection in SPD applications.</p>`,
@@ -335,7 +341,7 @@ window.PRODUCTS_DATA = {
 
 "surge-protectors-signal-systems": {
   id: "surge-protectors-signal-systems", name: "Surge Protectors Signal Systems", nameZh: "信号系统浪涌保护器",
-  category: "DC SPD OEM", categorySlug: "dc-spd",
+  category: "DC SPD OEM", categoryZh: "直流SPD OEM", categorySlug: "dc-spd",
   shortDesc: "CE 1000VDC Surge Protector Device DC Surge Suppressors Photovoltaic 2P SPD 20-40kA",
   shortDescZh: "CE认证 1000VDC 直流浪涌抑制器 光伏专用2P浪涌保护器 20-40kA",
   description: `<p>This surge protector is mainly used in low voltage power distribution systems for lightning surge protection or other transient overvoltage.</p>`,
@@ -353,7 +359,7 @@ window.PRODUCTS_DATA = {
 
 "power-line-spd": {
   id: "power-line-spd", name: "Power Line SPD", nameZh: "电源线路浪涌保护器",
-  category: "DC SPD OEM", categorySlug: "dc-spd",
+  category: "DC SPD OEM", categoryZh: "直流SPD OEM", categorySlug: "dc-spd",
   shortDesc: "SPD DC 500V 800V 1000V 2P 20KA~40KA Low-voltage Arrester",
   shortDescZh: "浪涌保护器 DC 500V 800V 1000V 2P 20KA~40KA 低压避雷器",
   description: `<p>ULTA series SPD is used for power supply systems such as IT, TT, TN-C, TN-S, TN-CS for low-voltage AC distribution, for indirect/direct lightning surge protection.</p>`,
@@ -371,7 +377,7 @@ window.PRODUCTS_DATA = {
 
 "dc-mov-for-pv-system": {
   id: "dc-mov-for-pv-system", name: "DC MOV for PV System", nameZh: "光伏系统直流压敏电阻",
-  category: "DC SPD OEM", categorySlug: "dc-spd",
+  category: "DC SPD OEM", categoryZh: "直流SPD OEM", categorySlug: "dc-spd",
   shortDesc: "4 Phase 100kA SPD Device AC 3P+N 40~80KA 60KA~100KA 385V 420V",
   shortDescZh: "四相100kA浪涌保护器 AC 3P+N 40~80KA 60KA~100KA 385V 420V",
   description: `<p>The P100K385-53 is an extreme duty Type 1+2 surge protector designed to protect the entrance of the electrical installation.</p>`,
@@ -389,7 +395,7 @@ window.PRODUCTS_DATA = {
 
 "solar-system-1000v": {
   id: "solar-system-1000v", name: "Solar System 1000V", nameZh: "光伏系统1000V浪涌保护器",
-  category: "DC SPD OEM", categorySlug: "dc-spd",
+  category: "DC SPD OEM", categoryZh: "直流SPD OEM", categorySlug: "dc-spd",
   shortDesc: "AC400V surge arrester 50KA-100KA SPD 600V 1000V 1500V switch PV DC SPD",
   shortDescZh: "AC400V避雷器 50KA-100KA浪涌保护器 600V 1000V 1500V 光伏直流SPD",
   description: `<p>The SPD surge protection device is designed in a parallel module configuration with a flame-retardant shell. Type 1+2 surge protector for high-risk lightning strike areas.</p>`,
@@ -406,7 +412,7 @@ window.PRODUCTS_DATA = {
 },
 
 "1000v-dc-spd": {
-  id: "1000v-dc-spd", name: "1000V DC SPD", category: "DC SPD OEM", categorySlug: "dc-spd",
+  id: "1000v-dc-spd", name: "1000V DC SPD", category: "DC SPD OEM", categoryZh: "直流SPD OEM", categorySlug: "dc-spd",
   nameZh: "1000V直流浪涌保护器",
   shortDesc: "60KA 3P 800V DC SPD T2 Level Solar Outdoor Power Protection",
   shortDescZh: "60KA 3P 800V 直流浪涌保护器 T2级 太阳能户外电源防护",
@@ -428,7 +434,7 @@ window.PRODUCTS_DATA = {
 // ============================================================
 
 "ac-surge-protective-device-spd": {
-  id: "ac-surge-protective-device-spd", name: "AC Surge Protective Device SPD", category: "AC SPD OEM", categorySlug: "ac-spd",
+  id: "ac-surge-protective-device-spd", name: "AC Surge Protective Device SPD", category: "AC SPD OEM", categoryZh: "交流SPD OEM", categorySlug: "ac-spd",
   nameZh: "交流浪涌保护器",
   shortDesc: "SPD DC 3P 1000V 1500V 20KA~40KA Din Rail Solar Surge Protector",
   shortDescZh: "浪涌保护器 直流 3P 1000V 1500V 20KA~40KA 导轨式太阳能防雷器",
@@ -446,7 +452,7 @@ window.PRODUCTS_DATA = {
 },
 
 "ul-ce-spd": {
-  id: "ul-ce-spd", name: "UL CE SPD", category: "AC SPD OEM", categorySlug: "ac-spd",
+  id: "ul-ce-spd", name: "UL CE SPD", category: "AC SPD OEM", categoryZh: "交流SPD OEM", categorySlug: "ac-spd",
   nameZh: "UL CE认证浪涌保护器",
   shortDesc: "P20K385-51 Three Phase Surge Protector with UL & CE Certification",
   shortDescZh: "P20K385-51 三相浪涌保护器 通过UL及CE认证",
@@ -464,7 +470,7 @@ window.PRODUCTS_DATA = {
 },
 
 "imax-40ka-230-400v": {
-  id: "imax-40ka-230-400v", name: "Imax 40KA 230/400V", category: "AC SPD OEM", categorySlug: "ac-spd",
+  id: "imax-40ka-230-400v", name: "Imax 40KA 230/400V", category: "AC SPD OEM", categoryZh: "交流SPD OEM", categorySlug: "ac-spd",
   nameZh: "Imax 40KA 230/400V浪涌保护器",
   shortDesc: "ULTIMA T2 Surge Protective SPD Uc 255V In 10KA Imax 20KA",
   shortDescZh: "ULTIMA T2 浪涌保护器 Uc 255V In 10KA Imax 20KA",
@@ -482,7 +488,7 @@ window.PRODUCTS_DATA = {
 },
 
 "220v-10-40ka-surge-protector": {
-  id: "220v-10-40ka-surge-protector", name: "220V 10/40kA Surge Protector", category: "AC SPD OEM", categorySlug: "ac-spd",
+  id: "220v-10-40ka-surge-protector", name: "220V 10/40kA Surge Protector", category: "AC SPD OEM", categoryZh: "交流SPD OEM", categorySlug: "ac-spd",
   nameZh: "220V 10/40kA浪涌保护器",
   shortDesc: "AC T2T3 Type 275/385V In 10/40kA 4P Three-Phase Surge Protection",
   shortDescZh: "交流 T2T3型 275/385V In 10/40kA 4P 三相浪涌保护",
@@ -500,7 +506,7 @@ window.PRODUCTS_DATA = {
 },
 
 "220v-lightning-protection-three-phase": {
-  id: "220v-lightning-protection-three-phase", name: "220V Lightning Protection Three Phase", category: "AC SPD OEM", categorySlug: "ac-spd",
+  id: "220v-lightning-protection-three-phase", name: "220V Lightning Protection Three Phase", category: "AC SPD OEM", categoryZh: "交流SPD OEM", categorySlug: "ac-spd",
   nameZh: "220V三相防雷保护器",
   shortDesc: "Type 1 Heavy Duty Surge Protectors for Solar DC Systems",
   shortDescZh: "I级重载浪涌保护器 适用于太阳能直流系统",
@@ -522,7 +528,7 @@ window.PRODUCTS_DATA = {
 // ============================================================
 
 "surge-protective-modules": {
-  id: "surge-protective-modules", name: "Surge Protective Modules", category: "Protection Modules", categorySlug: "protection-module",
+  id: "surge-protective-modules", name: "Surge Protective Modules", category: "Protection Modules", categoryZh: "TMOV/热保护模块", categorySlug: "protection-module",
   nameZh: "浪涌保护模块",
   shortDesc: "UL 1449 4th Ed. Approved with 200kA SCCR Rating",
   shortDescZh: "通过UL 1449第四版认证 200kA SCCR额定值",
@@ -540,7 +546,7 @@ window.PRODUCTS_DATA = {
 },
 
 "surge-replacement-module": {
-  id: "surge-replacement-module", name: "Surge Replacement Module", nameZh: "浪涌保护器替换模块", category: "Protection Modules", categorySlug: "protection-module",
+  id: "surge-replacement-module", name: "Surge Replacement Module", nameZh: "浪涌保护器替换模块", category: "Protection Modules", categoryZh: "TMOV/热保护模块", categorySlug: "protection-module",
   shortDesc: "SPD 34sp1 Series Surge Protective Device with UL TUV",
   shortDescZh: "SPD 34SP1系列浪涌保护器 通过UL TUV认证",
   description: `<p>SPD 34SP1 Series replacement module for DC electrical and photovoltaic (PV) systems.</p>`,
@@ -557,7 +563,7 @@ window.PRODUCTS_DATA = {
 },
 
 "onboard-surge-protection-device": {
-  id: "onboard-surge-protection-device", name: "Onboard Surge Protection Device", nameZh: "板载浪涌保护器", category: "Protection Modules", categorySlug: "protection-module",
+  id: "onboard-surge-protection-device", name: "Onboard Surge Protection Device", nameZh: "板载浪涌保护器", category: "Protection Modules", categoryZh: "TMOV/热保护模块", categorySlug: "protection-module",
   shortDesc: "SPD DC 600V 800V 1000V 1500V Modular Core Din Rail Solar Outdoor",
   shortDescZh: "SPD DC 600V 800V 1000V 1500V 模块化核心 导轨安装 太阳能户外型",
   description: `<p>Patented, miniaturized design optimized for horizontal mounting on PCB boards. Provides differential and common mode protections.</p>`,
@@ -574,7 +580,7 @@ window.PRODUCTS_DATA = {
 },
 
 "spd-modular": {
-  id: "spd-modular", name: "SPD Modular", nameZh: "模块化浪涌保护器", category: "Protection Modules", categorySlug: "protection-module",
+  id: "spd-modular", name: "SPD Modular", nameZh: "模块化浪涌保护器", category: "Protection Modules", categoryZh: "TMOV/热保护模块", categorySlug: "protection-module",
   shortDesc: "Din Rail Adjustable Over Voltage Protective Device 275V 420V 20~40KA",
   shortDescZh: "导轨式可调过电压保护器 275V 420V 20~40KA",
   description: `<p>SPD Din rail adjustable over voltage protective device with over current protection. AC SPD replacement module.</p>`,
@@ -591,7 +597,7 @@ window.PRODUCTS_DATA = {
 },
 
 "plug-in-surge-arrester": {
-  id: "plug-in-surge-arrester", name: "Plug-in Surge Arrester", nameZh: "插拔式避雷器", category: "Protection Modules", categorySlug: "protection-module",
+  id: "plug-in-surge-arrester", name: "Plug-in Surge Arrester", nameZh: "插拔式避雷器", category: "Protection Modules", categoryZh: "TMOV/热保护模块", categorySlug: "protection-module",
   shortDesc: "SPD Replace Module DC 600V 1000V 1500V 2P 20~40KA B20K385/51",
   shortDescZh: "SPD替换模块 DC 600V 1000V 1500V 2P 20~40KA B20K385/51",
   description: `<p>SPD replacement module for DC 600V, 1000V, and 1500V networks. Common and differential mode protection.</p>`,
@@ -612,7 +618,7 @@ window.PRODUCTS_DATA = {
 // ============================================================
 
 "surge-protective-components": {
-  id: "surge-protective-components", name: "Surge Protective Components", nameZh: "浪涌保护组件", category: "Accessories for SPDs", categorySlug: "accessories-for-spds",
+  id: "surge-protective-components", name: "Surge Protective Components", nameZh: "浪涌保护组件", category: "Accessories for SPDs", categoryZh: "SPD配件", categorySlug: "accessories-for-spds",
   shortDesc: "Replacement Cartridges for AC SPD 385V 10~20KA, 20~40KA, 30KA~60KA",
   shortDescZh: "交流浪涌保护器替换芯片 385V 10~20KA, 20~40KA, 30KA~60KA",
   description: `<p>Surge Protection Replacement Cartridges for AC SPD 385V. Hot-swappable design allows replacement without cutting off power supply.</p>`,
@@ -641,7 +647,7 @@ window.PRODUCTS_DATA = {
 },
 
 "plug-in-spd-block": {
-  id: "plug-in-spd-block", name: "Plug-in SPD Block", nameZh: "插拔式浪涌保护模块", category: "Accessories for SPDs", categorySlug: "accessories-for-spds",
+  id: "plug-in-spd-block", name: "Plug-in SPD Block", nameZh: "插拔式浪涌保护模块", category: "Accessories for SPDs", categoryZh: "SPD配件", categorySlug: "accessories-for-spds",
   shortDesc: "Replaceable AC SPD 1P 30KA~60KA 385VAC Low-voltage Arrester",
   shortDescZh: "可更换交流浪涌保护器 1P 30KA~60KA 385VAC 低压避雷器",
   description: `<p>SPD Replaceable replacement cartridge inserts 275V AC plug-in protection module. Core parts are metal oxide varistor components with high discharge capacity.</p>`,
@@ -670,7 +676,7 @@ window.PRODUCTS_DATA = {
 },
 
 "customizable-spd-plastic": {
-  id: "customizable-spd-plastic", name: "Customizable SPD Plastic", nameZh: "定制浪涌保护器塑料外壳", category: "Accessories for SPDs", categorySlug: "accessories-for-spds",
+  id: "customizable-spd-plastic", name: "Customizable SPD Plastic", nameZh: "定制浪涌保护器塑料外壳", category: "Accessories for SPDs", categoryZh: "SPD配件", categorySlug: "accessories-for-spds",
   shortDesc: "Green Plastic Solar AC DC Surge Protector Accessory",
   shortDescZh: "绿色塑料外壳 太阳能交直流浪涌保护器配件",
   description: `<p>40 KA 4P AC Surge Voltage Protector Lightning Surge Protector SPD accessories. CE certified. OEM/ODM services available.</p>`,
@@ -697,7 +703,7 @@ window.PRODUCTS_DATA = {
 },
 
 "parts-surge-arrestor": {
-  id: "parts-surge-arrestor", name: "Parts Surge Arrestor", nameZh: "避雷器配件", category: "Accessories for SPDs", categorySlug: "accessories-for-spds",
+  id: "parts-surge-arrestor", name: "Parts Surge Arrestor", nameZh: "避雷器配件", category: "Accessories for SPDs", categoryZh: "SPD配件", categorySlug: "accessories-for-spds",
   shortDesc: "White Plastic SPD Photovoltaic PV Surge Protector Accessory",
   shortDescZh: "白色塑料外壳 光伏PV浪涌保护器配件",
   description: `<p>Two-pole surge arrester composed of a base part and a plug-in protection module. High discharge capacity due to heavy-duty zinc oxide varistor / spark gap combination.</p>`,
@@ -714,7 +720,7 @@ window.PRODUCTS_DATA = {
 },
 
 "green-plastic-spd": {
-  id: "green-plastic-spd", name: "Green Plastic SPD", nameZh: "绿色塑料浪涌保护器", category: "Accessories for SPDs", categorySlug: "accessories-for-spds",
+  id: "green-plastic-spd", name: "Green Plastic SPD", nameZh: "绿色塑料浪涌保护器", category: "Accessories for SPDs", categoryZh: "SPD配件", categorySlug: "accessories-for-spds",
   shortDesc: "Factory Original 40KA Surge Protector Accessory Parts",
   shortDescZh: "原厂生产 40KA浪涌保护器配件",
   description: `<p>Factory original production 40KA surge protector surge arrestor accessory. Customizable with modular design according to DIN 43880.</p>`,

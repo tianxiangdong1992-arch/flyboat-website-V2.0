@@ -391,6 +391,64 @@
     var lang = localStorage.getItem('flyboat-lang') || 'en';
     function t(en, zh) { return lang === 'zh' && zh ? zh : en; }
 
+    // Spec label translation lookup
+    var specLabelZh = {
+      "Material": "材料", "Color": "颜色", "Operating Temperature": "工作温度",
+      "Certification": "认证", "Applicable Fuse": "适用熔断器", "Response Time": "响应时间",
+      "Insulation Resistance": "绝缘电阻", "Varistor Voltage Temp. Coefficient": "压敏电压温度系数",
+      "Chip Diameter Options": "芯片直径选项", "Varistor Voltage Tolerance": "压敏电压容差",
+      "Varistor Voltage Range": "压敏电压范围", "Withstanding Surge Current": "耐浪涌电流",
+      "Model Number": "型号", "Brand": "品牌", "Voltage": "电压",
+      "Available Series": "可选系列", "Voltage Range": "电压范围",
+      "Surge Current Rating": "浪涌电流额定值", "UAC Range": "交流电压范围",
+      "Working Voltage": "工作电压", "Normal Discharge Current In": "标称放电电流",
+      "Shape": "形状", "Dimension": "尺寸", "AC Voltage Range UAC": "交流电压范围",
+      "Peak Current (8/20µs)": "峰值电流 (8/20µs)", "Max Energy Absorption": "最大能量吸收",
+      "Size": "尺寸", "Surge Current": "浪涌电流",
+      "Nominal Discharge Current": "标称放电电流", "Mounting": "安装方式",
+      "Product Warranty": "产品质保", "Rated Voltage": "额定电压",
+      "Surge Discharge": "浪涌放电", "DC Voltage Options": "直流电压选项",
+      "Model": "型号", "Iimp Total (10/350µs)": "Iimp总计 (10/350µs)",
+      "Imax (8/20µs)": "Imax (8/20µs)", "Protection Rating": "防护等级",
+      "Flame Retardant": "阻燃等级", "Voltage Levels": "电压等级",
+      "Discharge Current": "放电电流", "SPD Classification": "SPD分类",
+      "SPD Type": "SPD类型", "Max Discharge Current": "最大放电电流",
+      "Nominal Discharge Current In": "标称放电电流",
+      "Max Discharge Current Imax": "最大放电电流",
+      "Maximum Discharge Current": "最大放电电流",
+      "Max Continuous Operating Voltage": "最大持续工作电压",
+      "Pole": "极数", "Uoc Max": "最大开路电压",
+      "Type": "类型", "SCCR Rating": "SCCR额定值",
+      "Series": "系列", "Voltage Ratings": "电压额定值",
+      "Design": "设计", "Compliance": "合规性",
+      "Voltage Options": "电压选项", "Mount Type": "安装类型",
+      "Code": "编码", "Poles": "极数", "In (8/20µs)": "In (8/20µs)",
+      "Discharge Currents": "放电电流", "Standard": "标准",
+      "Max Continuous Voltage": "最大持续电压",
+      "Supply Capacity": "供货能力", "Brand Name": "品牌名称",
+      "Max Clamping Voltage": "最大箝位电压", "Max Surge Current": "最大浪涌电流",
+      "Varistor Voltage": "压敏电压", "Energy Absorption": "能量吸收",
+      "Voltage Protection Level": "电压保护水平", "Number of Poles": "极数",
+      "Protection Mode": "保护模式", "Housing Material": "外壳材料",
+      "Dimensions": "尺寸", "Weight": "重量", "Diameter": "直径",
+      "Thickness": "厚度", "Parameter": "参数", "Value": "数值",
+      "Unit": "单位", "Feature": "特点", "Advantage": "优势",
+      "Specification": "规格", "Performance": "性能",
+      "MOQ": "最小起订量", "Port": "出货港口", "Payment": "付款方式",
+      "Supply Ability": "供货能力", "Packaging": "包装",
+      "Voltage Range U1MA(V)": "电压范围 U1MA(V)",
+      "Nominal Discharge Current Imax": "最大放电电流"
+    };
+    function tLabel(label) { return lang === 'zh' && specLabelZh[label] ? specLabelZh[label] : label; }
+
+    // Spec table header translation lookup
+    var specHeaderZh = {
+      "Type": "类型", "Part Number": "零件编号", "Model": "型号",
+      "Parameter": "参数", "Value": "数值", "Unit": "单位",
+      "Specification": "规格", "Series": "系列"
+    };
+    function tHeader(header) { return lang === 'zh' && specHeaderZh[header] ? specHeaderZh[header] : header; }
+
     if (!id || !window.PRODUCTS_DATA || !window.PRODUCTS_DATA[id]) {
       document.querySelector('.product-detail-section .container').innerHTML =
         '<div style="text-align:center;padding:80px 0"><h2>' + t('Product Not Found', '未找到产品') + '</h2><p>' + t('The requested product could not be found.', '未找到所请求的产品。') + '</p><a href="products.html" class="btn btn-primary" style="margin-top:20px">' + t('View All Products', '查看所有产品') + '</a></div>';
@@ -401,7 +459,7 @@
     document.title = t(p.name, p.nameZh) + (lang === 'zh' ? ' | 益舸' : ' | Flyboat MOV');
 
     // Breadcrumb
-    document.getElementById('breadcrumb-category').textContent = p.category;
+    document.getElementById('breadcrumb-category').textContent = t(p.category, p.categoryZh);
     document.getElementById('breadcrumb-product').textContent = t(p.name, p.nameZh);
 
     // Image
@@ -430,7 +488,7 @@
     }
 
     // Basic info
-    document.getElementById('product-category-badge').textContent = p.category;
+    document.getElementById('product-category-badge').textContent = t(p.category, p.categoryZh);
     document.getElementById('product-name').textContent = t(p.name, p.nameZh);
     document.getElementById('product-short-desc').textContent = t(p.shortDesc, p.shortDescZh);
 
@@ -438,7 +496,7 @@
     if (p.specs && p.specs.length) {
       var specsHtml = '';
       p.specs.forEach(function(s) {
-        specsHtml += '<div class="key-spec"><span class="key-spec-label">' + s.label + '</span><span class="key-spec-value">' + s.value + '</span></div>';
+        specsHtml += '<div class="key-spec"><span class="key-spec-label">' + tLabel(s.label) + '</span><span class="key-spec-value">' + s.value + '</span></div>';
       });
       document.getElementById('product-key-specs').innerHTML = specsHtml;
     }
@@ -461,14 +519,16 @@
     if (p.specTables && p.specTables.length) {
       document.getElementById('specs-tables-block').style.display = '';
       var tablesHtml = '';
-      p.specTables.forEach(function(t) {
-        tablesHtml += '<h3 class="spec-table-title">' + t.title + '</h3>';
+      p.specTables.forEach(function(tbl) {
+        var tblTitle = lang === 'zh' && tbl.titleZh ? tbl.titleZh : tbl.title;
+        tablesHtml += '<h3 class="spec-table-title">' + tblTitle + '</h3>';
         tablesHtml += '<div class="spec-table-wrap"><table class="spec-table"><thead><tr>';
-        t.headers.forEach(function(h) {
+        var hdrs = lang === 'zh' && tbl.headersZh ? tbl.headersZh : tbl.headers;
+        hdrs.forEach(function(h) {
           tablesHtml += '<th>' + h + '</th>';
         });
         tablesHtml += '</tr></thead><tbody>';
-        t.rows.forEach(function(row) {
+        tbl.rows.forEach(function(row) {
           tablesHtml += '<tr>';
           row.forEach(function(cell) {
             tablesHtml += '<td>' + cell + '</td>';
