@@ -82,8 +82,8 @@ window.PRODUCTS_DATA = {
       ]
     }
   ],
-  image: "../flyboat-website/images/products/ac-varistor.jpg",
-  images: ["../flyboat-website/images/products/ac-varistor.jpg", "../flyboat-website/images/products/ac-varistor-2.jpg", "../flyboat-website/images/products/ac-varistor-3.jpg", "../flyboat-website/images/products/ac-varistor-4.jpg", "../flyboat-website/images/products/ac-varistor-5.jpg"],
+  image: "images/products/ac-varistor.jpg",
+  images: ["images/products/ac-varistor.jpg", "images/products/ac-varistor-2.jpg", "images/products/ac-varistor-3.jpg", "images/products/ac-varistor-4.jpg", "images/products/ac-varistor-5.jpg"],
   standards: ["UL 1449", "cUL"]
 },
 
@@ -191,8 +191,8 @@ window.PRODUCTS_DATA = {
       ]
     }
   ],
-  image: "../flyboat-website/images/products/mov-dc.jpg",
-  images: ["../flyboat-website/images/products/mov-dc.jpg", "../flyboat-website/images/products/mov-dc-2.jpg", "../flyboat-website/images/products/mov-dc-3.jpg", "../flyboat-website/images/products/mov-dc-4.jpg", "../flyboat-website/images/products/mov-dc-5.jpg"],
+  image: "images/products/mov-dc.jpg",
+  images: ["images/products/mov-dc.jpg", "images/products/mov-dc-2.jpg", "images/products/mov-dc-3.jpg", "images/products/mov-dc-4.jpg", "images/products/mov-dc-5.jpg"],
   standards: ["UL 1449 Ed.3 (E332800)", "RoHS", "REACH", "IEC"]
 },
 
@@ -208,8 +208,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["晶体管、二极管、集成电路、晶闸管及半导体开关元件保护", "各类电子设备保护"],
   specs: [{ label: "Model Number", value: "34S" }, { label: "Brand", value: "FLYBOAT" }, { label: "Voltage", value: "11~1000V" }, { label: "Color", value: "BLUE" }, { label: "Available Series", value: "5D, 7D, 10D, 14D, 20D, 32D, 34D, 32S, 34S, 40D" }],
   specTables: [],
-  image: "../flyboat-website/images/products/class-i-mov.jpg",
-  images: ["../flyboat-website/images/products/class-i-mov.jpg", "../flyboat-website/images/products/class-i-mov-2.jpg", "../flyboat-website/images/products/class-i-mov-3.jpg", "../flyboat-website/images/products/class-i-mov-4.jpg"],
+  image: "images/products/class-i-mov.jpg",
+  images: ["images/products/class-i-mov.jpg", "images/products/class-i-mov-2.jpg", "images/products/class-i-mov-3.jpg", "images/products/class-i-mov-4.jpg"],
   standards: ["UL 1449", "IEC61643-331.2017"]
 },
 
@@ -225,8 +225,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["抑制雷击及其他高能量瞬态浪涌", "直流回路低压电源保护", "电源、通信、智能电表、PLC保护"],
   specs: [{ label: "Operating Temperature", value: "-40\u00b0C to +105\u00b0C" }, { label: "Voltage Range", value: "11-1600 VRMS" }, { label: "Surge Current Rating", value: "Up to 8 kA" }, { label: "U1MA(V)", value: "80-1800" }],
   specTables: [],
-  image: "../flyboat-website/images/products/industrial-high-energy-varistor.jpg",
-  images: ["../flyboat-website/images/products/industrial-high-energy-varistor.jpg", "../flyboat-website/images/products/industrial-high-energy-varistor-2.jpg", "../flyboat-website/images/products/industrial-high-energy-varistor-3.jpg", "../flyboat-website/images/products/industrial-high-energy-varistor-4.jpg", "../flyboat-website/images/products/industrial-high-energy-varistor-5.jpg"],
+  image: "images/products/industrial-high-energy-varistor.jpg",
+  images: ["images/products/industrial-high-energy-varistor.jpg", "images/products/industrial-high-energy-varistor-2.jpg", "images/products/industrial-high-energy-varistor-3.jpg", "images/products/industrial-high-energy-varistor-4.jpg", "images/products/industrial-high-energy-varistor-5.jpg"],
   standards: ["UL 1449 4th", "cUL", "CQC"]
 },
 
@@ -242,8 +242,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["晶体管、二极管、集成电路、晶闸管及半导体开关元件保护", "家用电器及工业电子设备的浪涌吸收"],
   specs: [{ label: "Voltage Range (U1MA)", value: "80-1800V" }, { label: "UAC Range", value: "60-1000V" }, { label: "Response Time", value: "<20 ns" }],
   specTables: [],
-  image: "../flyboat-website/images/products/metal-oxide-square-disc-varistors.jpg",
-  images: ["../flyboat-website/images/products/metal-oxide-square-disc-varistors.jpg", "../flyboat-website/images/products/metal-oxide-square-disc-varistors-2.jpg", "../flyboat-website/images/products/metal-oxide-square-disc-varistors-3.jpg", "../flyboat-website/images/products/metal-oxide-square-disc-varistors-4.jpg", "../flyboat-website/images/products/metal-oxide-square-disc-varistors-5.jpg"],
+  image: "images/products/metal-oxide-square-disc-varistors.jpg",
+  images: ["images/products/metal-oxide-square-disc-varistors.jpg", "images/products/metal-oxide-square-disc-varistors-2.jpg", "images/products/metal-oxide-square-disc-varistors-3.jpg", "images/products/metal-oxide-square-disc-varistors-4.jpg", "images/products/metal-oxide-square-disc-varistors-5.jpg"],
   standards: ["UL 1449 Ed.3 (E332800)", "VDE per IEC 61051-1/2", "CSA (219883)", "cUL (E332800)"]
 },
 
@@ -259,8 +259,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["闭路电视监控系统", "视频设备保护", "电力、仪表、控制、网络及数据线路保护"],
   specs: [{ label: "Working Voltage", value: "220V / 255V / 275V / 320V / 385V / 420V / 440V / 520V" }, { label: "Normal Discharge Current In", value: "40kA / 80kA / 100kA" }, { label: "Response Time", value: "<25ns" }],
   specTables: [],
-  image: "../flyboat-website/images/products/high-energy-suppressor-discs.jpg",
-  images: ["../flyboat-website/images/products/high-energy-suppressor-discs.jpg", "../flyboat-website/images/products/high-energy-suppressor-discs-2.jpg", "../flyboat-website/images/products/high-energy-suppressor-discs-3.jpg", "../flyboat-website/images/products/high-energy-suppressor-discs-4.jpg", "../flyboat-website/images/products/high-energy-suppressor-discs-5.jpg"],
+  image: "images/products/high-energy-suppressor-discs.jpg",
+  images: ["images/products/high-energy-suppressor-discs.jpg", "images/products/high-energy-suppressor-discs-2.jpg", "images/products/high-energy-suppressor-discs-3.jpg", "images/products/high-energy-suppressor-discs-4.jpg", "images/products/high-energy-suppressor-discs-5.jpg"],
   standards: ["IEC 61643-1", "GB 18802.1", "EN 61643-11"]
 },
 
@@ -276,8 +276,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["所有终端设备的保护", "低压配电系统浪涌保护"],
   specs: [{ label: "Shape", value: "Square" }, { label: "Dimension", value: "42x42mm" }, { label: "Voltage Range U1MA(V)", value: "80-1800" }, { label: "Operating Temperature", value: "-40\u00b0C to +85\u00b0C" }],
   specTables: [],
-  image: "../flyboat-website/images/products/mov-varistor-for-spd.jpg",
-  images: ["../flyboat-website/images/products/mov-varistor-for-spd.jpg", "../flyboat-website/images/products/mov-varistor-for-spd-2.jpg", "../flyboat-website/images/products/mov-varistor-for-spd-3.jpg", "../flyboat-website/images/products/mov-varistor-for-spd-4.jpg"],
+  image: "images/products/mov-varistor-for-spd.jpg",
+  images: ["images/products/mov-varistor-for-spd.jpg", "images/products/mov-varistor-for-spd-2.jpg", "images/products/mov-varistor-for-spd-3.jpg", "images/products/mov-varistor-for-spd-4.jpg"],
   standards: []
 },
 
@@ -294,8 +294,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["交流电源主线路", "入户配电端", "重工业应用"],
   specs: [{ label: "Voltage Range U1MA(V)", value: "80-1800" }, { label: "AC Voltage Range UAC", value: "60-1000" }],
   specTables: [],
-  image: "../flyboat-website/images/products/bare-disc-varistors.jpg",
-  images: ["../flyboat-website/images/products/bare-disc-varistors.jpg", "../flyboat-website/images/products/bare-disc-varistors-2.jpg", "../flyboat-website/images/products/bare-disc-varistors-3.jpg", "../flyboat-website/images/products/bare-disc-varistors-4.jpg", "../flyboat-website/images/products/bare-disc-varistors-5.jpg"],
+  image: "images/products/bare-disc-varistors.jpg",
+  images: ["images/products/bare-disc-varistors.jpg", "images/products/bare-disc-varistors-2.jpg", "images/products/bare-disc-varistors-3.jpg", "images/products/bare-disc-varistors-4.jpg", "images/products/bare-disc-varistors-5.jpg"],
   standards: ["UL1449 4th (E319871)", "IEC 60099-4 2014"]
 },
 
@@ -312,8 +312,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["电力系统浪涌防护", "浪涌保护器集成", "直流及交流保护应用"],
   specs: [{ label: "Varistor Voltage Range", value: "80-1800V" }, { label: "Peak Current (8/20\u00b5s)", value: "Up to 40-60kA" }, { label: "Max Energy Absorption", value: ">1000J" }],
   specTables: [],
-  image: "../flyboat-website/images/products/32d-metal-oxide-varistor.jpg",
-  images: ["../flyboat-website/images/products/32d-metal-oxide-varistor.jpg", "../flyboat-website/images/products/32d-metal-oxide-varistor-2.jpg", "../flyboat-website/images/products/32d-metal-oxide-varistor-3.jpg", "../flyboat-website/images/products/32d-metal-oxide-varistor-4.jpg"],
+  image: "images/products/32d-metal-oxide-varistor.jpg",
+  images: ["images/products/32d-metal-oxide-varistor.jpg", "images/products/32d-metal-oxide-varistor-2.jpg", "images/products/32d-metal-oxide-varistor-3.jpg", "images/products/32d-metal-oxide-varistor-4.jpg"],
   standards: ["UL E335803"]
 },
 
@@ -330,8 +330,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["电力配电", "通信电源", "新能源", "LED照明", "轨道交通系统"],
   specs: [{ label: "Voltage Range U1MA(V)", value: "80-1800" }, { label: "Size", value: "34x34mm" }, { label: "Surge Current", value: "40KA" }, { label: "Operating Temperature", value: "-40 to +125\u00b0C" }],
   specTables: [],
-  image: "../flyboat-website/images/products/34s-metal-oxide-varistor.jpg",
-  images: ["../flyboat-website/images/products/34s-metal-oxide-varistor.jpg", "../flyboat-website/images/products/34s-metal-oxide-varistor-2.jpg", "../flyboat-website/images/products/34s-metal-oxide-varistor-3.jpg", "../flyboat-website/images/products/34s-metal-oxide-varistor-4.jpg", "../flyboat-website/images/products/34s-metal-oxide-varistor-5.jpg"],
+  image: "images/products/34s-metal-oxide-varistor.jpg",
+  images: ["images/products/34s-metal-oxide-varistor.jpg", "images/products/34s-metal-oxide-varistor-2.jpg", "images/products/34s-metal-oxide-varistor-3.jpg", "images/products/34s-metal-oxide-varistor-4.jpg", "images/products/34s-metal-oxide-varistor-5.jpg"],
   standards: ["UL 1449 4th (SPD Type 5)", "cUL", "RoHS", "REACH"]
 },
 
@@ -352,8 +352,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["低压配电系统雷电浪涌防护", "光伏发电系统C级瞬态保护"],
   specs: [{ label: "Nominal Discharge Current", value: "12.5kA" }, { label: "Response Time", value: "<25ns" }, { label: "Mounting", value: "35mm DIN Rail" }, { label: "Product Warranty", value: "Five Years" }],
   specTables: [],
-  image: "../flyboat-website/images/products/surge-protectors-signal-systems.jpg",
-  images: ["../flyboat-website/images/products/surge-protectors-signal-systems.jpg", "../flyboat-website/images/products/surge-protectors-signal-systems-2.jpg", "../flyboat-website/images/products/surge-protectors-signal-systems-3.jpg", "../flyboat-website/images/products/surge-protectors-signal-systems-4.jpg", "../flyboat-website/images/products/surge-protectors-signal-systems-5.jpg"],
+  image: "images/products/surge-protectors-signal-systems.jpg",
+  images: ["images/products/surge-protectors-signal-systems.jpg", "images/products/surge-protectors-signal-systems-2.jpg", "images/products/surge-protectors-signal-systems-3.jpg", "images/products/surge-protectors-signal-systems-4.jpg", "images/products/surge-protectors-signal-systems-5.jpg"],
   standards: ["IEC 61643-11 Type 2", "CE"]
 },
 
@@ -370,8 +370,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["保护电气系统免受雷击和瞬态过电压", "低压交流配电系统防护"],
   specs: [{ label: "Rated Voltage", value: "230/400V" }, { label: "Surge Discharge", value: "20KA~40KA" }, { label: "DC Voltage Options", value: "500V, 800V, 1000V" }],
   specTables: [],
-  image: "../flyboat-website/images/products/power-line-spd.jpg",
-  images: ["../flyboat-website/images/products/power-line-spd.jpg", "../flyboat-website/images/products/power-line-spd-2.jpg", "../flyboat-website/images/products/power-line-spd-3.jpg", "../flyboat-website/images/products/power-line-spd-4.jpg", "../flyboat-website/images/products/power-line-spd-5.jpg"],
+  image: "images/products/power-line-spd.jpg",
+  images: ["images/products/power-line-spd.jpg", "images/products/power-line-spd-2.jpg", "images/products/power-line-spd-3.jpg", "images/products/power-line-spd-4.jpg", "images/products/power-line-spd-5.jpg"],
   standards: ["IEC/EN 61643-1", "GB/T18802.1/IEC61643-II"]
 },
 
@@ -388,8 +388,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["一级防雷保护", "电气设施入口端防护"],
   specs: [{ label: "Model", value: "P100K385-53" }, { label: "Iimp Total (10/350\u00b5s)", value: "100 kA" }, { label: "Imax (8/20\u00b5s)", value: "140 kA" }],
   specTables: [],
-  image: "../flyboat-website/images/products/dc-mov-for-pv-system.jpg",
-  images: ["../flyboat-website/images/products/dc-mov-for-pv-system.jpg", "../flyboat-website/images/products/dc-mov-for-pv-system-2.jpg", "../flyboat-website/images/products/dc-mov-for-pv-system-3.jpg", "../flyboat-website/images/products/dc-mov-for-pv-system-4.jpg", "../flyboat-website/images/products/dc-mov-for-pv-system-5.jpg"],
+  image: "images/products/dc-mov-for-pv-system.jpg",
+  images: ["images/products/dc-mov-for-pv-system.jpg", "images/products/dc-mov-for-pv-system-2.jpg", "images/products/dc-mov-for-pv-system-3.jpg", "images/products/dc-mov-for-pv-system-4.jpg", "images/products/dc-mov-for-pv-system-5.jpg"],
   standards: ["GB/T18802.1", "IEC61643-II"]
 },
 
@@ -406,8 +406,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["一级防雷保护", "TT系统防护", "220/380V供配电系统"],
   specs: [{ label: "Operating Temperature", value: "-40\u00b0C ~ +85\u00b0C" }, { label: "Protection Rating", value: "IP20" }, { label: "Flame Retardant", value: "UL94 V-0" }],
   specTables: [],
-  image: "../flyboat-website/images/products/solar-system-1000v.jpg",
-  images: ["../flyboat-website/images/products/solar-system-1000v.jpg", "../flyboat-website/images/products/solar-system-1000v-2.jpg", "../flyboat-website/images/products/solar-system-1000v-3.jpg", "../flyboat-website/images/products/solar-system-1000v-4.jpg", "../flyboat-website/images/products/solar-system-1000v-5.jpg"],
+  image: "images/products/solar-system-1000v.jpg",
+  images: ["images/products/solar-system-1000v.jpg", "images/products/solar-system-1000v-2.jpg", "images/products/solar-system-1000v-3.jpg", "images/products/solar-system-1000v-4.jpg", "images/products/solar-system-1000v-5.jpg"],
   standards: ["IEC61643-11", "GB/T18802.11"]
 },
 
@@ -424,8 +424,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["雷击浪涌及过电压防护", "太阳能光伏发电系统"],
   specs: [{ label: "Voltage Levels", value: "1500V / 1200V / 1000V / 500V" }, { label: "Discharge Current", value: "20-60KA" }, { label: "Response Time", value: "25-50ns" }],
   specTables: [],
-  image: "../flyboat-website/images/products/1000v-dc-spd.jpg",
-  images: ["../flyboat-website/images/products/1000v-dc-spd.jpg", "../flyboat-website/images/products/1000v-dc-spd-2.jpg", "../flyboat-website/images/products/1000v-dc-spd-3.jpg", "../flyboat-website/images/products/1000v-dc-spd-4.jpg"],
+  image: "images/products/1000v-dc-spd.jpg",
+  images: ["images/products/1000v-dc-spd.jpg", "images/products/1000v-dc-spd-2.jpg", "images/products/1000v-dc-spd-3.jpg", "images/products/1000v-dc-spd-4.jpg"],
   standards: ["TUV", "EN50539-11", "CE"]
 },
 
@@ -446,8 +446,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["敏感电气及电子设备防护", "光伏/太阳能发电系统浪涌防护"],
   specs: [{ label: "SPD Classification", value: "IEC 61643-1 Class II" }, { label: "SPD Type", value: "EN 61643-11 Type 2" }, { label: "Operating Temperature", value: "-40\u00b0C ~ +80\u00b0C" }],
   specTables: [],
-  image: "../flyboat-website/images/products/ac-surge-protective-device-spd.jpg",
-  images: ["../flyboat-website/images/products/ac-surge-protective-device-spd.jpg", "../flyboat-website/images/products/ac-surge-protective-device-spd-2.jpg"],
+  image: "images/products/ac-surge-protective-device-spd.jpg",
+  images: ["images/products/ac-surge-protective-device-spd.jpg", "images/products/ac-surge-protective-device-spd-2.jpg"],
   standards: ["IEC 61643-1 Class II", "EN 61643-11 Type 2", "CE", "RoHS"]
 },
 
@@ -464,8 +464,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["光伏系统及太阳能发电设施", "家用电气浪涌防护"],
   specs: [{ label: "Nominal Discharge Current", value: "20 kA" }, { label: "Max Discharge Current", value: "40 kA" }, { label: "Response Time", value: "\u226425ns" }],
   specTables: [],
-  image: "../flyboat-website/images/products/ul-ce-spd.jpg",
-  images: ["../flyboat-website/images/products/ul-ce-spd.jpg", "../flyboat-website/images/products/ul-ce-spd-2.jpg", "../flyboat-website/images/products/ul-ce-spd-3.jpg", "../flyboat-website/images/products/ul-ce-spd-4.jpg", "../flyboat-website/images/products/ul-ce-spd-5.jpg"],
+  image: "images/products/ul-ce-spd.jpg",
+  images: ["images/products/ul-ce-spd.jpg", "images/products/ul-ce-spd-2.jpg", "images/products/ul-ce-spd-3.jpg", "images/products/ul-ce-spd-4.jpg", "images/products/ul-ce-spd-5.jpg"],
   standards: ["UL", "CE"]
 },
 
@@ -482,8 +482,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["交流配电系统防雷保护", "商业及工业设施"],
   specs: [{ label: "Nominal Discharge Current In", value: "60KA" }, { label: "Max Discharge Current Imax", value: "100KA" }, { label: "Response Time", value: "<25ns" }],
   specTables: [],
-  image: "../flyboat-website/images/products/imax-40ka-230-400v.jpg",
-  images: ["../flyboat-website/images/products/imax-40ka-230-400v.jpg", "../flyboat-website/images/products/imax-40ka-230-400v-2.jpg", "../flyboat-website/images/products/imax-40ka-230-400v-3.jpg", "../flyboat-website/images/products/imax-40ka-230-400v-4.jpg", "../flyboat-website/images/products/imax-40ka-230-400v-5.jpg"],
+  image: "images/products/imax-40ka-230-400v.jpg",
+  images: ["images/products/imax-40ka-230-400v.jpg", "images/products/imax-40ka-230-400v-2.jpg", "images/products/imax-40ka-230-400v-3.jpg", "images/products/imax-40ka-230-400v-4.jpg", "images/products/imax-40ka-230-400v-5.jpg"],
   standards: ["UL94-V0"]
 },
 
@@ -500,8 +500,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["通信行业", "铁路系统", "电力供应", "家用电子设备浪涌防护"],
   specs: [{ label: "Rated Voltage", value: "220V" }, { label: "Max Continuous Operating Voltage", value: "385VAC" }, { label: "Nominal Discharge Current", value: "20kA" }, { label: "Maximum Discharge Current", value: "40kA" }],
   specTables: [],
-  image: "../flyboat-website/images/products/220v-10-40ka-surge-protector.jpg",
-  images: ["../flyboat-website/images/products/220v-10-40ka-surge-protector.jpg", "../flyboat-website/images/products/220v-10-40ka-surge-protector-2.jpg", "../flyboat-website/images/products/220v-10-40ka-surge-protector-3.jpg", "../flyboat-website/images/products/220v-10-40ka-surge-protector-4.jpg", "../flyboat-website/images/products/220v-10-40ka-surge-protector-5.jpg"],
+  image: "images/products/220v-10-40ka-surge-protector.jpg",
+  images: ["images/products/220v-10-40ka-surge-protector.jpg", "images/products/220v-10-40ka-surge-protector-2.jpg", "images/products/220v-10-40ka-surge-protector-3.jpg", "images/products/220v-10-40ka-surge-protector-4.jpg", "images/products/220v-10-40ka-surge-protector-5.jpg"],
   standards: ["CE", "TUV", "UL", "IEC 61643-1 Class II/Type 2"]
 },
 
@@ -518,8 +518,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["直击雷防护", "太阳能光伏系统", "汇流箱安装应用"],
   specs: [{ label: "Pole", value: "2P" }, { label: "Uoc Max", value: "600 VDC" }, { label: "Nominal Discharge Current", value: "20 kA" }, { label: "Maximum Discharge Current", value: "40 kA" }],
   specTables: [],
-  image: "../flyboat-website/images/products/220v-lightning-protection-three-phase.jpg",
-  images: ["../flyboat-website/images/products/220v-lightning-protection-three-phase.jpg", "../flyboat-website/images/products/220v-lightning-protection-three-phase-2.jpg", "../flyboat-website/images/products/220v-lightning-protection-three-phase-3.jpg", "../flyboat-website/images/products/220v-lightning-protection-three-phase-4.jpg", "../flyboat-website/images/products/220v-lightning-protection-three-phase-5.jpg"],
+  image: "images/products/220v-lightning-protection-three-phase.jpg",
+  images: ["images/products/220v-lightning-protection-three-phase.jpg", "images/products/220v-lightning-protection-three-phase-2.jpg", "images/products/220v-lightning-protection-three-phase-3.jpg", "images/products/220v-lightning-protection-three-phase-4.jpg", "images/products/220v-lightning-protection-three-phase-5.jpg"],
   standards: ["IEC61643-1"]
 },
 
@@ -540,8 +540,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["各类常用电力系统", "II级浪涌保护器应用"],
   specs: [{ label: "Type", value: "Type 2 Surge Arrester" }, { label: "SCCR Rating", value: "200 kA" }, { label: "Certification", value: "UL 1449 4th Ed." }],
   specTables: [],
-  image: "../flyboat-website/images/products/surge-protective-modules.jpg",
-  images: ["../flyboat-website/images/products/surge-protective-modules.jpg", "../flyboat-website/images/products/surge-protective-modules-2.jpg", "../flyboat-website/images/products/surge-protective-modules-3.jpg", "../flyboat-website/images/products/surge-protective-modules-4.jpg"],
+  image: "images/products/surge-protective-modules.jpg",
+  images: ["images/products/surge-protective-modules.jpg", "images/products/surge-protective-modules-2.jpg", "images/products/surge-protective-modules-3.jpg", "images/products/surge-protective-modules-4.jpg"],
   standards: ["UL 1449 4th Ed.", "EN 60068-2"]
 },
 
@@ -557,8 +557,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["直流电气系统", "光伏（PV）系统", "过电压保护"],
   specs: [{ label: "Model", value: "SPD B10K385/21" }, { label: "Series", value: "34SP1" }],
   specTables: [],
-  image: "../flyboat-website/images/products/surge-replacement-module.jpg",
-  images: ["../flyboat-website/images/products/surge-replacement-module.jpg", "https://www.flyboatmov.com/uploads/202133062/surge-replacement-module19593444074.jpg", "https://www.flyboatmov.com/uploads/202133062/surge-replacement-module19598414637.jpg", "https://www.flyboatmov.com/uploads/202133062/surge-replacement-module20003804668.jpg", "https://www.flyboatmov.com/uploads/202133062/surge-replacement-module20001594157.jpg"],
+  image: "images/products/surge-replacement-module.jpg",
+  images: ["images/products/surge-replacement-module.jpg", "https://www.flyboatmov.com/uploads/202133062/surge-replacement-module19593444074.jpg", "https://www.flyboatmov.com/uploads/202133062/surge-replacement-module19598414637.jpg", "https://www.flyboatmov.com/uploads/202133062/surge-replacement-module20003804668.jpg", "https://www.flyboatmov.com/uploads/202133062/surge-replacement-module20001594157.jpg"],
   standards: ["UL", "TUV"]
 },
 
@@ -574,8 +574,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["太阳能发电系统", "户外安装场景", "直流电源保护"],
   specs: [{ label: "Voltage Ratings", value: "DC 600V, 800V, 1000V, 1500V" }, { label: "Design", value: "Modular Core" }, { label: "Compliance", value: "RoHS & REACH" }],
   specTables: [],
-  image: "../flyboat-website/images/products/onboard-surge-protection-device.jpg",
-  images: ["../flyboat-website/images/products/onboard-surge-protection-device.jpg", "https://www.flyboatmov.com/uploads/202133062/onboard-surge-protection-device21295824922.jpg", "https://www.flyboatmov.com/uploads/202133062/onboard-surge-protection-device21299684407.jpg", "https://www.flyboatmov.com/uploads/202133062/onboard-surge-protection-device21305496436.jpg", "https://www.flyboatmov.com/uploads/202133062/onboard-surge-protection-device21303764405.jpg"],
+  image: "images/products/onboard-surge-protection-device.jpg",
+  images: ["images/products/onboard-surge-protection-device.jpg", "https://www.flyboatmov.com/uploads/202133062/onboard-surge-protection-device21295824922.jpg", "https://www.flyboatmov.com/uploads/202133062/onboard-surge-protection-device21299684407.jpg", "https://www.flyboatmov.com/uploads/202133062/onboard-surge-protection-device21305496436.jpg", "https://www.flyboatmov.com/uploads/202133062/onboard-surge-protection-device21303764405.jpg"],
   standards: ["RoHS", "REACH"]
 },
 
@@ -591,8 +591,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["交流浪涌保护替换", "配电柜集成"],
   specs: [{ label: "Voltage Options", value: "275V / 420V" }, { label: "Discharge Current", value: "20\u201340KA" }, { label: "Mount Type", value: "Din rail" }],
   specTables: [],
-  image: "../flyboat-website/images/products/spd-modular.jpg",
-  images: ["../flyboat-website/images/products/spd-modular.jpg", "https://www.flyboatmov.com/uploads/202133062/spd-modular24238646837.jpg", "https://www.flyboatmov.com/uploads/202133062/spd-modular24242716866.jpg", "https://www.flyboatmov.com/uploads/202133062/spd-modular24248526981.jpg", "https://www.flyboatmov.com/uploads/202133062/spd-modular24246236872.jpg"],
+  image: "images/products/spd-modular.jpg",
+  images: ["images/products/spd-modular.jpg", "https://www.flyboatmov.com/uploads/202133062/spd-modular24238646837.jpg", "https://www.flyboatmov.com/uploads/202133062/spd-modular24242716866.jpg", "https://www.flyboatmov.com/uploads/202133062/spd-modular24248526981.jpg", "https://www.flyboatmov.com/uploads/202133062/spd-modular24246236872.jpg"],
   standards: []
 },
 
@@ -608,8 +608,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["直流电力系统保护", "太阳能安装", "逆变器/变换器侧保护"],
   specs: [{ label: "Code", value: "FSP-D40" }, { label: "Poles", value: "2P, 3P" }, { label: "In (8/20\u00b5s)", value: "20KA" }, { label: "Imax (8/20\u00b5s)", value: "40KA" }],
   specTables: [],
-  image: "../flyboat-website/images/products/plug-in-surge-arrester.jpg",
-  images: ["../flyboat-website/images/products/plug-in-surge-arrester.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-surge-arrester25491949508.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-surge-arrester25496309468.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-surge-arrester25501729932.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-surge-arrester25499929644.jpg"],
+  image: "images/products/plug-in-surge-arrester.jpg",
+  images: ["images/products/plug-in-surge-arrester.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-surge-arrester25491949508.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-surge-arrester25496309468.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-surge-arrester25501729932.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-surge-arrester25499929644.jpg"],
   standards: ["IEC/EN61643"]
 },
 
@@ -629,8 +629,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["交流浪涌保护器替换芯片", "配电板维护"],
   specs: [{ label: "Voltage", value: "385V AC / 275V AC" }, { label: "Discharge Currents", value: "40kA and 15kA (line); 65kA (neutral)" }],
   specTables: [],
-  image: "../flyboat-website/images/products/surge-protective-components.jpg",
-  images: ["../flyboat-website/images/products/surge-protective-components.jpg", "../flyboat-website/images/products/surge-protective-components-2.jpg", "../flyboat-website/images/products/surge-protective-components-3.jpg", "../flyboat-website/images/products/surge-protective-components-4.jpg", "../flyboat-website/images/products/surge-protective-components-5.jpg", "https://www.flyboatmov.com/uploads/202133062/surge-protective-components29371804797.jpg"],
+  image: "images/products/surge-protective-components.jpg",
+  images: ["images/products/surge-protective-components.jpg", "images/products/surge-protective-components-2.jpg", "images/products/surge-protective-components-3.jpg", "images/products/surge-protective-components-4.jpg", "images/products/surge-protective-components-5.jpg", "https://www.flyboatmov.com/uploads/202133062/surge-protective-components29371804797.jpg"],
   standards: ["UL", "CE"],
   faq: [
     { question: "Are you a factory or trading company?", answer: "We are factory and professionally produce MOVs more than 20 years." },
@@ -658,8 +658,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["低压交流配电浪涌保护", "三相电力系统保护"],
   specs: [{ label: "Standard", value: "IEC/EN 61643-1" }, { label: "Max Continuous Voltage", value: "275V" }, { label: "Response Time", value: "<25ns" }],
   specTables: [],
-  image: "../flyboat-website/images/products/plug-in-spd-block.jpg",
-  images: ["../flyboat-website/images/products/plug-in-spd-block.jpg", "../flyboat-website/images/products/plug-in-spd-block-2.jpg", "../flyboat-website/images/products/plug-in-spd-block-3.jpg", "../flyboat-website/images/products/plug-in-spd-block-4.jpg", "../flyboat-website/images/products/plug-in-spd-block-5.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-spd-block34492632451.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-spd-block34498012350.jpg"],
+  image: "images/products/plug-in-spd-block.jpg",
+  images: ["images/products/plug-in-spd-block.jpg", "images/products/plug-in-spd-block-2.jpg", "images/products/plug-in-spd-block-3.jpg", "images/products/plug-in-spd-block-4.jpg", "images/products/plug-in-spd-block-5.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-spd-block34492632451.jpg", "https://www.flyboatmov.com/uploads/202133062/plug-in-spd-block34498012350.jpg"],
   standards: ["IEC/EN 61643-1"],
   faq: [
     { question: "Are you a factory or trading company?", answer: "We are factory and professionally produce MOVs more than 20 years." },
@@ -687,8 +687,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["交流浪涌电压保护", "直流浪涌电压保护", "太阳能/光伏系统配件"],
   specs: [{ label: "Model", value: "DSC07798" }, { label: "Material", value: "Plastic parts, springs, copper strips, chips, copper parts" }, { label: "Nominal Discharge Current", value: "10KA\u201320KA" }, { label: "Supply Capacity", value: "200,000 pieces/month" }],
   specTables: [],
-  image: "../flyboat-website/images/products/customizable-spd-plastic.jpg",
-  images: ["../flyboat-website/images/products/customizable-spd-plastic.jpg", "../flyboat-website/images/products/customizable-spd-plastic-2.jpg", "../flyboat-website/images/products/customizable-spd-plastic-3.jpg", "../flyboat-website/images/products/customizable-spd-plastic-4.jpg", "../flyboat-website/images/products/customizable-spd-plastic-5.jpg"],
+  image: "images/products/customizable-spd-plastic.jpg",
+  images: ["images/products/customizable-spd-plastic.jpg", "images/products/customizable-spd-plastic-2.jpg", "images/products/customizable-spd-plastic-3.jpg", "images/products/customizable-spd-plastic-4.jpg", "images/products/customizable-spd-plastic-5.jpg"],
   standards: ["CE", "UL", "TUV", "ISO 9001:2018"],
   faq: [
     { question: "What is the company's position in the industry?", answer: "Flyboat is a leading professional manufacturer focusing on MOV and SPD. We support OEM/ODM services." },
@@ -714,8 +714,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["光伏（PV）系统浪涌保护", "交直流浪涌保护配件"],
   specs: [{ label: "Brand Name", value: "Flyboat" }, { label: "Model", value: "DSC07798" }, { label: "Nominal Discharge Current", value: "10KA\u201320KA" }, { label: "Supply Capacity", value: "200,000 pieces/month" }],
   specTables: [],
-  image: "../flyboat-website/images/products/parts-surge-arrestor.jpg",
-  images: ["../flyboat-website/images/products/parts-surge-arrestor.jpg", "../flyboat-website/images/products/parts-surge-arrestor-2.jpg", "../flyboat-website/images/products/parts-surge-arrestor-3.jpg", "../flyboat-website/images/products/parts-surge-arrestor-4.jpg", "../flyboat-website/images/products/parts-surge-arrestor-5.jpg", "https://www.flyboatmov.com/uploads/202133062/parts-surge-arrestor09574002152.jpg"],
+  image: "images/products/parts-surge-arrestor.jpg",
+  images: ["images/products/parts-surge-arrestor.jpg", "images/products/parts-surge-arrestor-2.jpg", "images/products/parts-surge-arrestor-3.jpg", "images/products/parts-surge-arrestor-4.jpg", "images/products/parts-surge-arrestor-5.jpg", "https://www.flyboatmov.com/uploads/202133062/parts-surge-arrestor09574002152.jpg"],
   standards: ["CE", "UL", "TUV", "ISO 9001:2018"]
 },
 
@@ -731,8 +731,8 @@ window.PRODUCTS_DATA = {
   applicationsZh: ["交直流浪涌保护配件", "太阳能/光伏系统浪涌保护", "工厂替换件"],
   specs: [{ label: "Brand Name", value: "Flyboat" }, { label: "Model", value: "DSC07798" }, { label: "Nominal Discharge Current", value: "10KA\u201320KA" }, { label: "Supply Capacity", value: "200,000 pieces/month" }],
   specTables: [],
-  image: "../flyboat-website/images/products/green-plastic-spd.jpg",
-  images: ["../flyboat-website/images/products/green-plastic-spd.jpg", "../flyboat-website/images/products/green-plastic-spd-2.jpg", "../flyboat-website/images/products/green-plastic-spd-3.jpg", "../flyboat-website/images/products/green-plastic-spd-4.jpg", "../flyboat-website/images/products/green-plastic-spd-5.jpg", "https://www.flyboatmov.com/uploads/202133062/green-plastic-spd19403417556.jpg", "https://www.flyboatmov.com/uploads/202133062/green-plastic-spd19405387785.jpg"],
+  image: "images/products/green-plastic-spd.jpg",
+  images: ["images/products/green-plastic-spd.jpg", "images/products/green-plastic-spd-2.jpg", "images/products/green-plastic-spd-3.jpg", "images/products/green-plastic-spd-4.jpg", "images/products/green-plastic-spd-5.jpg", "https://www.flyboatmov.com/uploads/202133062/green-plastic-spd19403417556.jpg", "https://www.flyboatmov.com/uploads/202133062/green-plastic-spd19405387785.jpg"],
   standards: ["CE", "UL", "TUV", "ISO 9001:2018"]
 }
 
