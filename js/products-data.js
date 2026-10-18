@@ -94,11 +94,11 @@ window.PRODUCTS_DATA = {
   category: "Metal Oxide Varistor",
   categoryZh: "金属氧化物压敏电阻",
   categorySlug: "metal-oxide-varistor",
-  shortDesc: "FLYBOAT 34S Protected Varistor Series for DC applications",
-  shortDescZh: "益舸 34S 直流应用保护型压敏电阻系列",
-  description: `<p>The FLYBOAT\u00ae 34S protected varistor series comprises a 34mm square format varistor element (MOV) with an integral activated element. The activated element is designed to open in the event of overheating due to abnormal overvoltage, limited current conditions.</p>
+  shortDesc: "FLYBOAT 34S Varistor Series for DC Applications",
+  shortDescZh: "益舸 34S 直流应用压敏电阻系列",
+  description: `<p>The FLYBOAT\u00ae 34S varistor series comprises 34mm square format varistor elements (MOV) for DC surge protection applications.</p>
 <p>These devices provide reliable and economical protection against high voltage transients and surges which may be produced, for example, by lightning, switching or electrical noise on AC or DC power lines.</p>`,
-  descriptionZh: `<p>益舸® 34S保护型压敏电阻系列由34mm方形压敏电阻元件（MOV）和内置热脱扣元件组成。热脱扣元件设计在异常过压、限流条件下因过热时自动断开。</p>
+  descriptionZh: `<p>益舸® 34S压敏电阻系列为34mm方形压敏电阻元件（MOV），用于直流浪涌保护应用。</p>
 <p>该系列产品为雷击、开关操作或交直流电力线上电气噪声引起的高压瞬态脉冲和浪涌提供可靠、经济的保护。</p>`,
   features: [
     "Wide voltage range selection - from 14 VRMS to 680 VRMS",
@@ -107,7 +107,7 @@ window.PRODUCTS_DATA = {
     "Low stand-by power with virtually no current draw in idle state",
     "Low capacitance values suitable for digital switching circuits",
     "High body insulation - ochre coating provides protection up to 2500V",
-    "UL 1449 edition 3 approved (file E332800)",
+    "UL 1449 Recognized (File E335803)",
     "Non-flammable per IEC standards under severe loading",
     "Non-porous lacquer coating for humid/toxic environments and solvent resistance per IEC 60068-2-45"
   ],
@@ -118,7 +118,7 @@ window.PRODUCTS_DATA = {
     "低待机功耗，空闲状态下几乎无电流消耗",
     "低电容值，适用于数字开关电路",
     "高本体绝缘——赭色涂层提供高达2500V的绝缘保护",
-    "UL 1449 第3版认证（文件号 E332800）",
+    "UL 1449 认证（Recognized，档案号 E335803）",
     "按照IEC标准在严苛负载条件下不可燃",
     "无孔隙漆涂层，适用于潮湿/有毒环境，符合IEC 60068-2-45耐溶剂要求"
   ],
@@ -193,7 +193,7 @@ window.PRODUCTS_DATA = {
   ],
   image: "images/products/mov-dc.jpg",
   images: ["images/products/mov-dc.jpg", "images/products/mov-dc-2.jpg", "images/products/mov-dc-3.jpg", "images/products/mov-dc-4.jpg", "images/products/mov-dc-5.jpg"],
-  standards: ["UL 1449 Ed.3 (E332800)", "RoHS", "REACH", "IEC"]
+  standards: ["UL 1449 (E335803)", "RoHS", "REACH", "IEC"]
 },
 
 "class-i-mov": {
@@ -202,8 +202,8 @@ window.PRODUCTS_DATA = {
   shortDescZh: "34S方形 220V 大功率MOV压敏电阻 - 峰值电流Imax 40kA",
   description: `<p>34S Square 220V High Power MOV Varistor with High Energy Absorption Capability. U1MA(V): 80-1000, UAC: 60-1000.</p><p>Peak current reaches the world leading level. It can afford 8/20\u00b5s impulse, peak current Imax 40kA, punch 2 times.</p>`,
   descriptionZh: `<p>34S方形220V大功率MOV压敏电阻，具有高能量吸收能力。U1MA(V): 80-1000，UAC: 60-1000。</p><p>峰值电流达到世界领先水平，可承受8/20µs冲击脉冲，峰值电流Imax 40kA，冲击2次。</p>`,
-  features: ["34S metal oxide varistor (MOV) with epoxy resin coating", "Peak current reaches world leading level - 40kA", "Thermal stability with 145\u00b0C soldering thermal cutoff", "Energy absorption: 2ms impulse at 600A, max capacity >1000J"],
-  featuresZh: ["34S金属氧化物压敏电阻（MOV），环氧树脂涂层封装", "峰值电流达到世界领先水平——40kA", "热稳定性优异，145°C焊接热熔断保护", "能量吸收能力：2ms脉冲600A，最大容量>1000J"],
+  features: ["34S metal oxide varistor (MOV) with epoxy resin coating", "Peak current reaches world leading level - 40kA", "Energy absorption: 2ms impulse at 600A, max capacity >1000J"],
+  featuresZh: ["34S金属氧化物压敏电阻（MOV），环氧树脂涂层封装", "峰值电流达到世界领先水平——40kA", "能量吸收能力：2ms脉冲600A，最大容量>1000J"],
   applications: ["Transistor, diode, IC, thyristor, semiconductor switch element protection", "Kinds of electronic equipment protection"],
   applicationsZh: ["晶体管、二极管、集成电路、晶闸管及半导体开关元件保护", "各类电子设备保护"],
   specs: [{ label: "Model Number", value: "34S" }, { label: "Brand", value: "FLYBOAT" }, { label: "Voltage", value: "11~1000V" }, { label: "Color", value: "BLUE" }, { label: "Available Series", value: "5D, 7D, 10D, 14D, 20D, 32D, 34D, 32S, 34S, 40D" }],
@@ -236,15 +236,15 @@ window.PRODUCTS_DATA = {
   shortDescZh: "电压浪涌保护器 金属氧化物压敏电阻 Class I 25D-C U1MA(V):80-1800",
   description: `<p>Voltage Power Surge Protector Metal Oxide Varistor Class I 25D-C. Square disc format varistors with accurately defined dimensional tolerances.</p>`,
   descriptionZh: `<p>电压浪涌保护器金属氧化物压敏电阻 Class I 25D-C。方形片式压敏电阻，尺寸公差精确可控。</p>`,
-  features: ["Wide voltage range selection - from 14 VRMS to 680 VRMS", "Response time of less than 20 ns", "High body insulation - ochre coating provides protection up to 2500V", "UL 1449 edition 3 approved (file E332800)"],
-  featuresZh: ["宽电压范围选择——从14 VRMS到680 VRMS", "响应时间小于20 ns", "高本体绝缘——赭色涂层提供高达2500V绝缘保护", "UL 1449第3版认证（文件号 E332800）"],
+  features: ["Wide voltage range selection - from 14 VRMS to 680 VRMS", "Response time of less than 20 ns", "High body insulation - ochre coating provides protection up to 2500V"],
+  featuresZh: ["宽电压范围选择——从14 VRMS到680 VRMS", "响应时间小于20 ns", "高本体绝缘——赭色涂层提供高达2500V绝缘保护"],
   applications: ["Transistor, diode, IC, thyristor, semiconductor switch element protection", "Surge absorption in household appliances and industrial electronics"],
   applicationsZh: ["晶体管、二极管、集成电路、晶闸管及半导体开关元件保护", "家用电器及工业电子设备的浪涌吸收"],
   specs: [{ label: "Voltage Range (U1MA)", value: "80-1800V" }, { label: "UAC Range", value: "60-1000V" }, { label: "Response Time", value: "<20 ns" }],
   specTables: [],
   image: "images/products/metal-oxide-square-disc-varistors.jpg",
   images: ["images/products/metal-oxide-square-disc-varistors.jpg", "images/products/metal-oxide-square-disc-varistors-2.jpg", "images/products/metal-oxide-square-disc-varistors-3.jpg", "images/products/metal-oxide-square-disc-varistors-4.jpg", "images/products/metal-oxide-square-disc-varistors-5.jpg"],
-  standards: ["UL 1449 Ed.3 (E332800)", "VDE per IEC 61051-1/2", "CSA (219883)", "cUL (E332800)"]
+  standards: ["IEC 61051-1/2"]
 },
 
 "high-energy-suppressor-discs": {
@@ -286,17 +286,17 @@ window.PRODUCTS_DATA = {
   category: "Metal Oxide Varistor", categoryZh: "金属氧化物压敏电阻", categorySlug: "metal-oxide-varistor",
   shortDesc: "MOV LT - 34S911K 550VAc SPD Metal Oxide Varistor Class I 32D-C",
   shortDescZh: "MOV LT - 34S911K 550VAc 浪涌保护器用金属氧化物压敏电阻 Class I 32D-C",
-  description: `<p>Customized Bare Disc Varistors with superior surge protection performance. UL1449 4th approved (UL File No. E319871).</p>`,
-  descriptionZh: `<p>定制裸片压敏电阻，具有卓越的浪涌防护性能。已通过UL1449第四版认证（UL文件编号：E319871）。</p>`,
-  features: ["Low clamping voltage", "Very fast response - almost 5x faster than MOV", "Very high surge current capacity", "UL recognised", "Compact size"],
-  featuresZh: ["低箝位电压", "响应速度极快——比传统MOV快近5倍", "超高浪涌电流容量", "UL认证", "结构紧凑"],
+  description: `<p>Customized Bare Disc Varistors with superior surge protection performance.</p>`,
+  descriptionZh: `<p>定制裸片压敏电阻，具有卓越的浪涌防护性能。</p>`,
+  features: ["Low clamping voltage", "Very fast response - almost 5x faster than MOV", "Very high surge current capacity", "Compact size"],
+  featuresZh: ["低箝位电压", "响应速度极快——比传统MOV快近5倍", "超高浪涌电流容量", "结构紧凑"],
   applications: ["AC mains", "Service entrance", "Heavy industrial"],
   applicationsZh: ["交流电源主线路", "入户配电端", "重工业应用"],
   specs: [{ label: "Voltage Range U1MA(V)", value: "80-1800" }, { label: "AC Voltage Range UAC", value: "60-1000" }],
   specTables: [],
   image: "images/products/bare-disc-varistors.jpg",
   images: ["images/products/bare-disc-varistors.jpg", "images/products/bare-disc-varistors-2.jpg", "images/products/bare-disc-varistors-3.jpg", "images/products/bare-disc-varistors-4.jpg", "images/products/bare-disc-varistors-5.jpg"],
-  standards: ["UL1449 4th (E319871)", "IEC 60099-4 2014"]
+  standards: ["IEC 60099-4 2014"]
 },
 
 "32d-metal-oxide-varistor": {
@@ -314,7 +314,7 @@ window.PRODUCTS_DATA = {
   specTables: [],
   image: "images/products/32d-metal-oxide-varistor.jpg",
   images: ["images/products/32d-metal-oxide-varistor.jpg", "images/products/32d-metal-oxide-varistor-2.jpg", "images/products/32d-metal-oxide-varistor-3.jpg", "images/products/32d-metal-oxide-varistor-4.jpg"],
-  standards: ["UL E335803"]
+  standards: []
 },
 
 "34s-metal-oxide-varistor": {
@@ -324,15 +324,15 @@ window.PRODUCTS_DATA = {
   shortDescZh: "34x34mm方形环氧封装氧化锌MOV 34S 40KA 浪涌保护器专用",
   description: `<p>The 34x34mm square-shaped varistor is an epoxy-encapsulated zinc metal oxide component rated for 40KA surge protection in SPD applications.</p>`,
   descriptionZh: `<p>34x34mm方形压敏电阻采用环氧封装氧化锌金属氧化物材料，额定浪涌防护能力40KA，专为浪涌保护器应用设计。</p>`,
-  features: ["Nanometer materials", "Power frequency breakdown point controlled technology", "2ms surge 100% screening", "RoHS compliant", "UL, cUL: UL 1449 4th for SPD type 5"],
-  featuresZh: ["纳米级材料", "工频击穿点可控技术", "2ms浪涌100%筛选", "符合RoHS标准", "UL、cUL认证：UL 1449第四版 SPD Type 5"],
+  features: ["Nanometer materials", "Power frequency breakdown point controlled technology", "2ms surge 100% screening", "RoHS compliant", "UL, cUL: UL 1449 Recognized (File E335803)"],
+  featuresZh: ["纳米级材料", "工频击穿点可控技术", "2ms浪涌100%筛选", "符合RoHS标准", "UL、cUL认证：UL 1449 Recognized（档案号 E335803）"],
   applications: ["Power Distribution", "Communication power", "New energy", "LED lighting", "Rail traffic system"],
   applicationsZh: ["电力配电", "通信电源", "新能源", "LED照明", "轨道交通系统"],
   specs: [{ label: "Voltage Range U1MA(V)", value: "80-1800" }, { label: "Size", value: "34x34mm" }, { label: "Surge Current", value: "40KA" }, { label: "Operating Temperature", value: "-40 to +125\u00b0C" }],
   specTables: [],
   image: "images/products/34s-metal-oxide-varistor.jpg",
   images: ["images/products/34s-metal-oxide-varistor.jpg", "images/products/34s-metal-oxide-varistor-2.jpg", "images/products/34s-metal-oxide-varistor-3.jpg", "images/products/34s-metal-oxide-varistor-4.jpg", "images/products/34s-metal-oxide-varistor-5.jpg"],
-  standards: ["UL 1449 4th (SPD Type 5)", "cUL", "RoHS", "REACH"]
+  standards: ["UL 1449 Recognized (File E335803)", "cUL", "RoHS", "REACH"]
 },
 
 // ============================================================
@@ -400,8 +400,8 @@ window.PRODUCTS_DATA = {
   shortDescZh: "AC400V避雷器 50KA-100KA浪涌保护器 600V 1000V 1500V 光伏直流SPD",
   description: `<p>The SPD surge protection device is designed in a parallel module configuration with a flame-retardant shell. Type 1+2 surge protector for high-risk lightning strike areas.</p>`,
   descriptionZh: `<p>该浪涌保护器采用并联模块化设计，配备阻燃外壳。I+II级浪涌保护器，适用于雷击高风险区域。</p>`,
-  features: ["High energy surge protection", "Pluggable replacement module", "Built-in thermal disconnection device", "Impulse counter function"],
-  featuresZh: ["高能量浪涌防护", "可插拔更换模块", "内置热脱扣断路装置", "冲击计数器功能"],
+  features: ["High energy surge protection", "Pluggable replacement module", "Built-in disconnector", "Impulse counter function"],
+  featuresZh: ["高能量浪涌防护", "可插拔更换模块", "内置脱离器", "冲击计数器功能"],
   applications: ["First-level lightning protection", "TT system protection", "220/380V power supply distribution system"],
   applicationsZh: ["一级防雷保护", "TT系统防护", "220/380V供配电系统"],
   specs: [{ label: "Operating Temperature", value: "-40\u00b0C ~ +85\u00b0C" }, { label: "Protection Rating", value: "IP20" }, { label: "Flame Retardant", value: "UL94 V-0" }],
@@ -528,7 +528,7 @@ window.PRODUCTS_DATA = {
 // ============================================================
 
 "surge-protective-modules": {
-  id: "surge-protective-modules", name: "Surge Protective Modules", category: "Protection Modules", categoryZh: "TMOV/热保护模块", categorySlug: "protection-module",
+  id: "surge-protective-modules", name: "Surge Protective Modules", category: "Protection Modules", categoryZh: "浪涌保护模块", categorySlug: "protection-module",
   nameZh: "浪涌保护模块",
   shortDesc: "UL 1449 4th Ed. Approved with 200kA SCCR Rating",
   shortDescZh: "通过UL 1449第四版认证 200kA SCCR额定值",
@@ -546,7 +546,7 @@ window.PRODUCTS_DATA = {
 },
 
 "surge-replacement-module": {
-  id: "surge-replacement-module", name: "Surge Replacement Module", nameZh: "浪涌保护器替换模块", category: "Protection Modules", categoryZh: "TMOV/热保护模块", categorySlug: "protection-module",
+  id: "surge-replacement-module", name: "Surge Replacement Module", nameZh: "浪涌保护器替换模块", category: "Protection Modules", categoryZh: "浪涌保护模块", categorySlug: "protection-module",
   shortDesc: "SPD 34sp1 Series Surge Protective Device with UL TUV",
   shortDescZh: "SPD 34SP1系列浪涌保护器 通过UL TUV认证",
   description: `<p>SPD 34SP1 Series replacement module for DC electrical and photovoltaic (PV) systems.</p>`,
@@ -563,7 +563,7 @@ window.PRODUCTS_DATA = {
 },
 
 "onboard-surge-protection-device": {
-  id: "onboard-surge-protection-device", name: "Onboard Surge Protection Device", nameZh: "板载浪涌保护器", category: "Protection Modules", categoryZh: "TMOV/热保护模块", categorySlug: "protection-module",
+  id: "onboard-surge-protection-device", name: "Onboard Surge Protection Device", nameZh: "板载浪涌保护器", category: "Protection Modules", categoryZh: "浪涌保护模块", categorySlug: "protection-module",
   shortDesc: "SPD DC 600V 800V 1000V 1500V Modular Core Din Rail Solar Outdoor",
   shortDescZh: "SPD DC 600V 800V 1000V 1500V 模块化核心 导轨安装 太阳能户外型",
   description: `<p>Patented, miniaturized design optimized for horizontal mounting on PCB boards. Provides differential and common mode protections.</p>`,
@@ -580,7 +580,7 @@ window.PRODUCTS_DATA = {
 },
 
 "spd-modular": {
-  id: "spd-modular", name: "SPD Modular", nameZh: "模块化浪涌保护器", category: "Protection Modules", categoryZh: "TMOV/热保护模块", categorySlug: "protection-module",
+  id: "spd-modular", name: "SPD Modular", nameZh: "模块化浪涌保护器", category: "Protection Modules", categoryZh: "浪涌保护模块", categorySlug: "protection-module",
   shortDesc: "Din Rail Adjustable Over Voltage Protective Device 275V 420V 20~40KA",
   shortDescZh: "导轨式可调过电压保护器 275V 420V 20~40KA",
   description: `<p>SPD Din rail adjustable over voltage protective device with over current protection. AC SPD replacement module.</p>`,
@@ -597,13 +597,13 @@ window.PRODUCTS_DATA = {
 },
 
 "plug-in-surge-arrester": {
-  id: "plug-in-surge-arrester", name: "Plug-in Surge Arrester", nameZh: "插拔式避雷器", category: "Protection Modules", categoryZh: "TMOV/热保护模块", categorySlug: "protection-module",
+  id: "plug-in-surge-arrester", name: "Plug-in Surge Arrester", nameZh: "插拔式避雷器", category: "Protection Modules", categoryZh: "浪涌保护模块", categorySlug: "protection-module",
   shortDesc: "SPD Replace Module DC 600V 1000V 1500V 2P 20~40KA B20K385/51",
   shortDescZh: "SPD替换模块 DC 600V 1000V 1500V 2P 20~40KA B20K385/51",
   description: `<p>SPD replacement module for DC 600V, 1000V, and 1500V networks. Common and differential mode protection.</p>`,
   descriptionZh: `<p>适用于DC 600V、1000V和1500V网络的浪涌保护器替换模块。提供共模和差模保护。</p>`,
-  features: ["Common and differential mode protection", "High-energy MOVs with thermal disconnectors", "Replaceable plug-in module design"],
-  featuresZh: ["共模与差模保护", "高能量金属氧化物压敏电阻配热脱扣器", "可更换插拔式模块设计"],
+  features: ["Common and differential mode protection", "High-energy MOVs with built-in disconnectors", "Replaceable plug-in module design"],
+  featuresZh: ["共模与差模保护", "高能量金属氧化物压敏电阻，带脱离器", "可更换插拔式模块设计"],
   applications: ["DC power system protection", "Solar installations", "Inverter/converter side protection"],
   applicationsZh: ["直流电力系统保护", "太阳能安装", "逆变器/变换器侧保护"],
   specs: [{ label: "Code", value: "FSP-D40" }, { label: "Poles", value: "2P, 3P" }, { label: "In (8/20\u00b5s)", value: "20KA" }, { label: "Imax (8/20\u00b5s)", value: "40KA" }],
