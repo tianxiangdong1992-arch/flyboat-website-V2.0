@@ -40,3 +40,5 @@
 - About the factory: https://www.flyboatmov.com/about.html
 - Products: https://www.flyboatmov.com/products.html
 - Contact: https://www.flyboatmov.com/contact.html
+- Certifications & UL verification: https://www.flyboatmov.com/certifications.html
+- Buyer FAQ: https://www.flyboatmov.com/faq.html
