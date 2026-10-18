@@ -530,19 +530,19 @@ window.PRODUCTS_DATA = {
 "surge-protective-modules": {
   id: "surge-protective-modules", name: "Surge Protective Modules", category: "Protection Modules", categoryZh: "浪涌保护模块", categorySlug: "protection-module",
   nameZh: "浪涌保护模块",
-  shortDesc: "UL 1449 4th Ed. Approved with 200kA SCCR Rating",
-  shortDescZh: "通过UL 1449第四版认证 200kA SCCR额定值",
-  description: `<p>UL 1449 4th Ed. Approved Type 2 surge arresters with 200 kA SCCR rating. Features Advanced Circuit Interruption (ACI) technology.</p>`,
-  descriptionZh: `<p>通过UL 1449第四版认证的II级浪涌保护器，SCCR额定值达200kA，采用先进电路中断（ACI）技术。</p>`,
-  features: ["ACI technology - no external backup fuse required", "Zero leakage current", "200kA SCCR rating", "Plug-in/out style design", "Visible window indicator"],
-  featuresZh: ["ACI技术——无需外置后备熔断器", "零泄漏电流", "200kA SCCR额定值", "插拔式设计", "可视状态指示窗"],
-  applications: ["All common electrical power systems", "Type 2 surge arrester applications"],
-  applicationsZh: ["各类常用电力系统", "II级浪涌保护器应用"],
-  specs: [{ label: "Type", value: "Type 2 Surge Arrester" }, { label: "SCCR Rating", value: "200 kA" }, { label: "Certification", value: "UL 1449 4th Ed." }],
+  shortDesc: "SPD protection modules, including models with built-in disconnectors, for OEM programs",
+  shortDescZh: "浪涌保护模块，包括带脱离器型号，面向 OEM 项目",
+  description: `<p>Surge protective modules built on Flyboat MOVs, including models with built-in disconnectors. Supplied on an OEM basis — assembled to customer designs and specifications, with end-product certification arranged by the customer under its own program.</p>`,
+  descriptionZh: `<p>基于益舸压敏电阻的浪涌保护模块，包括带脱离器的型号。按 OEM 方式供货——按客户的设计与规格组装，成品认证由客户项目安排。</p>`,
+  features: ["Built-in disconnector models available", "Plug-in module design for easy replacement", "MOV-based protection for common power systems", "OEM customization support"],
+  featuresZh: ["可选带脱离器型号", "插拔式模块设计，便于更换", "基于 MOV 的保护，适配常见电力系统", "支持 OEM 定制"],
+  applications: ["All common electrical power systems", "SPD OEM programs"],
+  applicationsZh: ["各类常用电力系统", "SPD OEM 项目"],
+  specs: [{ label: "Type", value: "Surge protective module" }, { label: "Disconnector", value: "Built-in disconnector models available" }, { label: "Supply", value: "OEM basis" }],
   specTables: [],
   image: "images/products/surge-protective-modules.jpg",
   images: ["images/products/surge-protective-modules.jpg", "images/products/surge-protective-modules-2.jpg", "images/products/surge-protective-modules-3.jpg", "images/products/surge-protective-modules-4.jpg"],
-  standards: ["UL 1449 4th Ed.", "EN 60068-2"]
+  standards: ["EN 60068-2"]
 },
 
 "surge-replacement-module": {
