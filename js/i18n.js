@@ -29,7 +29,27 @@ const TRANSLATIONS = {
   "footer.tmov": { en: "Protection Modules", zh: "浪涌保护模块" },
   "footer.spdacc": { en: "SPD Accessories", zh: "SPD配件" },
   "footer.address": { en: "Shawen High-Tech Zone, Chuangji Street, Baiyun District, Guiyang City, Guizhou Province, China", zh: "中国贵州省贵阳市白云区创基街沙文高新区" },
-  "footer.copyright": { en: "&copy; 2025 Guiyang High-Tech Yige Electronic Co., Ltd. All Rights Reserved.", zh: "&copy; 2025 贵阳高新益舸电子有限公司 版权所有。" },
+    "title.faq": { en: "FAQ | Flyboat MOV", zh: "常见问题 | Flyboat MOV" },
+
+  "title.certifications": { en: "Certifications | Flyboat MOV", zh: "认证证书 | Flyboat MOV" },
+
+  "faq.breadcrumb": { en: "FAQ", zh: "常见问题" },
+
+  "faq.pagetitle": { en: "Frequently Asked Questions", zh: "常见问题" },
+
+  "faq.pagedesc": { en: "Answers to the questions buyers ask us most — certifications, manufacturing, testing, capacity, OEM programs and SPDs.", zh: "买家最常问的问题解答——认证、制造、测试、产能、OEM 项目与 SPD。" },
+
+  "cert.breadcrumb": { en: "Certifications", zh: "认证证书" },
+
+  "cert.pagetitle": { en: "Certifications & UL Verification", zh: "认证与 UL 核验" },
+
+  "cert.pagedesc": { en: "UL 1449 Recognized, File E335803 — how to verify our certification and exactly which series and voltages it covers.", zh: "UL 1449 认可，档案号 E335803——如何核验我们的认证，以及具体覆盖哪些系列与电压。" },
+
+  "footer.faq": { en: "FAQ", zh: "常见问题" },
+
+  "footer.certifications": { en: "Certifications", zh: "认证证书" },
+
+"footer.copyright": { en: "&copy; 2025 Guiyang High-Tech Yige Electronic Co., Ltd. All Rights Reserved.", zh: "&copy; 2025 贵阳高新益舸电子有限公司 版权所有。" },
 
   // === HOME PAGE ===
   "home.badge1": { en: "ISO 9001 Certified", zh: "ISO 9001 认证" },
