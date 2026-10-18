@@ -148,7 +148,7 @@ const TRANSLATIONS = {
   "about.mfg.testing": { en: "Advanced Testing", zh: "先进检测" },
   "about.mfg.testing.desc": { en: "Equipped with 120kA 8/20\u00b5s lightning tester, 15kA 10/350\u00b5s lightning tester, 2ms rectangular surge tester, power frequency temporary overvoltage (TOV) tester, high temperature aging test chamber, and constant temperature and humidity chamber.", zh: "配备120kA 8/20\u00b5s雷电测试仪、15kA 10/350\u00b5s雷电测试仪、2ms方波浪涌测试仪、工频暂态过电压（TOV）测试仪、高温老化试验箱和恒温恒湿试验箱。" },
   "about.mfg.employees": { en: "200+ Employees", zh: "200+员工" },
-  "about.mfg.employees.desc": { en: "Experienced workforce of over 100 skilled professionals dedicated to quality manufacturing and customer service.", zh: "拥有100多名经验丰富的专业人员，致力于高品质制造和客户服务。" },
+  "about.mfg.employees.desc": { en: "Experienced workforce of over 200 skilled professionals dedicated to quality manufacturing and customer service.", zh: "拥有200多名经验丰富的专业人员，致力于高品质制造和客户服务。" },
   "about.mfg.distribution": { en: "Global Distribution", zh: "全球分销" },
   "about.mfg.distribution.desc": { en: "Products distributed across North America, Europe, Asia, the Middle East, and Southeast Asia through reliable supply chains.", zh: "通过可靠的供应链将产品分销至北美、欧洲、亚洲、中东和东南亚。" },
   "about.mfg.oemodm": { en: "OEM/ODM Services", zh: "OEM/ODM服务" },
