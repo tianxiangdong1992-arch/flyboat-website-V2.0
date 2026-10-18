@@ -23,7 +23,7 @@
 ## Certifications
 
 - UL 1449 Recognized, File E335803 (UL 1449 and CSA C22.2 No. 269.5-17, Type 5 component recognition), holder: GUIYANG YIGE HI-TEC ELECTRONIC CO LTD. Public record: UL Product iQ, category VZCA2 (US) / VZCA8 (Canada), file E335803.
-- UL coverage highlights: 34S series (standard range), 22S / 20S / 27L (model codes 101–821), 30S (selected codes). Series 25D, 30D, 32D, 40D, 44L, 48L, 54L are not UL covered.
+- UL coverage highlights (voltages are varistor voltages; the 3-digit model code reads as the first two digits plus the number of zeros in the third digit, e.g. 431 = 430 V, 122 = 1,200 V): 34S series (full standard range), 22S / 20S / 27L (100–820 V, codes 101–821), 30S (620 V, 680 V, 820 V, 1,100 V, 1,200 V only). Series 25D, 30D, 32D, 40D, 44L, 48L, 54L are not UL covered.
 - ISO 9001, ISO 14001, ISO 45001 certified
 - TÜV certified products
 
