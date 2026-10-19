@@ -22,6 +22,7 @@
           <a href="products.html" class="active" data-i18n="nav.products">Products</a>
           <div class="nav-dropdown-menu">
             <a href="products.html#mov-products" data-i18n="nav.mov">Metal Oxide Varistor</a>
+            <a href="34s-series.html" data-i18n="nav.34s">34S Series</a>
             <div class="nav-dropdown-sub">
               <a href="products.html#spd-products"><span data-i18n="nav.spd-oem">Surge Protective Device OEM</span> <span class="sub-arrow">&#9656;</span></a>
               <div class="nav-dropdown-submenu">
@@ -36,6 +37,7 @@
         <a href="about.html" data-i18n="nav.about">About Us</a>
         <a href="news.html" data-i18n="nav.news">News</a>
         <a href="blog.html" data-i18n="nav.blog">Blog</a>
+        <a href="certifications.html" data-i18n="nav.certifications">Certifications</a>
         <a href="contact.html" data-i18n="nav.contact">Contact</a>
       </nav>
       <button class="lang-toggle" title="Switch to Chinese">中文</button>
@@ -239,6 +241,11 @@
         </div>
         <div class="footer-col">
           <h4 data-i18n="footer.contact">Contact</h4>
+          <div style="color:#fff;font-weight:600;margin:14px 0 6px;"><span data-i18n="footer.china">China</span></div>
+          <div class="footer-contact-item">
+            <span class="icon">&#128100;</span>
+            <span>Colin Fei</span>
+          </div>
           <div class="footer-contact-item">
             <span class="icon">&#9993;</span>
             <span>m18685129425_1@163.com</span>
@@ -250,6 +257,23 @@
           <div class="footer-contact-item">
             <span class="icon">&#9873;</span>
             <span data-i18n="footer.address">Shawen High-Tech Zone, Chuangji Street, Baiyun District, Guiyang City, Guizhou Province, China</span>
+          </div>
+          <div style="color:#fff;font-weight:600;margin:14px 0 6px;"><span data-i18n="footer.northamerica">North America</span></div>
+          <div class="footer-contact-item">
+            <span class="icon">&#128100;</span>
+            <span>Thomas Dong</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="icon">&#9993;</span>
+            <span>thomasd@flyboatmov.com</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="icon">&#9742;</span>
+            <span>+1 267-809-2765</span>
+          </div>
+          <div class="footer-contact-item">
+            <span class="icon">&#9873;</span>
+            <span data-i18n="footer.address.na">1076 124th CT NE, Bellevue, WA 98005, USA</span>
           </div>
         </div>
       </div>
@@ -488,6 +512,9 @@
         html += '<div class="product-grid-card-body">';
         html += '<h4>' + pName + '</h4>';
         html += '<p>' + pDesc.substring(0, 100) + (pDesc.length > 100 ? '...' : '') + '</p>';
+        if (p.id === '34s-metal-oxide-varistor') {
+          html += '<p style="margin-top:8px;"><a href="34s-series.html" style="color:#f59e0b;font-weight:600;">' + t('34S Series page →', '34S 系列页面 →') + '</a></p>';
+        }
         html += '</div>';
         html += '</a>';
         html += '<label class="inquiry-checkbox-label">';
