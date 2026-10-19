@@ -32,6 +32,7 @@ const TRANSLATIONS = {
     "title.faq": { en: "FAQ | Flyboat MOV", zh: "常见问题 | Flyboat MOV" },
 
   "title.certifications": { en: "Certifications | Flyboat MOV", zh: "认证证书 | Flyboat MOV" },
+  "title.34s": { en: "34S Series Metal Oxide Varistors | Flyboat MOV", zh: "34S 系列金属氧化物压敏电阻 | Flyboat MOV" },
 
   "faq.breadcrumb": { en: "FAQ", zh: "常见问题" },
 
@@ -40,6 +41,9 @@ const TRANSLATIONS = {
   "faq.pagedesc": { en: "Answers to the questions buyers ask us most — certifications, manufacturing, testing, capacity, OEM programs and SPDs.", zh: "买家最常问的问题解答——认证、制造、测试、产能、OEM 项目与 SPD。" },
 
   "cert.breadcrumb": { en: "Certifications", zh: "认证证书" },
+  "s34.breadcrumb": { en: "34S Series", zh: "34S 系列" },
+  "s34.pagetitle": { en: "34S Series Metal Oxide Varistors", zh: "34S 系列金属氧化物压敏电阻" },
+  "s34.pagedesc": { en: "34 mm square MOVs by Guiyang High-Tech Yige Electronic — UL 1449 Recognized, File E335803, 31 recognized model grades from 82 V to 1,800 V varistor voltage.", zh: "贵阳高新益舸电子生产的 34mm 方形压敏电阻，UL 1449 认可（档案号 E335803），31 个认可型号等级，压敏电压 82V 至 1800V。" },
 
   "cert.pagetitle": { en: "Certifications & UL Verification", zh: "认证与 UL 核验" },
 
@@ -48,6 +52,7 @@ const TRANSLATIONS = {
   "footer.faq": { en: "FAQ", zh: "常见问题" },
 
   "footer.certifications": { en: "Certifications", zh: "认证证书" },
+  "footer.34s": { en: "34S Series", zh: "34S 系列" },
 
 "footer.copyright": { en: "&copy; 2025 Guiyang High-Tech Yige Electronic Co., Ltd. All Rights Reserved.", zh: "&copy; 2025 贵阳高新益舸电子有限公司 版权所有。" },
 
