@@ -227,7 +227,7 @@ window.PRODUCTS_DATA = {
   specTables: [],
   image: "images/products/industrial-high-energy-varistor.jpg",
   images: ["images/products/industrial-high-energy-varistor.jpg", "images/products/industrial-high-energy-varistor-2.jpg", "images/products/industrial-high-energy-varistor-3.jpg", "images/products/industrial-high-energy-varistor-4.jpg", "images/products/industrial-high-energy-varistor-5.jpg"],
-  standards: ["UL 1449 4th", "cUL", "CQC"]
+  standards: ["UL 1449 Recognized, File E335803"]
 },
 
 "metal-oxide-square-disc-varistors": {
