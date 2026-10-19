@@ -83,8 +83,19 @@
         <div class="nav-dropdown">
           <a href="products.html" data-i18n="nav.products">Products</a>
           <div class="nav-dropdown-menu">
-            <a href="products.html#mov-products" data-i18n="nav.mov">Metal Oxide Varistor</a>
-            <a href="34s-series.html" data-i18n="nav.34s">34S Series</a>
+            <div class="nav-dropdown-sub">
+              <a href="products.html#mov-products"><span data-i18n="nav.mov">Metal Oxide Varistors</span> <span class="sub-arrow">&#9656;</span></a>
+              <div class="nav-dropdown-submenu">
+                <a href="products.html#mov-products">20S Series</a>
+                <a href="products.html#mov-products">22S Series</a>
+                <a href="products.html#mov-products">25D Series</a>
+                <a href="products.html#mov-products">27L Series</a>
+                <a href="products.html#mov-products">30S Series</a>
+                <a href="products.html#mov-products">32D Series</a>
+                <a href="34s-series.html" data-i18n="nav.34s">34S Series</a>
+                <a href="products.html#mov-products">46L Series</a>
+              </div>
+            </div>
             <div class="nav-dropdown-sub">
               <a href="products.html#spd-products"><span data-i18n="nav.spd-oem">Surge Protective Device OEM</span> <span class="sub-arrow">&#9656;</span></a>
               <div class="nav-dropdown-submenu">
@@ -131,27 +142,9 @@
         <div class="contact-info-cards">
           <h3 data-i18n="contact.china">China — Headquarters &amp; Factory</h3>
           <div class="contact-info-card">
-            <div class="contact-icon">&#9993;</div>
-            <div>
-              <h4 data-i18n="contact.email">Email</h4>
-              <p><a href="mailto:m18685129425_1@163.com">m18685129425_1@163.com</a></p>
-            </div>
-          </div>
-
-          <div class="contact-info-card">
-            <div class="contact-icon">&#9742;</div>
-            <div>
-              <h4 data-i18n="contact.phone">Phone</h4>
-              <p><a href="tel:+8618585077202">+86 18585077202</a></p>
-              <p data-i18n="contact.sales">Sales Contact: Colin Fei</p>
-            </div>
-          </div>
-
-          <div class="contact-info-card">
             <div class="contact-icon">&#9873;</div>
             <div>
-              <h4 data-i18n="contact.address">Address</h4>
-              <p data-i18n="contact.address.val">Shawen High-Tech Zone, Chuangji Street,<br>Baiyun District, Guiyang City,<br>Guizhou Province, China</p>
+              <p>Colin Fei, Sales Contact<br>Shawen High-Tech Zone, Chuangji Street, Baiyun District, Guiyang City, Guizhou Province, China<br><a href="tel:+8618585077202">+86 18585077202</a><br><a href="mailto:m18685129425_1@163.com">m18685129425_1@163.com</a></p>
             </div>
           </div>
 
@@ -183,7 +176,14 @@
         <!-- Contact Form -->
         <div class="contact-form">
           <h3 data-i18n="contact.form.title">Send Us an Inquiry</h3>
-          <form>
+          <form id="inquiry-form">
+            <div class="form-group">
+              <label for="sendto" data-i18n="contact.form.sendto">Send Inquiry To *</label>
+              <select id="sendto" name="sendto" required>
+                <option value="na" data-i18n="contact.form.sendto.na" selected>North America — Sales &amp; Engineering</option>
+                <option value="china" data-i18n="contact.form.sendto.china">China — Headquarters &amp; Factory</option>
+              </select>
+            </div>
             <div class="form-row">
               <div class="form-group">
                 <label for="name" data-i18n="contact.form.name">Your Name *</label>
@@ -323,6 +323,22 @@
     </div>
   </footer>
 
+  <script>
+    document.getElementById('inquiry-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+      var to = document.getElementById('sendto').value === 'china' ? 'm18685129425_1@163.com' : 'thomasd@flyboatmov.com';
+      var name = document.getElementById('name').value.trim();
+      var company = document.getElementById('company').value.trim();
+      var email = document.getElementById('email').value.trim();
+      var phone = document.getElementById('phone').value.trim();
+      var productLabels = { '': 'General', 'mov': 'Metal Oxide Varistor', 'dc-spd': 'DC SPD OEM', 'ac-spd': 'AC SPD OEM', 'tmov': 'Protection Modules', 'modules': 'Surge Protective Modules', 'accessories': 'SPD Accessories', 'other': 'Other / Custom Solution' };
+      var product = productLabels[document.getElementById('product').value] || 'General';
+      var message = document.getElementById('message').value.trim();
+      var subject = '[Website Inquiry] ' + product + ' - ' + name + (company ? ' (' + company + ')' : '');
+      var body = 'Name: ' + name + '\nCompany: ' + company + '\nEmail: ' + email + '\nPhone: ' + phone + '\nProduct Interest: ' + product + '\n\nMessage:\n' + message;
+      window.location.href = 'mailto:' + to + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+    });
+  </script>
   <script src="js/i18n.js"></script>
   <script src="js/main.js"></script>
 </body>
