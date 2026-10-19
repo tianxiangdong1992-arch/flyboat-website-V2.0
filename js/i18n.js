@@ -13,6 +13,8 @@ const TRANSLATIONS = {
   "nav.ac-spd": { en: "AC SPD OEM", zh: "交流SPD OEM" },
   "nav.tmov": { en: "Protection Modules", zh: "浪涌保护模块" },
   "nav.accessories": { en: "Accessories for SPDs", zh: "SPD配件" },
+  "nav.certifications": { en: "Certifications", zh: "认证证书" },
+  "nav.34s": { en: "34S Series", zh: "34S 系列" },
   "logo.name": { en: "FLYBOAT", zh: "益舸" },
   "logo.sub": { en: "Surge Protection Solutions", zh: "浪涌保护解决方案" },
 
@@ -29,6 +31,9 @@ const TRANSLATIONS = {
   "footer.tmov": { en: "Protection Modules", zh: "浪涌保护模块" },
   "footer.spdacc": { en: "SPD Accessories", zh: "SPD配件" },
   "footer.address": { en: "Shawen High-Tech Zone, Chuangji Street, Baiyun District, Guiyang City, Guizhou Province, China", zh: "中国贵州省贵阳市白云区创基街沙文高新区" },
+  "footer.china": { en: "China", zh: "中国" },
+  "footer.northamerica": { en: "North America", zh: "北美" },
+  "footer.address.na": { en: "1076 124th CT NE, Bellevue, WA 98005, USA", zh: "美国华盛顿州贝尔维尤市 124th CT NE 1076 号（邮编 98005）" },
     "title.faq": { en: "FAQ | Flyboat MOV", zh: "常见问题 | Flyboat MOV" },
 
   "title.certifications": { en: "Certifications | Flyboat MOV", zh: "认证证书 | Flyboat MOV" },
@@ -260,6 +265,8 @@ const TRANSLATIONS = {
   "contact.sales": { en: "Sales Contact: Colin Fei", zh: "销售联系人：费先生" },
   "contact.address": { en: "Address", zh: "地址" },
   "contact.address.val": { en: "Shawen High-Tech Zone, Chuangji Street,<br>Baiyun District, Guiyang City,<br>Guizhou Province, China", zh: "中国贵州省贵阳市<br>白云区创基街<br>沙文高新区" },
+  "contact.china": { en: "China — Headquarters & Factory", zh: "中国 — 总部与工厂" },
+  "contact.na": { en: "North America — Sales & Engineering", zh: "北美 — 销售与工程中心" },
   "contact.hours": { en: "Business Hours", zh: "营业时间" },
   "contact.hours.val": { en: "24-hour customer service available", zh: "提供24小时客户服务" },
   "contact.markets": { en: "Markets Served", zh: "服务市场" },
