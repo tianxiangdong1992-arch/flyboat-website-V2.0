@@ -15,7 +15,7 @@
 
 ## Products
 
-- Metal oxide varistors (MOV), 12 series: 20S, 22S, 25D, 27L, 30D, 30S, 34S, 40D, 44L, 48L, 53D, 54L
+- Metal oxide varistors (MOV), 8 series with full published ratings: 20S, 22S, 25D, 27L, 30S, 32D, 34S, 46L
 - Flagship series: 34S (34 mm) varistors for SPD manufacturers
 - Surge protective devices (SPD) on an OEM basis, including protection modules with built-in disconnectors
 - Flyboat MOVs do not have built-in thermal protection. Modules with built-in disconnectors are available at the module/device level.
@@ -23,7 +23,7 @@
 ## Certifications
 
 - UL 1449 Recognized, File E335803 (UL 1449 and CSA C22.2 No. 269.5-17, Type 5 component recognition), holder: GUIYANG YIGE HI-TEC ELECTRONIC CO LTD. Public record: UL Product iQ, category VZCA2 (US) / VZCA8 (Canada), file E335803.
-- UL coverage highlights (voltages are varistor voltages; the 3-digit model code reads as the first two digits plus the number of zeros in the third digit, e.g. 431 = 430 V, 122 = 1,200 V): 34S series (31 model grades, varistor voltages 82–1,800 V, codes 820 and 101–182), 22S / 20S (22 model grades, 100–820 V, codes 101–821), 27L (23 model grades, 82–820 V, codes 820 and 101–821), 30S (620 V, 680 V, 820 V, 1,100 V, 1,200 V only). The file also recognizes DC-rated variants across these series, including DC-only grades in 22S (911/102/112/122) and 30S (102/751/911), and one 54L model (54LK911, DC-rated). Series 25D, 30D, 32D, 40D, 44L, 48L are not UL covered.
+- UL coverage highlights (voltages are varistor voltages; the 3-digit model code reads as the first two digits plus the number of zeros in the third digit, e.g. 431 = 430 V, 122 = 1,200 V): 34S series (31 model grades, varistor voltages 82–1,800 V, codes 820 and 101–182), 22S / 20S (22 model grades, 100–820 V, codes 101–821), 27L (23 model grades, 82–820 V, codes 820 and 101–821), 30S (620 V, 680 V, 820 V, 1,100 V, 1,200 V only). The file also recognizes DC-rated variants across these series, including DC-only grades in 22S (911/102/112/122) and 30S (102/751/911), and one 54L model (54LK911, DC-rated). Series 25D, 32D and 46L are not UL covered.
 - For series not yet UL recognized, we can pursue UL certification for customer programs.
 - ISO 9001, ISO 14001, ISO 45001 certified
 - TÜV certified products
