@@ -1,5 +1,18 @@
 window.NEWS_DATA = [
   {
+    id: "neca-2026-las-vegas",
+    title: "Flyboat at NECA 2026 in Las Vegas",
+    titleZh: "Flyboat参加NECA 2026拉斯维加斯展会",
+    date: "2026-10-07",
+    excerpt: "Flyboat Electronic LLC exhibited at NECA 2026 (October 4-7, Mandalay Bay, Las Vegas), meeting SPD manufacturers, distributors and industry partners at Booth #1717.",
+    excerptZh: "Flyboat Electronic LLC于2026年10月4-7日参加在拉斯维加斯曼德勒海湾会展中心举办的NECA 2026，在1717号展位与浪涌保护器制造商、经销商和行业伙伴交流。",
+    content: "<p>Flyboat Electronic LLC exhibited at <strong>NECA 2026</strong>, the National Electrical Contractors Association convention, held October 4&ndash;7, 2026 at the Mandalay Bay Convention Center in Las Vegas. You could find us at <strong>Booth #1717</strong>.</p><h3>What We Showed</h3><p>At the booth we presented our metal oxide varistor (MOV) range for surge protective device (SPD) manufacturers, including the <strong>34S series</strong> square MOVs and the disc series behind our board-mounted SPD lines. The MOVs we supply to the North American market are <strong>UL 1449 Recognized under File E335803</strong>, and the conversations at the booth kept returning to the same topics: recognized components, second sourcing, and traceable production.</p><h3>Who We Met</h3><p>Over the four days we spoke with SPD OEMs, distributors and industry partners from across North America. Thomas Dong, our Marketing Director for North America, was joined by Zi Wang from the Guiyang factory team, so visitors could talk to the sales side and the factory side at the same table &mdash; ratings, samples and production questions in one conversation.</p><p>Thank you to everyone who stopped by Booth #1717. If we met in Las Vegas and you would like datasheets, samples or a follow-up on anything we discussed, please reach out through our contact page &mdash; we would be glad to continue the conversation.</p>",
+    contentZh: "<p>Flyboat Electronic LLC参加了<strong>NECA 2026</strong>（美国国家电气承包商协会年会），展会于2026年10月4-7日在拉斯维加斯曼德勒海湾会展中心举办，我们在<strong>1717号展位</strong>参展。</p><h3>展出内容</h3><p>展位上我们展示了面向浪涌保护器（SPD）制造商的金属氧化物压敏电阻（MOV）产品，包括<strong>34S系列</strong>方形压敏电阻，以及支撑我们板载SPD产品线的圆片系列。我们供应北美市场的压敏电阻已取得UL认证（UL 1449，档案号E335803），展位上大家反复谈到的也是这几个话题：认证元件、第二货源和可追溯的生产。</p><h3>交流对象</h3><p>四天里，我们与来自北美各地的SPD整机厂、经销商和行业伙伴进行了交流。北美区市场总监董天翔（Thomas Dong）与贵阳工厂团队的王孜一同参展，客户可以在同一张桌子上同时与销售端和工厂端沟通——参数、样品和生产问题一次谈完。</p><p>感谢每一位来到1717号展位的朋友。如果我们在拉斯维加斯见过面，而您希望获取数据手册、样品或继续跟进展会上谈过的话题，欢迎通过官网联系页面与我们联系，我们乐意继续交流。</p>",
+    image: "images/news/neca-2026.jpg",
+    category: "Event",
+    categoryZh: "活动"
+  },
+  {
     id: "what-is-mov",
     title: "What Is MOV",
     titleZh: "什么是MOV（金属氧化物压敏电阻）",
