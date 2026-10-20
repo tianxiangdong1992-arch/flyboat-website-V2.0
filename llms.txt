@@ -55,4 +55,8 @@
 - 54L series (one DC UL-recognized model: 54LK911, varistor voltage 910 V; ratings data on request): https://www.flyboatmov.com/54l-series.html
 - UL coverage conclusion (File E335803): per the certification marks in our catalog ratings tables, the 20S, 22S and 27L series carry UL and C-UL marks and the 34S series carries UL, C-UL and TÜV marks (per model, as listed in the series tables); 25D, 30S, 32D, 46L and the 34S multi-chip variants carry no UL marks. Full coverage matrix: https://www.flyboatmov.com/certifications.html
 - 34S datasheet (PDF, with full standard, low-residual-voltage and high-energy ratings tables): https://www.flyboatmov.com/datasheets/34s-datasheet.pdf
+- 20S datasheet (PDF, with full standard and low-residual-voltage ratings tables): https://www.flyboatmov.com/datasheets/20s-datasheet.pdf
+- 22S datasheet (PDF, with full standard and low-residual-voltage ratings tables): https://www.flyboatmov.com/datasheets/22s-datasheet.pdf
+- 27L datasheet (PDF, with full standard and low-residual-voltage ratings tables): https://www.flyboatmov.com/datasheets/27l-datasheet.pdf
+- 30S datasheet (PDF, with full standard and low-residual-voltage ratings tables): https://www.flyboatmov.com/datasheets/30s-datasheet.pdf
 - ULTIMA board-mounted SPD modules (B10 / B20 / B40, OEM components with built-in thermal disconnector; not UL Listed finished SPDs): https://www.flyboatmov.com/ultima-board-spd.html
