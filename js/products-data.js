@@ -433,6 +433,24 @@ window.PRODUCTS_DATA = {
 // CATEGORY: AC SPD OEM
 // ============================================================
 
+"ultima-board-spd": {
+  id: "ultima-board-spd", name: "ULTIMA Board-Mounted SPD Modules", category: "AC SPD OEM", categoryZh: "交流SPD OEM", categorySlug: "ac-spd",
+  nameZh: "ULTIMA 板载浪涌保护模块",
+  shortDesc: "Board-mounted SPD modules (In 10/20/40 kA) with patented built-in thermal disconnector and alarm contact, for OEM integration",
+  shortDescZh: "板载浪涌保护模块（In 10/20/40 kA），带专利内置热脱离器与报警触点，供 OEM 集成",
+  description: `<p>Board-mounted surge protective modules in three nominal discharge classes — B10 (In 10 kA), B20 (In 20 kA) and B40 (In 40 kA) — built on our own MOV chips, with a patented sliding thermal disconnector, a status window and a microswitch alarm contact (C / NO / NC) for remote signaling. Supplied as OEM components for integration into end equipment.</p><p>Full ratings tables for all structure forms: <a href="ultima-board-spd.html">ULTIMA board-mounted SPD page</a>.</p>`,
+  descriptionZh: `<p>三个标称放电等级的板载浪涌保护模块——B10（In 10 kA）、B20（In 20 kA）、B40（In 40 kA）——采用自产 MOV 芯片，带专利滑块式热脱离器、状态窗口和微动开关报警触点（C / NO / NC）远程信号。作为 OEM 元件供货，供集成到成品设备中。</p><p>全部结构形式的完整参数表：<a href="ultima-board-spd.html">ULTIMA 板载 SPD 专页</a>。</p>`,
+  features: ["Patented built-in thermal disconnector (ZL201410061277.5)", "Alarm contact (C / NO / NC) for remote signaling", "Status indication window", "In-house MOV chips with center-controlled puncture point"],
+  featuresZh: ["专利内置热脱离器（ZL201410061277.5）", "报警触点（C / NO / NC）远程信号", "状态指示窗口", "自产 MOV 芯片，熔穿点居中受控"],
+  applications: ["Board-level surge protection in OEM equipment", "Power supplies and control cabinets", "Metering and distribution equipment"],
+  applicationsZh: ["OEM 设备板级浪涌防护", "电源与控制柜", "计量与配电设备"],
+  specs: [{ label: "Nominal Discharge Current (In)", value: "10 / 20 / 40 kA" }, { label: "Max Discharge Current (Imax)", value: "20 / 40 / 80 kA" }, { label: "Max Continuous Operating Voltage (Uc)", value: "60-510 V AC" }, { label: "Mounting", value: "Board-mounted, solder / plug pins" }],
+  specTables: [],
+  image: "images/products/ultima-board-spd.jpg",
+  images: ["images/products/ultima-board-spd.jpg", "images/ultima-module.jpg", "images/ultima-internal.jpg", "images/ultima-disconnector.jpg"],
+  standards: ["Patent ZL201410061277.5"]
+},
+
 "ac-surge-protective-device-spd": {
   id: "ac-surge-protective-device-spd", name: "AC Surge Protective Device SPD", category: "AC SPD OEM", categoryZh: "交流SPD OEM", categorySlug: "ac-spd",
   nameZh: "交流浪涌保护器",
