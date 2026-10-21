@@ -745,6 +745,11 @@ const TRANSLATIONS = {
       }
     });
 
+    // Update all language-specific images
+    document.querySelectorAll('[data-img-en]').forEach(el => {
+      el.src = lang === 'zh' ? el.getAttribute('data-img-zh') : el.getAttribute('data-img-en');
+    });
+
     // Update html lang attribute
     document.documentElement.lang = lang === 'zh' ? 'zh-CN' : 'en';
 
