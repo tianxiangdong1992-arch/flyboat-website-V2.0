@@ -76,7 +76,7 @@
   "mainEntity": [
     {
       "@type": "Question",
-      "name": "What certifications do your MOVs carry, and which models are covered?",
+      "name": "What certifications do your MOVs carry, which models are covered, and how can I verify them?",
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Our metal oxide varistors are UL 1449 Recognized under File E335803 (UL 1449 and CSA C22.2 No. 269.5-17, Type 5 component recognition), held by Guiyang High-Tech Yige Electronic Co., Ltd., verifiable in UL Product iQ (category VZCA2 / VZCA8). Coverage: 34S series 31 model grades, varistor voltages 82-1,800 V (codes 820, 101-182); 22S / 20S series 22 model grades, varistor voltages 100-820 V (codes 101-821); 27L series 23 model grades, varistor voltages 82-820 V (codes 820, 101-821); 30S series 620 V, 680 V, 820 V, 1,100 V and 1,200 V only. The file also recognizes DC-rated variants, including DC-only grades in 22S and 30S and one 54L model (54LK911 DC). Series 25D, 30D, 32D, 40D, 44L, 48L are not UL covered; for series not yet covered, we can pursue UL certification for your program."
@@ -120,6 +120,46 @@
       "acceptedAnswer": {
         "@type": "Answer",
         "text": "Yes. In addition to MOV components, Flyboat also supplies finished surge protective devices on an OEM basis - assembled to your design and specifications, including protection modules with built-in disconnectors. Finished SPDs are supplied for OEM programs, with end-product certification arranged under the customer's program."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I check when replacing a thermally protected MOV such as the Littelfuse TMOV34S series?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "There is no drop-in equivalent. Flyboat MOVs are not thermally protected and are not a direct replacement for TMOV-type parts, which combine a varistor with a thermal fuse element and status monitoring; thermal disconnection must be provided at the module or equipment level and the design re-evaluated. For any MOV replacement or second source, compare MCOV (AC and DC), varistor voltage and tolerance, clamping voltage, energy rating and peak current (8/20 us), disc diameter and lead spacing, and the UL recognition status of the exact model. The Flyboat 34S series uses the same 34 mm format as TMOV34S-type parts."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between UL Recognized and UL Listed for MOVs used in SPDs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "UL Listed applies to complete end products evaluated for their intended installation. UL Recognized applies to components such as MOVs, evaluated for use inside an end product under stated Conditions of Acceptability and taken into account when the end product is certified. MOVs are components, so component recognition is the normal route: Flyboat MOVs are UL 1449 Recognized under File E335803 (UL Product iQ category VZCA2 for the US / VZCA8 for Canada, Type 5 component recognition)."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are your lead times for production orders, and how do minimum order quantities work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Orders are produced to order: standard production orders ship within 45 days, larger or customized orders within 60 days. No US warehouse stock is held; vendor-managed inventory (VMI) arrangements can be supported for ongoing programs. Minimum order quantities depend on the series and model - contact Flyboat with the part numbers needed for an MOQ, price and lead time quote."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What should I check before buying MOVs from Alibaba or other online marketplaces?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Marketplace listings are not an authorized distribution channel and listing ratings are not always accurate. Check: (1) the UL file number, verified yourself in UL Product iQ, with the certificate holder name matching the actual manufacturer and the exact model covered; (2) whether the seller is the manufacturer or an authorized channel and how lots are traced; (3) a Certificate of Conformance with batch identification for each shipment; (4) ratings against the manufacturer's own datasheet, not the listing. Flyboat quotes identify UL File E335803 and the exact covered models, and each shipment carries a batch-traceable CoC."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do tariffs and duties affect the landed cost of imported MOVs?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Landed cost includes more than unit price: international freight and insurance, US customs duties under the applicable tariff classification (varistors are generally classified under HS 8533.40), any additional duties based on country of origin, brokerage and local delivery. Who pays duties depends on trade terms - under EXW or FOB the buyer bears them; under delivered terms they are included in the seller's price. Ask each supplier to state the trade terms and what the price includes."
       }
     }
   ]
@@ -187,7 +227,7 @@
         <span data-i18n="faq.breadcrumb">FAQ</span>
       </div>
       <h1 data-i18n="faq.pagetitle">Frequently Asked Questions</h1>
-      <p data-i18n="faq.pagedesc">Answers to the questions buyers ask us most — certifications, manufacturing, testing, capacity, OEM programs and SPDs.</p>
+      <p data-i18n="faq.pagedesc">Answers to the questions buyers ask us most — certifications and how to verify them, replacement checks, manufacturing, testing, capacity, lead times, sourcing checks, OEM programs and SPDs.</p>
     </div>
   </div>
 
@@ -195,7 +235,7 @@
     <div class="container">
       <div class="faq-list">
         <div class="faq-item">
-          <h3 data-i18n="faq.q1.h">What certifications do your MOVs carry, and which models are covered?</h3>
+          <h3 data-i18n="faq.q1.h">What certifications do your MOVs carry, which models are covered, and how can I verify them?</h3>
           <p data-i18n="faq.q1.p1">Our metal oxide varistors are <strong>UL 1449 Recognized under File E335803</strong> (UL 1449 and CSA C22.2 No. 269.5-17, Type 5 component recognition), held by Guiyang High-Tech Yige Electronic Co., Ltd. You can verify the file yourself in UL Product iQ (category VZCA2 / VZCA8, file E335803).</p>
           <p data-i18n="faq.q1.p2">How to read our model codes: the three digits give the <strong>varistor voltage</strong> — the first two digits, followed by as many zeros as the third digit says. For example, code 431 = 430 V varistor voltage, and code 122 = 1,200 V. (The maximum continuous working voltage is a separate, lower datasheet value — for the 431K it is 275 V AC / 350 V DC.)</p>
           <p data-i18n="faq.q1.p3">Coverage by series (voltages below are varistor voltages):</p>
@@ -229,6 +269,28 @@
         <div class="faq-item">
           <h3 data-i18n="faq.q6.h">Do you also supply finished SPDs?</h3>
           <p data-i18n="faq.q6.p">Yes. In addition to MOV components, Flyboat also supplies finished surge protective devices on an OEM basis — assembled to your design and specifications, including protection modules with built-in disconnectors. Finished SPDs are supplied for OEM programs, with end-product certification arranged under the customer's program.</p>
+        </div>
+        <div class="faq-item">
+          <h3 data-i18n="faq.q7.h">What should I check when replacing a thermally protected MOV such as the Littelfuse TMOV34S series?</h3>
+          <p data-i18n="faq.q7.p1">There is no drop-in equivalent. Flyboat MOVs are <strong>not thermally protected</strong> and are not a direct replacement for TMOV-type parts, which combine a varistor with a thermal fuse element and status monitoring. If a design relies on those functions, thermal disconnection has to be provided at the module or equipment level — for example with a separate disconnector — and the design re-evaluated.</p>
+          <p data-i18n="faq.q7.p2">For any MOV replacement or second source, compare at least: maximum continuous operating voltage (AC and DC), varistor voltage and tolerance, clamping voltage at the specified current, energy rating and peak current (8/20 µs), disc diameter and lead spacing, and the UL recognition status of the exact model. Our 34S series uses the same 34 mm format as TMOV34S-type parts, and our North American engineering team can run a parameter-by-parameter comparison and provide samples for evaluation.</p>
+        </div>
+        <div class="faq-item">
+          <h3 data-i18n="faq.q8.h">What is the difference between UL Recognized and UL Listed for MOVs used in SPDs?</h3>
+          <p data-i18n="faq.q8.p">UL Listed applies to complete end products evaluated for their intended installation. UL Recognized applies to components — such as MOVs — that are evaluated for use inside an end product under stated Conditions of Acceptability, and are taken into account when the end product is certified. MOVs are components, so component recognition is the normal route: Flyboat MOVs are <strong>UL 1449 Recognized under File E335803</strong> (category VZCA2 for the US / VZCA8 for Canada, Type 5 component recognition). When a supplier quotes a UL file for a varistor, check in UL Product iQ whether it is a Recognition record and which exact models it covers.</p>
+        </div>
+        <div class="faq-item">
+          <h3 data-i18n="faq.q9.h">What are your lead times for production orders, and how do minimum order quantities work?</h3>
+          <p data-i18n="faq.q9.p">Orders are produced to order: <strong>standard production orders ship within 45 days</strong>, and larger or customized orders within 60 days. We do not hold US warehouse stock; for ongoing programs we can support vendor-managed inventory (VMI) arrangements. Minimum order quantities depend on the series and model — send us the part numbers you need and we will quote the MOQ, price and lead time for that specific order.</p>
+        </div>
+        <div class="faq-item">
+          <h3 data-i18n="faq.q10.h">What should I check before buying MOVs from Alibaba or other online marketplaces?</h3>
+          <p data-i18n="faq.q10.p1">Marketplace listings are not an authorized distribution channel, and the ratings shown in listings are not always accurate. Before buying, check at least four things: (1) ask for the UL file number and verify it yourself in UL Product iQ — check that the certificate holder name matches the actual manufacturer and that the exact model is covered; (2) ask whether the seller is the manufacturer or an authorized channel, and how production lots are traced; (3) require a Certificate of Conformance with batch identification for each shipment; (4) compare ratings against the manufacturer's own datasheet, not the listing — surge ratings in particular are sometimes overstated.</p>
+          <p data-i18n="faq.q10.p2">Flyboat sells to North America through its own sales and engineering center: every quote identifies the UL file (E335803) and the exact models it covers, and each shipment carries a Certificate of Conformance traceable to its production batch.</p>
+        </div>
+        <div class="faq-item">
+          <h3 data-i18n="faq.q11.h">How do tariffs and duties affect the landed cost of imported MOVs?</h3>
+          <p data-i18n="faq.q11.p">The landed cost of an imported MOV order is more than the unit price: it also includes international freight and insurance, US customs duties under the applicable tariff classification (varistors are generally classified under HS 8533.40), any additional duties that apply based on the product's country of origin, plus brokerage and local delivery. Who pays the duties depends on the trade terms — under EXW or FOB terms the buyer bears them; under delivered terms they are included in the seller's price. When comparing quotes, ask each supplier to state the trade terms and exactly what the price includes. Our team quotes with the fulfillment terms stated up front, so the landed cost is clear before you order.</p>
         </div>
       </div>
       <p data-i18n="faq.closing" style="margin-top:2rem;">Still have a question? <a href="contact.html">Contact our team</a> — North America: Thomas Dong, thomasd@flyboatmov.com, +1 267-809-2765.</p>

@@ -35,6 +35,15 @@
 - China (sales): Colin Fei — colinf@flyboatmov.com, +86 18585077202
 - Fulfillment: orders are produced and shipped from China (ship-from Bellevue); standard orders ship within 45 days, build-to-order within 60 days. No US warehouse stock is held.
 
+## Buyer guidance (from the FAQ)
+
+- Verifying a UL file: Flyboat MOVs are UL 1449 Recognized, File E335803 (UL Product iQ category VZCA2 US / VZCA8 Canada, Type 5 component recognition). Verify any supplier's file in UL Product iQ: check the certificate holder name matches the actual manufacturer and the exact model is covered.
+- UL Recognized vs UL Listed: Listed covers complete end products; Recognized covers components such as MOVs, evaluated for use inside an end product under Conditions of Acceptability. Component recognition is the normal route for varistors used in SPDs.
+- Replacing thermally protected MOVs (e.g. Littelfuse TMOV34S): Flyboat MOVs are not thermally protected and there is no drop-in TMOV equivalent; thermal disconnection must be provided at module/equipment level. Compare MCOV, varistor voltage, clamping voltage, energy and peak current ratings, dimensions and UL status model by model. The 34S series shares the 34 mm format.
+- Lead times and MOQ: orders are produced to order - standard orders ship within 45 days, larger or customized orders within 60 days. No US warehouse stock; VMI arrangements available for ongoing programs. MOQ depends on series and model; ask for a quote by part number.
+- Buying from marketplaces such as Alibaba: not an authorized channel. Check the UL file number in Product iQ, holder-name match, CoC with batch traceability, and ratings against the manufacturer's own datasheet (surge ratings are sometimes overstated in listings).
+- Landed cost: includes unit price, freight and insurance, US duties under the applicable classification (varistors generally HS 8533.40) and any origin-based additional duties, brokerage and delivery. Who pays duties depends on trade terms (EXW/FOB: buyer; delivered terms: included).
+
 ## Key pages
 
 - Home: https://www.flyboatmov.com/
