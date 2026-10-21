@@ -124,10 +124,16 @@
   </header>
 
   <!-- Hero -->
-  <section class="hero" style="display:block;min-height:0;padding:28px 0 40px;">
+  <section class="hero">
+    <!-- Slideshow Background -->
+    <div class="hero-slideshow">
+      <div class="hero-slide active" style="background-image: url('images/hero-slide-1.png')"></div>
+      <div class="hero-slide" style="background-image: url('images/hero-slide-2.png')"></div>
+    </div>
+    <div class="hero-overlay"></div>
+
     <div class="container">
-      <img src="images/banner-hero-en.jpg" data-img-en="images/banner-hero-en.jpg" data-img-zh="images/banner-hero-zh.jpg" alt="Flyboat - Advanced Surge Protection &amp; MOV Solutions" style="width:100%;height:auto;display:block;border-radius:12px;">
-      <div class="hero-content" style="margin-top:2.4rem;">
+      <div class="hero-content">
         <div class="hero-badges">
           <span class="hero-badge"><span class="badge-dot"></span> <span data-i18n="home.badge1">ISO 9001 Certified</span></span>
           <span class="hero-badge"><span data-i18n="home.badge2">UL &amp; TUV Approved</span></span>
@@ -141,6 +147,11 @@
       </div>
     </div>
 
+    <!-- Slide Indicators -->
+    <div class="hero-indicators">
+      <button class="hero-indicator active" data-slide="0"></button>
+      <button class="hero-indicator" data-slide="1"></button>
+    </div>
   </section>
 
   <!-- Stats Bar -->
@@ -464,7 +475,7 @@
     </div>
   </footer>
 
-  <script src="js/i18n.js?v=20261021a"></script>
+  <script src="js/i18n.js?v=20261020f"></script>
   <script src="js/main.js?v=20261020f"></script>
 </body>
 </html>
