@@ -6,6 +6,14 @@
   <title data-i18n="title.s32">32D Series Metal Oxide Varistors | Flyboat MOV</title>
   <meta name="description" content="32D series 32 mm round metal oxide varistors by Guiyang High-Tech Yige Electronic: In 20 kA / Imax 40 kA, 27 model grades, varistor voltages 100 V to 1,200 V. Not UL recognized.">
   <link rel="stylesheet" href="css/style.css?v=20261020f">
+  <style>
+    /* 32D page only: Maida-style left-aligned document layout */
+    .page-header { text-align: left; }
+    .page-header .breadcrumb { justify-content: flex-start; }
+    .page-header p { margin: 0; max-width: 880px; }
+    .page-header h1 { position: relative; padding-bottom: 16px; }
+    .page-header h1::after { content: ''; position: absolute; left: 2px; bottom: 0; width: 64px; height: 4px; background: #C0272D; border-radius: 2px; }
+  </style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -142,12 +150,30 @@
 
   <section class="section">
     <div class="container">
-      <h2 data-i18n="sp.s32.intro.h2">The 32D series</h2>
-      <p data-i18n="sp.s32.intro">The 32D series is a line of <strong>32 mm round, epoxy-encapsulated zinc oxide varistors</strong> made by Guiyang High-Tech Yige Electronic Co., Ltd. for surge protective device (SPD) manufacturers and OEMs. Rated In 20 kA / Imax 40 kA (8/20 &micro;s), the standard range covers varistor voltages from 100 V to 1,200 V in 27 model grades. The varistor discs are pressed, sintered, metallized, coated and tested in our own Guiyang plant — not bought in — which is how tolerances and surge ratings stay consistent from batch to batch. In North America, the series is supported by Flyboat Electronic LLC, the factory's sales and engineering center in Bellevue, WA.</p>
-      <figure style="margin:1.2rem 0;">
-        <img src="images/32d-disc.jpg" alt="32D encapsulated MOV disc, DEN form" style="max-width:380px;width:100%;height:auto;border-radius:8px;">
-        <figcaption data-i18n="sp.s32.photo" style="font-size:0.9rem;color:#555;margin-top:0.4rem;">32D encapsulated round disc, DEN form.</figcaption>
-      </figure>
+      <div style="display:flex;gap:2rem;flex-wrap:wrap;align-items:flex-start;">
+        <div style="flex:1 1 330px;max-width:500px;">
+          <img src="images/32d-disc.jpg" alt="32D encapsulated MOV disc, DEN form" style="width:100%;height:auto;border-radius:8px;">
+        </div>
+        <div style="flex:1 1 330px;">
+          <p data-i18n="sp.s32.intro">The 32D series is a line of <strong>32 mm round, epoxy-encapsulated zinc oxide varistors</strong> made by Guiyang High-Tech Yige Electronic Co., Ltd. for surge protective device (SPD) manufacturers and OEMs. Rated In 20 kA / Imax 40 kA (8/20 &micro;s), the standard range covers varistor voltages from 100 V to 1,200 V in 27 model grades. The varistor discs are pressed, sintered, metallized, coated and tested in our own Guiyang plant — not bought in — which is how tolerances and surge ratings stay consistent from batch to batch. In North America, the series is supported by Flyboat Electronic LLC, the factory's sales and engineering center in Bellevue, WA.</p>
+          <h3 data-i18n="sp.feat.h" style="margin:1.1rem 0 0.4rem;">Features</h3>
+          <ul style="margin:0;padding-left:1.2rem;line-height:1.55;list-style:disc;">
+              <li data-i18n="s32.feat.1">32 mm round MOVs, epoxy encapsulated, with radial leads</li>
+              <li data-i18n="s32.feat.2">27 model grades — varistor voltage from 100 V to 1,200 V</li>
+              <li data-i18n="s32.feat.3">In 20 kA, Imax 40 kA (8/20 µs)</li>
+              <li data-i18n="s32.feat.4">Low-residual-voltage range available for tighter clamping</li>
+              <li data-i18n="s32.feat.5">Leaded disc format for PCB and point-to-point assembly</li>
+              <li data-i18n="s32.feat.6">Discs pressed, sintered, metallized and tested in our own plant</li>
+          </ul>
+          <h3 data-i18n="sp.app.h" style="margin:1.1rem 0 0.4rem;">Applications</h3>
+          <ul style="margin:0;padding-left:1.2rem;line-height:1.55;list-style:disc;">
+              <li data-i18n="s32.app.1">Surge protective devices (SPDs) and surge protection modules</li>
+              <li data-i18n="s32.app.2">Power supplies and industrial equipment</li>
+              <li data-i18n="s32.app.3">PCB-mounted equipment protection</li>
+              <li data-i18n="s32.app.4">Power distribution protection</li>
+          </ul>
+        </div>
+      </div>
 
 <div class="share-ds" style="margin:1.6rem 0 0.2rem;">
         <div style="display:flex;align-items:center;gap:0.55rem;flex-wrap:wrap;">
@@ -163,15 +189,17 @@
             </div>
           </details>
         </div>
-        <div style="border:1.5px solid #1F4E79;background:#EDF2F8;border-radius:10px;padding:1rem 1.2rem;margin-top:1rem;">
+        <div style="margin-top:1.3rem;">
           <h3 data-i18n="ds.h" style="margin:0 0 0.35rem;font-size:1.15rem;">Datasheet</h3>
-          <p style="margin:0;"><a href="datasheets/32d-datasheet.pdf" data-i18n="ds.32d" style="font-weight:600;">32D Series Datasheet</a> <span style="background:#C0272D;color:#fff;border-radius:4px;padding:0.08rem 0.42rem;font-size:0.72rem;font-weight:700;vertical-align:middle;">PDF</span> <span data-i18n="ds.note">— complete ratings tables for every model grade.</span></p>
+          <p style="margin:0;"><a href="datasheets/32d-datasheet.pdf" data-i18n="ds.link.32d" style="color:#C0272D;text-decoration:underline;font-weight:600;">Metal Oxide Varistor (32D Series)</a> <svg width="20" height="24" viewBox="0 0 21 25" aria-hidden="true" style="vertical-align:-6px;margin-left:5px;"><path d="M3.5 1.5h9.2L19 7.8v14.7a1.5 1.5 0 0 1-1.5 1.5h-14A1.5 1.5 0 0 1 2 22.5V3a1.5 1.5 0 0 1 1.5-1.5z" fill="#fff" stroke="#C0272D" stroke-width="1.5"/><path d="M12.8 1.5v6.3H19" fill="none" stroke="#C0272D" stroke-width="1.5"/><text x="10.4" y="19.6" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="7" font-weight="700" fill="#C0272D">PDF</text></svg></p>
         </div>
       </div>
-            <h2 data-i18n="spec.certstatus" style="margin-top:2.5rem;">Certification status</h2>
+            <h2 data-i18n="spec.h2" style="margin-top:2.5rem;">Specifications</h2>
+            <h3 data-i18n="spec.certstatus" style="margin-top:1.2rem;">Certification status</h3>
       <p data-i18n="sp.s32.notrec">The 32D series is <strong>not UL recognized</strong>: the catalog ratings tables for this series print the UL / C-UL / TÜV columns but leave every cell blank.</p>
       <p data-i18n="spec.pursue">For series not yet UL recognized, we can pursue UL certification for your program.</p>
-      <h2 data-i18n="sp.s32.std.h2" style="margin-top:2.5rem;">32D standard ratings &mdash; full table</h2>
+            <p data-i18n="sp.s32.code">Models are designated <strong>32DK</strong> followed by a three-digit code. The code gives the <strong>varistor voltage</strong>: the first two digits, followed by as many zeros as the third digit says — 431 = 430 V, 122 = 1,200 V. (The maximum continuous working voltage of each grade is a separate, lower datasheet value.)</p>
+<h2 data-i18n="sp.s32.std.h2" style="margin-top:2.5rem;">32D standard ratings &mdash; full table</h2>
 <p data-i18n="spec.coldef.noul">Column definitions: U1mA = varistor voltage at DC 1 mA; &Delta;U1mA = varistor-voltage tolerance; UAC / UDC = maximum continuous operating voltage; In = nominal discharge current (8/20 &micro;s); Imax = maximum discharge current (8/20 &micro;s); UP = clamping voltage at In, shown as reference value&ndash;ratio; ETM = maximum energy absorption (2 ms). The catalog prints UL / C-UL / TÜV columns for this table but leaves them blank for every model in this series, so they are omitted here.</p>
       <div class="spec-table-wrap">
         <table class="spec-table spec-table-wide">
@@ -236,7 +264,9 @@
           </tbody>
         </table>
       </div>
-      <h2 data-i18n="spec.datasheet.h2" style="margin-top:2.5rem;">Datasheets and samples</h2>
+            <h2 data-i18n="sp.s32.second.h2" style="margin-top:2.5rem;">Second-sourcing 32D varistors</h2>
+      <p data-i18n="sp.s32.second.p">The 32 mm round, radial-lead format is a standard footprint across the surge protection industry, and the 32D series is widely used as a <strong>second source</strong> in existing designs. For qualification we provide full datasheets, type-test and routine-test reports for qualified OEM programs, and evaluation samples, with every shipment traceable to its production batch and delivered with a Certificate of Conformance.</p>
+<h2 data-i18n="spec.datasheet.h2" style="margin-top:2.5rem;">Datasheets and samples</h2>
       <p data-i18n="sp.s32.datasheetp">Every grade has a full datasheet (electrical parameters, surge ratings, dimensions), available on request. The 32D also appears on the <a href="product.html?id=32d-metal-oxide-varistor">32D product page</a>. For samples and design-in support: North America — Thomas Dong, Flyboat Electronic LLC; China — Colin Fei. See the <a href="contact.html">Contact page</a> or the <a href="faq.html">buyer FAQ</a>.</p>
       <p data-i18n="spec.boundary">One boundary worth stating plainly: these are <strong>bare MOV components with no integrated thermal protection</strong>, and they are not drop-in replacements for thermally protected TMOV devices. Disconnection belongs to the SPD design; where a design calls for it at the device level, we supply protection modules with built-in disconnectors — see <a href="products.html">Products</a>.</p>
     </div>
@@ -333,7 +363,7 @@
     </div>
   </footer>
 
-  <script src="js/i18n.js?v=20261020g"></script>
+  <script src="js/i18n.js?v=20261021b"></script>
   <script src="js/main.js?v=20261020f"></script>
 </body>
 </html>
