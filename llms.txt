@@ -71,5 +71,6 @@
 - 25D datasheet (PDF, with full standard and low-residual-voltage ratings tables): https://www.flyboatmov.com/datasheets/25d-datasheet.pdf
 - 32D datasheet (PDF, with full standard and low-residual-voltage ratings tables): https://www.flyboatmov.com/datasheets/32d-datasheet.pdf
 - 46L datasheet (PDF, with full standard, low-residual-voltage and high-energy ratings tables): https://www.flyboatmov.com/datasheets/46l-datasheet.pdf
+- 54L datasheet (PDF, published DC grade 54LK911, UL 1449 Recognized for DC use): https://www.flyboatmov.com/datasheets/54l-datasheet.pdf
 - ULTIMA board-mounted SPD module datasheet (PDF, B10/B20/B40 ratings and construction tables): https://www.flyboatmov.com/datasheets/ultima-datasheet.pdf
 - ULTIMA board-mounted SPD modules (B10 / B20 / B40, OEM components with built-in thermal disconnector; not UL Listed finished SPDs): https://www.flyboatmov.com/ultima-board-spd.html
