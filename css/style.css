@@ -3044,6 +3044,10 @@ ul {
     background: var(--ocean-subtle);
   }
 
+  .nav-dropdown {
+    width: 100%;
+  }
+
   .nav-dropdown-menu {
     position: static;
     box-shadow: none;
