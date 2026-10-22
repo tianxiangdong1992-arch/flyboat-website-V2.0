@@ -859,6 +859,11 @@ const TRANSLATIONS = {
       el.setAttribute('href', lang === 'zh' ? el.getAttribute('data-href-zh') : el.getAttribute('data-href-en'));
     });
 
+    // Language-dependent images (e.g. journey infographic per language)
+    document.querySelectorAll('[data-img-zh]').forEach(el => {
+      el.setAttribute('src', lang === 'zh' ? el.getAttribute('data-img-zh') : el.getAttribute('data-img-en'));
+    });
+
     // Update all data-i18n-placeholder elements
     document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
       const key = el.getAttribute('data-i18n-placeholder');
