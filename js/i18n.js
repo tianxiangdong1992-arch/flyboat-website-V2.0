@@ -67,7 +67,7 @@ const TRANSLATIONS = {
   "home.badge1": { en: "ISO 9001 Certified", zh: "ISO 9001 认证" },
   "home.badge2": { en: "UL & TUV Approved", zh: "UL & TUV 认证" },
   "home.hero.title": { en: 'Leading Manufacturer of <span class="highlight">Metal Oxide Varistors</span> &amp; Surge Protection', zh: '领先的<span class="highlight">金属氧化物压敏电阻</span>及浪涌保护制造商' },
-  "home.hero.desc": { en: "Founded in October 2010. Over 20 years of expertise in MOV and SPD manufacturing. National high-tech enterprise with strong R&D capabilities, serving clients across 80 countries worldwide.", zh: "成立于2010年10月，拥有超过20年的压敏电阻和浪涌保护器制造经验。国家高新技术企业，具有强大的研发能力，产品远销全球80个国家和地区。" },
+  "home.hero.desc": { en: "With roots dating back to 2000 \u2014 the current company was founded in October 2010 \u2014 and over 20 years of expertise in MOV and SPD manufacturing. National high-tech enterprise with strong R&D capabilities, serving clients across 80 countries worldwide.", zh: "源于2000年，现公司成立于2010年10月，拥有超过20年的压敏电阻和浪涌保护器制造经验。国家高新技术企业，具有强大的研发能力，产品远销全球80个国家和地区。" },
   "home.hero.viewproducts": { en: "View Products", zh: "查看产品" },
   "home.hero.getquote": { en: "Get a Quote", zh: "获取报价" },
 
