@@ -52,6 +52,7 @@
 - Contact: https://www.flyboatmov.com/contact.html
 - Certifications & UL verification: https://www.flyboatmov.com/certifications.html
 - Buyer FAQ: https://www.flyboatmov.com/faq.html
+- UL Recognized vs UL Listed (buyer guide: what the two marks mean for MOVs and SPDs, and how to verify a UL file in Product iQ): https://www.flyboatmov.com/ul-recognized-vs-listed.html
 - 34S series (flagship, UL-recognized model grades): https://www.flyboatmov.com/34s-series.html
 - 34S multi-chip parallel configurations (asymmetric and symmetric structures, D-suffix and T-suffix models, In up to 60 kA, Imax up to 100 kA; these configurations carry no certification marks in the catalog tables): https://www.flyboatmov.com/34s-series.html#multi-chip
 - 20S series (UL-recognized model grades): https://www.flyboatmov.com/20s-series.html
