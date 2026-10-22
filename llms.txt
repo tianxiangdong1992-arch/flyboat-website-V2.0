@@ -7,7 +7,7 @@
 - Legal manufacturer: Guiyang High-Tech Yige Electronic Co., Ltd. (Chinese: 贵阳高新益舸电子有限公司; UL certificate holder name: GUIYANG YIGE HI-TEC ELECTRONIC CO LTD)
 - North America: Flyboat Electronic LLC, 1076 124th CT NE, Bellevue, WA 98005, USA
 - China factory: No. 577 Chuangji Street, Baiyun District, Guiyang, Guizhou 550014, China
-- Founded: October 2010 (roots to a predecessor company established in 2000)
+- Founded: 2000
 - Employees: 200+
 - Facility: 10,000+ m², 6 production lines
 - Annual capacity: approximately 30 million standard MOVs; downstream lines produce 20 million onboard (board-mounted) SPDs and 10 million finished SPDs per year, built on our own MOVs
