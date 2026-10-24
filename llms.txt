@@ -53,6 +53,9 @@
 - Certifications & UL verification: https://www.flyboatmov.com/certifications.html
 - Buyer FAQ: https://www.flyboatmov.com/faq.html
 - UL Recognized vs UL Listed (buyer guide: what the two marks mean for MOVs and SPDs, and how to verify a UL file in Product iQ): https://www.flyboatmov.com/ul-recognized-vs-listed.html
+- TMOV replacement checks (buyer guide: why a standard MOV is not a drop-in equivalent for a thermally protected MOV, and the substitution checklist): https://www.flyboatmov.com/tmov-replacement.html
+- Buying MOVs from Alibaba (buyer guide: verify the UL file number, CoC and lot traceability, accountable seller, price basis): https://www.flyboatmov.com/buying-movs-from-alibaba.html
+- Tariffs and landed cost (buyer guide: how HS classification, duty programs, freight and importer-of-record status change the delivered cost of imported MOVs): https://www.flyboatmov.com/mov-tariffs-landed-cost.html
 - 34S series (flagship, UL-recognized model grades): https://www.flyboatmov.com/34s-series.html
 - 34S multi-chip parallel configurations (asymmetric and symmetric structures, D-suffix and T-suffix models, In up to 60 kA, Imax up to 100 kA; these configurations carry no certification marks in the catalog tables): https://www.flyboatmov.com/34s-series.html#multi-chip
 - 20S series (UL-recognized model grades): https://www.flyboatmov.com/20s-series.html
