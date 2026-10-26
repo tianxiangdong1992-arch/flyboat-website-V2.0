@@ -915,7 +915,10 @@ const TRANSLATIONS = {
   const STORAGE_KEY = 'flyboat-lang';
 
   function getLang() {
-    return localStorage.getItem(STORAGE_KEY) || 'en';
+    if (window.FLYBOAT_PAGE_LANG) return window.FLYBOAT_PAGE_LANG;
+    var saved = localStorage.getItem(STORAGE_KEY);
+    if (saved) return saved;
+    return (navigator.language || '').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en';
   }
 
   function setLang(lang) {
@@ -963,8 +966,15 @@ const TRANSLATIONS = {
   }
 
   function toggleLang() {
-    const current = getLang();
-    const next = current === 'en' ? 'zh' : 'en';
+    if (window.FLYBOAT_HAS_CN) {
+      const path = location.pathname;
+      const inCn = path === '/cn' || path.indexOf('/cn/') === 0;
+      setLang(inCn ? 'en' : 'zh');
+      const target = inCn ? (path.slice(3) || '/') : ('/cn' + (path === '/' ? '/' : path));
+      location.href = target + location.search + location.hash;
+      return;
+    }
+    const next = getLang() === 'en' ? 'zh' : 'en';
     setLang(next);
     location.reload();
   }

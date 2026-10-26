@@ -6,6 +6,11 @@
   <title>Blog Article | Flyboat MOV</title>
   <meta name="description" content="Read technical articles and industry insights from Flyboat MOV's engineering team.">
   <link rel="stylesheet" href="css/style.css?v=20261020f">
+  <link rel="canonical" href="https://www.flyboatmov.com/blog-article.html">
+  <link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/blog-article.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/blog-article.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/blog-article.html">
+  <script>window.FLYBOAT_HAS_CN=true;</script>
 </head>
 <body>
 
@@ -191,11 +196,11 @@
   </footer>
 
   <script src="js/blog-data.js?v=20261020f"></script>
-  <script src="js/i18n.js?v=20261020f"></script>
+  <script src="js/i18n.js?v=20261026a"></script>
   <script src="js/main.js?v=20261020f"></script>
   <script>
   document.addEventListener('DOMContentLoaded', function() {
-    var lang = localStorage.getItem('flyboat-lang') || 'en';
+    var lang = (localStorage.getItem('flyboat-lang') || ((navigator.language || '').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en'));
     function t(en, zh) { return lang === 'zh' && zh ? zh : en; }
 
     var params = new URLSearchParams(window.location.search);
@@ -316,7 +321,7 @@
   });
 
   function showNotFound() {
-    var lang = localStorage.getItem('flyboat-lang') || 'en';
+    var lang = (localStorage.getItem('flyboat-lang') || ((navigator.language || '').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en'));
     var isZh = lang === 'zh';
     document.getElementById('article-container').innerHTML =
       '<div style="text-align:center;padding:80px 0">' +

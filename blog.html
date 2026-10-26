@@ -6,6 +6,11 @@
   <title>Blog | Flyboat MOV</title>
   <meta name="description" content="Technical articles and industry insights about metal oxide varistors, surge protection, and electrical safety from Flyboat's engineering team.">
   <link rel="stylesheet" href="css/style.css?v=20261020f">
+  <link rel="canonical" href="https://www.flyboatmov.com/blog.html">
+  <link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/blog.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/blog.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/blog.html">
+  <script>window.FLYBOAT_HAS_CN=true;</script>
 </head>
 <body>
 
@@ -177,13 +182,13 @@
   </footer>
 
   <script src="js/blog-data.js?v=20261020f"></script>
-  <script src="js/i18n.js?v=20261020f"></script>
+  <script src="js/i18n.js?v=20261026a"></script>
   <script src="js/main.js?v=20261020f"></script>
   <script>
   document.addEventListener('DOMContentLoaded', function() {
     if (!window.BLOG_DATA || !window.BLOG_DATA.length) return;
 
-    var lang = localStorage.getItem('flyboat-lang') || 'en';
+    var lang = (localStorage.getItem('flyboat-lang') || ((navigator.language || '').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en'));
     function t(en, zh) { return lang === 'zh' && zh ? zh : en; }
 
     var ITEMS_PER_PAGE = 9;

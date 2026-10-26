@@ -1,113 +1,355 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.flyboatmov.com/</loc>
-    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/about.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/about.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/about.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/about.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/products.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/products.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/products.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/products.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/products.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/products.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/products.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/products.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/contact.html</loc>
-    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/contact.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/contact.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/contact.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/contact.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/blog.html</loc>
-    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/blog.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/blog.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/blog.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/blog.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/news.html</loc>
-    <lastmod>2026-10-18</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/news.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/news.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/news.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/news.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/news.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/news.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/news.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.5</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/certifications.html</loc>
-    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/certifications.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/certifications.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/certifications.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/certifications.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/certifications.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/certifications.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/certifications.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/34s-series.html</loc>
-    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/34s-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/34s-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/34s-series.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/34s-series.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/34s-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/34s-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/34s-series.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/20s-series.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/20s-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/20s-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/20s-series.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/20s-series.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/20s-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/20s-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/20s-series.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/22s-series.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/22s-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/22s-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/22s-series.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/22s-series.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/22s-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/22s-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/22s-series.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/27l-series.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/27l-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/27l-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/27l-series.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/27l-series.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/27l-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/27l-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/27l-series.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/25d-series.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/25d-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/25d-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/25d-series.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/25d-series.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/25d-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/25d-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/25d-series.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/30s-series.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/30s-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/30s-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/30s-series.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/30s-series.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/30s-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/30s-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/30s-series.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/32d-series.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/32d-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/32d-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/32d-series.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/32d-series.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/32d-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/32d-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/32d-series.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/46l-series.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/46l-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/46l-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/46l-series.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/46l-series.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/46l-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/46l-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/46l-series.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/54l-series.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/54l-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/54l-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/54l-series.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/54l-series.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/54l-series.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/54l-series.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/54l-series.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/faq.html</loc>
-    <lastmod>2026-10-22</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/faq.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/faq.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/faq.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/faq.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/ultima-board-spd.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/ultima-board-spd.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/ultima-board-spd.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/ultima-board-spd.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/ultima-board-spd.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/ultima-board-spd.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/ultima-board-spd.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/ultima-board-spd.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/ul-recognized-vs-listed.html</loc>
-    <lastmod>2026-10-21</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/ul-recognized-vs-listed.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/ul-recognized-vs-listed.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/ul-recognized-vs-listed.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/ul-recognized-vs-listed.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/ul-recognized-vs-listed.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/ul-recognized-vs-listed.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/ul-recognized-vs-listed.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/tmov-replacement.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/tmov-replacement.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/tmov-replacement.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/tmov-replacement.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/tmov-replacement.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/tmov-replacement.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/tmov-replacement.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/tmov-replacement.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/buying-movs-from-alibaba.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/buying-movs-from-alibaba.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/buying-movs-from-alibaba.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/buying-movs-from-alibaba.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/buying-movs-from-alibaba.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/buying-movs-from-alibaba.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/buying-movs-from-alibaba.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/buying-movs-from-alibaba.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.flyboatmov.com/mov-tariffs-landed-cost.html</loc>
-    <lastmod>2026-10-23</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/mov-tariffs-landed-cost.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/mov-tariffs-landed-cost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/mov-tariffs-landed-cost.html"/>
+    <lastmod>2026-10-26</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/mov-tariffs-landed-cost.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/mov-tariffs-landed-cost.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/mov-tariffs-landed-cost.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/mov-tariffs-landed-cost.html"/>
+    <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
   </url>
 </urlset>

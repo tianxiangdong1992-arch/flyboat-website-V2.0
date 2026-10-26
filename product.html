@@ -5,6 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Product Details | Flyboat MOV</title>
   <link rel="stylesheet" href="css/style.css?v=20261020f">
+  <link rel="canonical" href="https://www.flyboatmov.com/product.html">
+  <link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/product.html">
+  <link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/product.html">
+  <link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/product.html">
+  <script>window.FLYBOAT_HAS_CN=true;</script>
 </head>
 <body>
 
@@ -432,13 +437,13 @@
 
   <script src="js/products-data.js?v=20261020f"></script>
   <script src="js/content-images.js?v=20261020f"></script>
-  <script src="js/i18n.js?v=20261020f"></script>
+  <script src="js/i18n.js?v=20261026a"></script>
   <script src="js/main.js?v=20261020f"></script>
   <script>
   document.addEventListener('DOMContentLoaded', function() {
     var params = new URLSearchParams(window.location.search);
     var id = params.get('id');
-    var lang = localStorage.getItem('flyboat-lang') || 'en';
+    var lang = (localStorage.getItem('flyboat-lang') || ((navigator.language || '').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en'));
     function t(en, zh) { return lang === 'zh' && zh ? zh : en; }
 
     // Spec label translation lookup
@@ -689,7 +694,7 @@
   }
   function submitInquiry(e) {
     e.preventDefault();
-    var lang = localStorage.getItem('flyboat-lang') || 'en';
+    var lang = (localStorage.getItem('flyboat-lang') || ((navigator.language || '').toLowerCase().indexOf('zh') === 0 ? 'zh' : 'en'));
     alert(lang === 'zh' ? '感谢您的产品询盘，我们的团队将在24小时内与您联系。' : 'Thank you for your inquiry about this product. Our team will contact you within 24 hours.');
     closeInquiry();
     document.getElementById('inquiry-form').reset();

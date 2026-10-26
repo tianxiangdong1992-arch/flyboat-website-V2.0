@@ -78,3 +78,12 @@
 - 54L datasheet (PDF, published DC grade 54LK911, UL 1449 Recognized for DC use): https://www.flyboatmov.com/datasheets/54l-datasheet.pdf
 - ULTIMA board-mounted SPD module datasheet (PDF, B10/B20/B40 ratings and construction tables): https://www.flyboatmov.com/datasheets/ultima-datasheet.pdf
 - ULTIMA board-mounted SPD modules (B10 / B20 / B40, OEM components with built-in thermal disconnector; not UL Listed finished SPDs): https://www.flyboatmov.com/ultima-board-spd.html
+
+## 中文页面（Chinese-language pages, static HTML）
+- 首页（中文）: https://www.flyboatmov.com/cn/
+- 关于我们：贵阳高新益舸电子有限公司: https://www.flyboatmov.com/cn/about.html
+- 产品总览（中文）: https://www.flyboatmov.com/cn/products.html
+- 34S 系列（中文）: https://www.flyboatmov.com/cn/34s-series.html
+- 认证与 UL 档案 E335803（中文）: https://www.flyboatmov.com/cn/certifications.html
+- 常见问题（中文）: https://www.flyboatmov.com/cn/faq.html
+- 联系我们（中文）: https://www.flyboatmov.com/cn/contact.html
