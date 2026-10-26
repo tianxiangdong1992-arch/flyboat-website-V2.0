@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Page Not Found | Flyboat Electronic LLC</title>
+<meta name="robots" content="noindex">
+<script>
+(function () {
+  // Legacy-path rescue: old flyboat365.com links land here with their old
+  // paths preserved (e.g. /contact.asp, /cn/). Send known legacy paths to
+  // their counterparts on this site; show the 404 message for the rest.
+  var path = location.pathname.replace(/\/{2,}/g, "/").toLowerCase();
+  var trimmed = path.replace(/\/+$/, "");
+  var target = null;
+
+  var pageMap = {
+    "contact": "/contact.html",
+    "about": "/about.html",
+    "aboutus": "/about.html",
+    "products": "/products.html",
+    "product": "/products.html",
+    "news": "/news.html",
+    "certifications": "/certifications.html",
+    "certification": "/certifications.html",
+    "faq": "/faq.html",
+    "blog": "/blog.html",
+    "index": "/",
+    "default": "/",
+    "home": "/"
+  };
+
+  if (trimmed === "/cn" || trimmed.indexOf("/cn/") === 0 ||
+      trimmed === "/en" || trimmed.indexOf("/en/") === 0) {
+    target = "/";
+  } else {
+    var base = trimmed.substring(trimmed.lastIndexOf("/") + 1);
+    var stem = base.replace(/\.(asp|aspx|htm|html|php)$/, "");
+    if (Object.prototype.hasOwnProperty.call(pageMap, stem) && stem !== base) {
+      target = pageMap[stem];
+    } else if (/\.(asp|aspx)$/.test(base)) {
+      target = "/"; // any other legacy script page -> home
+    } else if (base.indexOf(".") === -1 &&
+               Object.prototype.hasOwnProperty.call(pageMap, base)) {
+      target = pageMap[base]; // extensionless, e.g. /contact
+    }
+  }
+
+  if (target) {
+    location.replace(target);
+  }
+})();
+</script>
+<style>
+  body { font-family: -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif; margin: 0; background: #f6f8fb; color: #1c2733; }
+  .wrap { max-width: 640px; margin: 12vh auto 0; padding: 40px 32px; background: #fff; border: 1px solid #e3e9f0; border-radius: 12px; text-align: center; }
+  .brand { font-size: 20px; font-weight: 700; letter-spacing: .02em; color: #0b3d91; margin-bottom: 8px; }
+  h1 { font-size: 26px; margin: 12px 0 8px; }
+  p { color: #5a6a7a; line-height: 1.6; margin: 8px 0; }
+  .links { margin-top: 24px; }
+  .links a { display: inline-block; margin: 4px 6px; padding: 10px 18px; border: 1px solid #0b3d91; border-radius: 8px; color: #0b3d91; text-decoration: none; font-weight: 600; }
+  .links a.primary { background: #0b3d91; color: #fff; }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="brand">FLYBOAT ELECTRONIC</div>
+    <h1>This page has moved</h1>
+    <p>Our website has a new home. The page you are looking for is not at this address anymore — please use the links below.</p>
+    <p>页面已迁移至新版官网，您访问的地址已不存在，请从下方入口继续浏览。</p>
+    <div class="links">
+      <a class="primary" href="/">Home 首页</a>
+      <a href="/products.html">Products 产品</a>
+      <a href="/news.html">News 新闻</a>
+      <a href="/contact.html">Contact 联系我们</a>
+    </div>
+  </div>
+</body>
+</html>
