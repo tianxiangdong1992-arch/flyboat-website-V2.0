@@ -935,15 +935,16 @@ const TRANSLATIONS = {
       }
     });
 
-    // Language-dependent links (e.g. datasheet PDF per language)
-    document.querySelectorAll('[data-href-zh]').forEach(el => {
-      el.setAttribute('href', lang === 'zh' ? el.getAttribute('data-href-zh') : el.getAttribute('data-href-en'));
-    });
-
-    // Language-dependent images (e.g. journey infographic per language)
-    document.querySelectorAll('[data-img-zh]').forEach(el => {
-      el.setAttribute('src', lang === 'zh' ? el.getAttribute('data-img-zh') : el.getAttribute('data-img-en'));
-    });
+    // Language-dependent links/images: skipped on baked /cn/ pages (PAGE_LANG set),
+    // where href/src are already baked with correct ../ paths.
+    if (!window.FLYBOAT_PAGE_LANG) {
+      document.querySelectorAll('[data-href-zh]').forEach(el => {
+        el.setAttribute('href', lang === 'zh' ? el.getAttribute('data-href-zh') : el.getAttribute('data-href-en'));
+      });
+      document.querySelectorAll('[data-img-zh]').forEach(el => {
+        el.setAttribute('src', lang === 'zh' ? el.getAttribute('data-img-zh') : el.getAttribute('data-img-en'));
+      });
+    }
 
     // Update all data-i18n-placeholder elements
     document.querySelectorAll('[data-i18n-placeholder]').forEach(el => {
