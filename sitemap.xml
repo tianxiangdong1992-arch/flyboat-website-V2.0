@@ -352,4 +352,20 @@
     <lastmod>2026-10-26</lastmod>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cross-reference.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/cross-reference.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/cross-reference.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/cross-reference.html"/>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.flyboatmov.com/cn/cross-reference.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.flyboatmov.com/cross-reference.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-CN" href="https://www.flyboatmov.com/cn/cross-reference.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.flyboatmov.com/cross-reference.html"/>
+    <lastmod>2026-10-30</lastmod>
+    <priority>0.8</priority>
+  </url>
 </urlset>
