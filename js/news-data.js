@@ -1,5 +1,18 @@
 window.NEWS_DATA = [
   {
+    id: "electronica-2026-munich",
+    title: "FLYBOAT TO EXHIBIT AT ELECTRONICA 2026 IN MUNICH",
+    titleZh: "Flyboat 将亮相 2026 慕尼黑 electronica 展会",
+    date: "2026-11-01",
+    excerpt: "Flyboat Electronic LLC will exhibit at electronica 2026, November 10–13, 2026, at Messe München, Germany — visit us at Booth A6.676/5 to explore our latest surge protection solutions.",
+    excerptZh: "Flyboat Electronic LLC 将参加 2026 年 11 月 10–13 日在德国慕尼黑展览中心举办的 electronica 2026，展位号 A6.676/5，欢迎莅临展位了解最新电涌保护解决方案。",
+    content: "<p>Flyboat Electronic LLC will exhibit at <strong>electronica 2026</strong>, November 10–13, 2026, at Messe München, Germany. Visit us at <strong>Booth A6.676/5 (9:00–17:00)</strong> to explore our latest surge protection solutions and discuss collaboration opportunities.</p><img src=\"images/news/electronica-2026-invitation.jpg\" alt=\"Flyboat invitation to electronica 2026\"><p>On display:</p><ul><li><strong>UL 1449 Recognized MOVs (File E335803)</strong> with 100% automated AC TOV screening</li><li>Custom OEM surge protective device (SPD) assemblies built to print for your brand</li><li>Factory-direct pricing models</li></ul><p>We sincerely invite you to visit our booth.</p>",
+    contentZh: "<p>Flyboat Electronic LLC 将参加 2026 年 11 月 10–13 日在德国慕尼黑展览中心举办的 <strong>electronica 2026</strong>，展位号 <strong>A6.676/5（9:00–17:00）</strong>。欢迎莅临展位，了解我们最新的电涌保护解决方案、洽谈合作。</p><img src=\"images/news/electronica-2026-invitation.jpg\" alt=\"Flyboat electronica 2026 邀请函\"><p>展品包括：</p><ul><li><strong>UL 认证 MOV（档案号 E335803）</strong>，100% 全自动化 AC TOV 筛选</li><li>按图定制的 OEM SPD 组件</li><li>工厂直供价格模式</li></ul><img src=\"images/news/mov-poster.jpg\" alt=\"Flyboat MOV 产品海报\"><p>诚邀您莅临展位。</p>",
+    image: "images/news/electronica-2026-invitation.jpg",
+    category: "Event",
+    categoryZh: "活动"
+  },
+  {
     id: "varistor-seminar-2026-nanjing-award",
     title: "Flyboat Paper Wins Second Prize at 2026 Varistor Seminar in Nanjing",
     titleZh: "益舸论文荣获 2026 压敏电阻专题研讨会优秀论文二等奖",
