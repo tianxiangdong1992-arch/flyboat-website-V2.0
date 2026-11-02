@@ -3749,3 +3749,37 @@ ul {
   color: var(--gray-800);
   line-height: 1.4;
 }
+
+/* --- Mobile fix (2026-11-01): news article layout must stack on phones.
+   The earlier max-width:768px rules sit BEFORE the base rules in this file,
+   so the base two-column grid was overriding them at every width. These
+   rules come last and win the cascade. --- */
+@media (max-width: 768px) {
+  .news-article-layout {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .news-article-sidebar {
+    position: static;
+    width: 100%;
+  }
+  .news-article-title {
+    font-size: 1.5rem;
+    overflow-wrap: break-word;
+  }
+  .news-article-meta {
+    flex-wrap: wrap;
+  }
+  .page-header-sm .breadcrumb {
+    flex-wrap: wrap;
+    row-gap: 4px;
+  }
+  #breadcrumb-title {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .news-article-hero-img img[src*="electronica-2026-invitation"] {
+    object-fit: contain;
+    max-height: 640px;
+  }
+}
