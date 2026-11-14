@@ -1,5 +1,18 @@
 window.NEWS_DATA = [
   {
+    id: "chnt-supplier-conference-2026-innovation-award",
+    title: "Flyboat Wins Technology Innovation Excellence Award at CHINT Group 2026 Supplier Conference",
+    titleZh: "贵阳高新益舸电子荣获正泰集团2026年供应商大会技术创新优秀奖",
+    date: "2026-11-14",
+    excerpt: "Guiyang Yige Hi-Tech Electronic Co., Ltd. received the Technology Innovation Excellence Award at the CHINT Group 2026 Supplier Conference.",
+    excerptZh: "贵阳高新益舸电子有限公司在2026年正泰集团供应商大会上荣获技术创新优秀奖。",
+    content: "<p>On November 14, 2026, Guiyang Yige Hi-Tech Electronic Co., Ltd. (Flyboat) received the <strong>Technology Innovation Excellence Award</strong> at the <strong>CHINT Group 2026 Supplier Conference</strong>.</p><img src=\"images/news/chnt-2026-supplier-conference-ceremony.jpg\" alt=\"At the awards ceremony of the CHINT Group 2026 Supplier Conference\"><p><em>At the awards ceremony.</em></p><p>The conference, themed &ldquo;Advancing Together Through Collaboration,&rdquo; recognized 12 companies with the Technology Innovation Excellence Award (listed in no particular order).</p><img src=\"images/news/chnt-2026-innovation-award-plaque.jpg\" alt=\"The Technology Innovation Excellence Award plaque\"><p><em>The Technology Innovation Excellence Award plaque.</em></p><img src=\"images/news/chnt-2026-supplier-conference-stage.jpg\" alt=\"Advanced Supplier awards ceremony at the CHINT Group 2026 Supplier Conference\"><p><em>The Advanced Supplier awards ceremony at the CHINT Group 2026 Supplier Conference.</em></p><p>The award recognizes Yige&rsquo;s work in varistor technology innovation. We thank CHINT Group for its trust, and we will keep innovating to deliver more reliable varistors and surge protection products to our customers.</p>",
+    contentZh: "<p>2026年11月14日，贵阳高新益舸电子有限公司（Flyboat）在<strong>2026年正泰集团供应商大会</strong>上荣获<strong>技术创新优秀奖</strong>。</p><img src=\"images/news/chnt-2026-supplier-conference-ceremony.jpg\" alt=\"颁奖典礼现场\"><p><em>颁奖典礼现场。</em></p><p>本届大会以&ldquo;携手共进、协同发展&rdquo;为主题。获奖名单显示，技术创新优秀奖共有12家企业获奖（排名不分先后）。</p><img src=\"images/news/chnt-2026-innovation-award-plaque.jpg\" alt=\"技术创新优秀奖奖牌\"><p><em>技术创新优秀奖奖牌。</em></p><img src=\"images/news/chnt-2026-supplier-conference-stage.jpg\" alt=\"2026年正泰集团供应商大会先进供应商颁奖典礼\"><p><em>2026年正泰集团供应商大会先进供应商颁奖典礼。</em></p><p>技术创新优秀奖是对益舸在压敏电阻技术创新方面工作的认可。感谢正泰集团的信任，益舸将继续以技术创新为客户提供更可靠的压敏电阻与浪涌保护产品。</p>",
+    image: "images/news/chnt-2026-innovation-award-plaque.jpg",
+    category: "Event",
+    categoryZh: "活动"
+  },
+  {
     id: "electronica-2026-munich",
     title: "FLYBOAT TO EXHIBIT AT ELECTRONICA 2026 IN MUNICH",
     titleZh: "Flyboat 将亮相 2026 慕尼黑 electronica 展会",
